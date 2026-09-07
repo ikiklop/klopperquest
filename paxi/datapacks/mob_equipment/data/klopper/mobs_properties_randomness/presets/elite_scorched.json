@@ -1,0 +1,98 @@
+{
+    "properties": [
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "Elite Scorched Health",
+            "amount": {
+                "min": 60,
+                "max": 60
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.attack_damage",
+            "modifier_name": "Elite Scorched Damage",
+            "amount": {
+                "min": 6,
+                "max": 6
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.movement_speed",
+            "modifier_name": "Elite Scorched Speed",
+            "amount": {
+                "min": 0.1,
+                "max": 0.1
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "property": "custom_name",
+            "overrides": ["Elite Scorched"]
+        },
+        {
+            "property": "equipment",
+            "slot": "head",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:centinel_armor_helmet",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "chest",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:centinel_armor_chestplate",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "legs",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:centinel_armor_leggings",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "feet",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:centinel_armor_boots",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:dawn_breaker_sword",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "offhand",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:dawn_breaker_sword",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

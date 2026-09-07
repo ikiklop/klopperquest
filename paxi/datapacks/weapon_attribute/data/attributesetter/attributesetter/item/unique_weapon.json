@@ -1,0 +1,186 @@
+{
+  "simplyswords:brimstone_claymore": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 8, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:watcher_claymore": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 8, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:storms_edge": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 7, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.6, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:stormbringer": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 9, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:sword_on_a_stick": [
+    { "attribute": "minecraft:generic.attack_damage", "value": -1, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:bramblethorn": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 1, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.6, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:watching_warglaive": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 9, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:toxic_longsword": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 6, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:emberblade": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 3, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:hearthflame": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 11, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:soulkeeper": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 11, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:twisted_blade": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 10, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:soulstealer": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 6, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.5, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:soulrender": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 10, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.7, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:soulpyre": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 12, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:frostfall": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 15, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.7, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:molten_edge": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 10, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -1, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:livyatan": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 10, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.7, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:icewhisper": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 8, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:arcanethyst": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 8, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:thunderbrand": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 8, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:mjolnir": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 21, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:slumbering_lichblade": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 5, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0.3, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:waking_lichblade": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 7, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0.2, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:awakened_lichblade": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 11, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0.1, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:shadowsting": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 11, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.9, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:dormant_relic": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 8, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:righteous_relic": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 11, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:tainted_relic": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 11, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:sunfire": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 16, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:harbinger": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 16, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:whisperwind": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 7, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.6, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:emberlash": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 6, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -1.2, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:waxweaver": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 6, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0.2, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:hiveheart": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 10, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:stars_edge": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 7, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.6, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:wickpiercer": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 4, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:tempest": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 18, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:flamewind": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 12, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:ribboncleaver": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 17, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0.1, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:decaying_relic": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 7, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.6, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:magiscythe": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 10, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:enigma": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 11, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0.1, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:magispear": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 13, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:magiblade": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 15, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.6, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "simplyswords:caelestis": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 21.3, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.11, "operation": "ADDITION", "slot": "mainhand" }
+  ]
+}

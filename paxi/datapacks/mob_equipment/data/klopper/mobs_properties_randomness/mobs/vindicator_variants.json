@@ -1,0 +1,21 @@
+{
+    "target": "minecraft:vindicator",
+    "priority": 100,
+    "properties": [
+        {
+            "property": "presets",
+            "presets": [
+                {
+                    "preset": "klopper:knight_vindicator",
+                    "weight": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.3
+                }
+            ]
+        }
+    ]
+}

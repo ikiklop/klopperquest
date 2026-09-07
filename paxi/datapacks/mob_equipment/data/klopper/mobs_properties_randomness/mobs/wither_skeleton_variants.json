@@ -1,0 +1,21 @@
+{
+    "target": "minecraft:wither_skeleton",
+    "priority": 100,
+    "properties": [
+        {
+            "property": "presets",
+            "presets": [
+                {
+                    "preset": "klopper:wither_crimson",
+                    "weight": 100
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 1.0
+                }
+            ]
+        }
+    ]
+}

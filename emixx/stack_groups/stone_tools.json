@@ -1,0 +1,10 @@
+{
+  "id": "klopperquest:stone_tools",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:stone_shovel",
+"minecraft:stone_pickaxe",
+"minecraft:stone_axe",
+"minecraft:stone_hoe"
+  ]
+}

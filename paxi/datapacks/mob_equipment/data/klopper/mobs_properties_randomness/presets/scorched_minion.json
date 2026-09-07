@@ -1,0 +1,76 @@
+{
+    "properties": [
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "Scorched Minion Health",
+            "amount": {
+                "min": 20,
+                "max": 20
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.attack_damage",
+            "modifier_name": "Scorched Minion Damage",
+            "amount": {
+                "min": 3,
+                "max": 3
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.movement_speed",
+            "modifier_name": "Scorched Minion Speed",
+            "amount": {
+                "min": 0.2,
+                "max": 0.2
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "property": "scale",
+            "scale": 0.8,
+            "scale_types": [
+                "pehkui:base"
+            ],
+            "operation": "set"
+        },
+        {
+            "property": "custom_name",
+            "overrides": ["Scorched Minion"]
+        },
+        {
+            "property": "equipment",
+            "slot": "legs",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:ammit_armor_leggings",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:blessed_gold_fist",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "offhand",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:blessed_gold_fist",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

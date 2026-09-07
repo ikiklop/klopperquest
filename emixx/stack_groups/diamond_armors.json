@@ -1,0 +1,14 @@
+{
+  "id": "klopperquest:diamond_armors",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:diamond_helmet",
+"minecraft:diamond_chestplate",
+"minecraft:diamond_leggings",
+"minecraft:diamond_boots",
+"dungeons_and_combat:diamond_metal_helmet",
+"dungeons_and_combat:diamond_metal_chestplate",
+"dungeons_and_combat:diamond_metal_leggings",
+"dungeons_and_combat:diamond_metal_boots"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "wom:torment",
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -0.8
+    ],
+    "size": [
+      0.4,
+      0.7,
+      2.2
+    ],
+    "number": 5
+  },
+  "attributes": {
+    "common": {
+	  "speed_bonus": -0.3,
+	  "impact": 2.8,
+	  "max_strikes": 4,
+	  "armor_negation": 50
+    }
+  }
+}

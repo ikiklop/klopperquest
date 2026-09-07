@@ -1,0 +1,25 @@
+{
+  "id": "klopperquest:diamond_weapons",
+  "type": "emixx:group",
+  "contents": [
+"simplyswords:diamond_sai",
+"epicfight:diamond_dagger",
+"simplyswords:diamond_cutlass",
+"simplyswords:diamond_rapier",
+"simplyswords:diamond_twinblade",
+"minecraft:diamond_sword",
+"simplyswords:diamond_chakram",
+"simplyswords:diamond_katana",
+"epicfight:diamond_tachi",
+"simplyswords:diamond_warglaive",
+"simplyswords:diamond_longsword",
+"simplyswords:diamond_claymore",
+"simplyswords:diamond_spear",
+"simplyswords:diamond_glaive",
+"epicfight:diamond_greatsword",
+"simplyswords:diamond_scythe",
+"simplyswords:diamond_greataxe",
+"simplyswords:diamond_halberd",
+"simplyswords:diamond_greathammer"
+  ]
+}

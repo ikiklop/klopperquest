@@ -1,0 +1,559 @@
+{
+  "profession": "minecraft:armorer",
+  "removeOtherTrades": true,
+  "maxTrades": 28,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:leather_helmet",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:leather",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_leather_helmet"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:leather_chestplate",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:leather",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_leather_chestplate"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:leather_leggings",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:leather",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_leather_leggings"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:leather_boots",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:leather",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_leather_boots"
+    },
+    {
+      "offer": {
+        "itemKey": "jerotes:copper_helmet",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:copper_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_copper_helmet"
+    },
+    {
+      "offer": {
+        "itemKey": "jerotes:copper_chestplate",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:copper_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_copper_chestplate"
+    },
+    {
+      "offer": {
+        "itemKey": "jerotes:copper_leggings",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:copper_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_copper_leggings"
+    },
+    {
+      "offer": {
+        "itemKey": "jerotes:copper_boots",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:copper_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_copper_boots"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_helmet",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_iron_helmet"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_chestplate",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_iron_chestplate"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_leggings",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_iron_leggings"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_boots",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_iron_boots"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:golden_helmet",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_golden_helmet"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:golden_chestplate",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_golden_chestplate"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:golden_leggings",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_golden_leggings"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:golden_boots",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_golden_boots"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_helmet",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_diamond_helmet"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_chestplate",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_diamond_chestplate"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_leggings",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_diamond_leggings"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_boots",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_diamond_boots"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:netherite_helmet",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_netherite_helmet"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:netherite_chestplate",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_netherite_chestplate"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:netherite_leggings",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_netherite_leggings"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:netherite_boots",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "armorer_netherite_boots"
+    }
+  ]
+}

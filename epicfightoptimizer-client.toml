@@ -1,0 +1,91 @@
+#Master switch for all optimizations in this mod.
+enabled = true
+
+[entity_rendering]
+	#Use Minecraft's cheaper vanilla renderer for distant Epic Fight entities.
+	useVanillaModelsAtDistance = true
+	#Distance in blocks where entities switch to their vanilla renderer.
+	#Lower values improve FPS more. Set the toggle above to false to disable this feature.
+	#Range: 8.0 ~ 256.0
+	vanillaModelDistance = 64.0
+	#Use Minecraft's vanilla renderer when an eligible mob is entirely behind the camera.
+	useVanillaModelsBehindCamera = true
+	#Use Minecraft's vanilla renderer when an eligible mob is fully hidden behind opaque blocks.
+	#The Epic Fight renderer returns as soon as any sampled part of the mob is visible.
+	#Players, explicitly listed mobs/bosses, Forge-tagged bosses and entities at or above the boss health threshold are excluded.
+	useVanillaModelsBehindWalls = true
+	#How often hidden-mob visibility is recalculated. 1 tick equals 50 ms.
+	#A value of 1 gives the fastest switch back to Epic Fight rendering.
+	#Range: 1 ~ 20
+	visibilityCheckIntervalTicks = 1
+	#Extra render-bound margin used to detect tiny visible model, limb and held-item edges.
+	#Higher values switch back to Epic Fight earlier around corners; lower values optimize more aggressively.
+	#Range: 0.0 ~ 2.0
+	visibilityBoundsExpansion = 0.5
+	#Extra block IDs that should never hide mobs from the visibility optimizer.
+	#Doors, trapdoors, fences, fence gates, vanilla glass, ice, glass panes, leaves and other empty visual shapes are detected automatically.
+	#Use this list for modded transparent blocks that incorrectly report themselves as opaque.
+	visibilityTransparentBlocks = []
+	#Allow distance-based rendering optimizations for mobs.
+	optimizeMobs = true
+	#Entity IDs that this mod never optimizes.
+	#The blacklist overrides the mob whitelist. Example: minecraft:zombie
+	mobBlacklist = []
+	#If this list is empty, every non-blacklisted mob can be optimized.
+	#If it contains entries, only listed mobs can be optimized. Example: minecraft:skeleton
+	mobWhitelist = []
+	#Allow distance-based rendering optimizations for other players.
+	#Your own player model is never switched to vanilla by this mod.
+	optimizeOtherPlayers = true
+	#Keep full Epic Fight rendering for boss-tagged or high-health entities at every distance.
+	preserveBossAnimations = true
+	#Entities with at least this much maximum health are treated as bosses.
+	#Set to 0 to rely only on the Forge boss entity tag.
+	#Range: 0.0 ~ 1000000.0
+	bossHealthThreshold = 150.0
+	#Entity IDs that are never protected as bosses.
+	#The blacklist overrides the boss whitelist, Forge boss tag and health threshold.
+	bossBlacklist = []
+	#Entity IDs that are always treated as bosses and keep full Epic Fight rendering.
+	#This list works even when automatic boss protection is disabled.
+	bossWhitelist = []
+	#Keep full rendering for the entity currently under the crosshair.
+	preserveLookedAtEntity = true
+
+[animation_lod]
+	#Limit your own character's Epic Fight animation FPS in third person.
+	#Disabled by default. Your own character is never switched to the vanilla renderer.
+	optimizeOwnPlayer = false
+	#Maximum pose calculation FPS for your own character when its optimization is enabled.
+	#This setting does not affect first-person rendering.
+	#Range: 5 ~ 240
+	ownPlayerAnimationFps = 60
+	#Limit pose calculation FPS for distant Epic Fight entities while keeping their animations active.
+	capDistantAnimationFps = true
+	#Entities inside this distance calculate animation poses at the full game FPS.
+	#Range: 0.0 ~ 256.0
+	fullAnimationDistance = 12.0
+	#Maximum animation pose FPS outside the full animation distance.
+	#Lower values improve CPU performance but make distant animations less smooth.
+	#Range: 5 ~ 240
+	distantAnimationFps = 20
+
+[effects]
+	#Do not create Epic Fight weapon swing trails beyond the configured distance.
+	limitSwingTrails = true
+	#Maximum distance for weapon swing trails. Set to 0 to disable non-player swing trails.
+	#Range: 0.0 ~ 256.0
+	swingTrailDistance = 24.0
+	#Do not create Epic Fight projectile trails beyond the configured distance.
+	limitProjectileTrails = true
+	#Maximum distance for projectile trails. Set to 0 to disable them.
+	#Range: 0.0 ~ 256.0
+	projectileTrailDistance = 32.0
+	#Do not create Epic Fight afterimage models beyond the configured distance.
+	limitAfterimages = true
+	#Maximum distance for afterimage effects. Set to 0 to disable non-player afterimages.
+	#Range: 0.0 ~ 256.0
+	afterimageDistance = 24.0
+	#Always show swing trails and afterimages created by your own character.
+	alwaysRenderOwnEffects = true
+

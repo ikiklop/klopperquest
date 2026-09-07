@@ -1,0 +1,41 @@
+{
+    "target": "minecraft:husk",
+    "priority": 100,
+    "properties": [
+        {
+            "property": "presets",
+            "presets": [
+                {
+                    "preset": "klopper:scorched_giant",
+                    "weight": 1
+                },
+                {
+                    "preset": "klopper:scorched_warrior",
+                    "weight": 1
+                },
+                {
+                    "preset": "klopper:elite_scorched",
+                    "weight": 1
+                },
+                {
+                    "preset": "klopper:scorched_barbarian",
+                    "weight": 1
+                },
+                {
+                    "preset": "klopper:scorched_guardian",
+                    "weight": 1
+                },
+                {
+                    "preset": "klopper:scorched_minion",
+                    "weight": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.3
+                }
+            ]
+        }
+    ]
+}

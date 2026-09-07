@@ -1,0 +1,79 @@
+{
+  "hit_sound": "epicfight:entity.hit.blunt",
+  "swing_sound": "epicfight:entity.weapon.whoosh_rod",
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -0.25
+    ],
+    "size": [
+      0.4,
+      0.4,
+      0.55
+    ],
+    "number": 3
+  },
+  "livingmotion_modifier": {
+    "two_hand": {
+      "walk": "wom:biped/living/enderblaster_twohand_walk",
+      "run": "wom:biped/living/enderblaster_onehand_run",
+      "idle": "wom:biped/skill/enderblaster_twohand_aiming"
+    },
+    "one_hand": {
+      "run": "wom:biped/living/enderblaster_onehand_run",
+      "idle": "wom:biped/skill/enderblaster_onehand_aiming",
+      "walk": "wom:biped/living/enderblaster_onehand_walk"
+    }
+  },
+  "category": "fist",
+  "offhand_item_compatible_predicate": [
+    {
+      "category": "fist",
+      "predicate": "epicfight:offhand_item_category"
+    }
+  ],
+  "styles": {
+    "cases": [
+      {
+        "style": "one_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "not_weapon"
+          }
+        ]
+      },
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "category": "axe",
+            "predicate": "epicfight:offhand_item_category"
+          }
+        ]
+      }
+    ],
+    "default": "one_hand"
+  },
+  "hit_particle": "wom:solar_hit",
+  "combos": {
+    "two_hand": [
+      "epicfight:biped/combat/fist_auto1",
+      "epicfight:biped/combat/fist_auto2",
+      "wom:biped/combat/enderblaster_onehand_auto_3",
+      "wom:biped/skill/kick_2",
+      "cdmoveset:biped/new/skill/fist_execute",
+      "wom:biped/combat/enderblaster_twohand_tishnaw"
+    ],
+    "one_hand": [
+      "epicfight:biped/combat/fist_auto1",
+      "epicfight:biped/combat/fist_auto2",
+      "wom:biped/combat/enderblaster_onehand_auto_3",
+      "wom:biped/skill/kick_2",
+      "cdmoveset:biped/new/skill/fist_execute",
+      "wom:biped/combat/enderblaster_twohand_tishnaw"
+    ]
+  },
+  "usable_in_offhand": true
+}

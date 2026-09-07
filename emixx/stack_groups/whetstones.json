@@ -1,0 +1,12 @@
+{
+  "id": "klopperquest:whetstones",
+  "type": "emixx:group",
+  "contents": [
+"whetstones:diamond_whetstone",
+"whetstones:golden_whetstone",
+"whetstones:iron_whetstone",
+"whetstones:netherite_whetstone",
+"whetstones:stone_whetstone",
+"whetstones:wooden_whetstone"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "profession": "minecraft:butcher",
+  "removeOtherTrades": true,
+  "maxTrades": 10,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:beef",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:butcher_beef_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:porkchop",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:butcher_porkchop_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:mutton",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:butcher_mutton_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:chicken",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:butcher_chicken_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:rabbit",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:butcher_rabbit_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cod",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 99,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:butcher_cod_for_silver_coin"
+    }
+  ]
+}

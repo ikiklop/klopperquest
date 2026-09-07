@@ -1,0 +1,25 @@
+{
+  "id": "klopperquest:golden_weapons",
+  "type": "emixx:group",
+  "contents": [
+"simplyswords:gold_sai",
+"epicfight:golden_dagger",
+"simplyswords:gold_cutlass",
+"simplyswords:gold_rapier",
+"simplyswords:gold_twinblade",
+"minecraft:golden_sword",
+"simplyswords:gold_chakram",
+"simplyswords:gold_katana",
+"epicfight:golden_tachi",
+"simplyswords:gold_warglaive",
+"simplyswords:gold_longsword",
+"simplyswords:gold_claymore",
+"simplyswords:gold_spear",
+"simplyswords:gold_glaive",
+"epicfight:golden_greatsword",
+"simplyswords:gold_scythe",
+"simplyswords:gold_greataxe",
+"simplyswords:gold_halberd",
+"simplyswords:gold_greathammer"
+  ]
+}

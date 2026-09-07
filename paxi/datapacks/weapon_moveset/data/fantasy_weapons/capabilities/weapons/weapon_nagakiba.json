@@ -1,0 +1,23 @@
+{
+  "attributes": {
+    "common": {
+      "max_strikes": 2,
+	  "impact": 1.0,
+	  "speed_bonus" : 0.1
+    }
+  },
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -0.85
+    ],
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      1.2
+    ]
+  },
+  "type": "cdmoveset:katana"
+}

@@ -1,0 +1,152 @@
+{
+  "cataclysm:netherite_monstrosity": [
+    { "attribute": "minecraft:generic.max_health", "value": 2000, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 20, "operation": "BASE" }
+  ],
+  "cataclysm:ignis": [
+    { "attribute": "minecraft:generic.max_health", "value": 2500, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 25, "operation": "BASE" }
+  ],
+  "cataclysm:ignited_revenant": [
+    { "attribute": "minecraft:generic.max_health", "value": 80, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 8, "operation": "BASE" }
+  ],
+  "cataclysm:ignited_berserker": [
+    { "attribute": "minecraft:generic.max_health", "value": 70, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 4, "operation": "BASE" }
+  ],
+
+  "cataclysm:ender_guardian": [
+    { "attribute": "minecraft:generic.max_health", "value": 3000, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 30, "operation": "BASE" }
+  ],
+  "cataclysm:ender_golem": [
+    { "attribute": "minecraft:generic.max_health", "value": 150, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 12, "operation": "BASE" }
+  ],
+  "cataclysm:endermaptera": [
+    { "attribute": "minecraft:generic.max_health", "value": 16, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+
+  "cataclysm:maledictus": [
+    { "attribute": "minecraft:generic.max_health", "value": 1500, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 10, "operation": "BASE" }
+  ],
+  "cataclysm:draugr": [
+    { "attribute": "minecraft:generic.max_health", "value": 35, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 3, "operation": "BASE" }
+  ],
+  "cataclysm:elite_draugr": [
+    { "attribute": "minecraft:generic.max_health", "value": 40, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 4, "operation": "BASE" }
+  ],
+  "cataclysm:royal_draugr": [
+    { "attribute": "minecraft:generic.max_health", "value": 50, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 5, "operation": "BASE" }
+  ],
+  "cataclysm:aptrgangr": [
+    { "attribute": "minecraft:generic.max_health", "value": 60, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 5, "operation": "BASE" }
+  ],
+
+  "cataclysm:the_harbinger": [
+    { "attribute": "minecraft:generic.max_health", "value": 500, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 10, "operation": "BASE" }
+  ],
+  "cataclysm:the_watcher": [
+    { "attribute": "minecraft:generic.max_health", "value": 40, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 6, "operation": "BASE" }
+  ],
+  "cataclysm:the_prowler": [
+    { "attribute": "minecraft:generic.max_health", "value": 120, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 4, "operation": "BASE" }
+  ],
+
+  "cataclysm:ancient_remnant": [
+    { "attribute": "minecraft:generic.max_health", "value": 1200, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 5, "operation": "BASE" }
+  ],
+  "cataclysm:koboleton": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 1, "operation": "BASE" }
+  ],
+  "cataclysm:kobolediator": [
+    { "attribute": "minecraft:generic.max_health", "value": 100, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 6, "operation": "BASE" }
+  ],
+  "cataclysm:wadjet": [
+    { "attribute": "minecraft:generic.max_health", "value": 130, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 4, "operation": "BASE" }
+  ],
+
+  "cataclysm:scylla": [
+    { "attribute": "minecraft:generic.max_health", "value": 1500, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 10, "operation": "BASE" }
+  ],
+  "cataclysm:the_leviathan": [
+    { "attribute": "minecraft:generic.max_health", "value": 800, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "cataclysm:coralssus": [
+    { "attribute": "minecraft:generic.max_health", "value": 100, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 6, "operation": "BASE" }
+  ],
+  "cataclysm:coral_golem": [
+    { "attribute": "minecraft:generic.max_health", "value": 60, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 6, "operation": "BASE" }
+  ],
+  "cataclysm:deepling": [
+    { "attribute": "minecraft:generic.max_health", "value": 30, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 2, "operation": "BASE" }
+  ],
+  "cataclysm:deepling_brute": [
+    { "attribute": "minecraft:generic.max_health", "value": 65, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 4, "operation": "BASE" }
+  ],
+  "cataclysm:deepling_angler": [
+    { "attribute": "minecraft:generic.max_health", "value": 30, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 1, "operation": "BASE" }
+  ],
+  "cataclysm:deepling_priest": [
+    { "attribute": "minecraft:generic.max_health", "value": 40, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 3, "operation": "BASE" }
+  ],
+  "cataclysm:deepling_warlock": [
+    { "attribute": "minecraft:generic.max_health", "value": 45, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 3, "operation": "BASE" }
+  ],
+  "cataclysm:lionfish": [
+    { "attribute": "minecraft:generic.max_health", "value": 12, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "cataclysm:storm_serpent": [
+    { "attribute": "minecraft:generic.max_health", "value": 90, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 2, "operation": "BASE" }
+  ],
+  "cataclysm:symbiocto": [
+    { "attribute": "minecraft:generic.max_health", "value": 30, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 1, "operation": "BASE" }
+  ],
+  "cataclysm:urchinkin": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 2, "operation": "BASE" }
+  ],
+  "cataclysm:clawdian": [
+    { "attribute": "minecraft:generic.max_health", "value": 55, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 4, "operation": "BASE" }
+  ],
+  "cataclysm:drowned_host": [
+    { "attribute": "minecraft:generic.max_health", "value": 45, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 2, "operation": "BASE" }
+  ],
+  "cataclysm:hippocampus": [
+    { "attribute": "minecraft:generic.max_health", "value": 25, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 1, "operation": "BASE" }
+  ],
+
+  "cataclysm:amethyst_crab": [
+    { "attribute": "minecraft:generic.max_health", "value": 80, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 8, "operation": "BASE" }
+  ]
+}

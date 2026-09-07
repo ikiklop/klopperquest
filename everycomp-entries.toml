@@ -1,0 +1,52 @@
+
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+	[types.stone_type]
+
+		[types.stone_type.alexscaves]
+			limestone = true
+			galena = true
+			radrock = true
+			abyssmarine = true
+			guanostone = true
+			gingerbread = true
+
+		[types.stone_type.dungeons_and_combat]
+			bronze = true
+
+		[types.stone_type.eeeabsmobs]
+			voidshard = true
+
+		[types.stone_type.legendary_monsters]
+			cloud = true
+			enderstone = true
+
+	[types.wood_type]
+
+		[types.wood_type.dungeons_and_combat]
+			elden_oak = true
+
+		[types.wood_type.eeeabsmobs]
+			blighted_oak = true
+
+		[types.wood_type.cataclysm]
+			chorus = true
+
+		[types.wood_type.alexscaves]
+			pewen = true
+			thornwood = true
+
+	[types.leaves_type]
+
+		[types.leaves_type.alexscaves]
+			ancient = true
+
+#Disables specific entries
+[entries]
+
+	[entries.stone_type]
+
+		[entries.stone_type.waystones]
+			waystone = true
+

@@ -1,0 +1,5 @@
+
+[client]
+	#Show a red notification when an item becomes broken.
+	show_broken_notification = true
+

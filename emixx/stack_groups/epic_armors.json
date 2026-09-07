@@ -1,0 +1,26 @@
+{
+  "id": "klopperquest:epic_armors",
+  "type": "emixx:group",
+  "contents": [
+"dungeons_and_combat:molten_dark_steel_helmet",
+"dungeons_and_combat:molten_dark_steel_chestplate",
+"dungeons_and_combat:molten_dark_steel_leggings",
+"dungeons_and_combat:molten_dark_steel_boots",
+"dungeons_and_combat:molten_knight_helmet",
+"dungeons_and_combat:molten_knight_chestplate",
+"dungeons_and_combat:molten_knight_leggings",
+"dungeons_and_combat:molten_knight_boots",
+"dungeons_and_combat:ebony_helmet",
+"dungeons_and_combat:ebony_chestplate",
+"dungeons_and_combat:ebony_leggings",
+"dungeons_and_combat:ebony_boots",
+"dungeons_and_combat:dark_metal_helmet",
+"dungeons_and_combat:dark_metal_chestplate",
+"dungeons_and_combat:dark_metal_leggings",
+"dungeons_and_combat:dark_metal_boots",
+"dungeons_and_combat:neptunium_helmet",
+"dungeons_and_combat:neptunium_chestplate",
+"dungeons_and_combat:neptunium_leggings",
+"dungeons_and_combat:neptunium_boots"
+  ]
+}

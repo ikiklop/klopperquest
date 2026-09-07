@@ -1,0 +1,18 @@
+mongodb:
+  accounts-collection: accounts
+  currencies-collection: currencies
+  # Data base name
+  database: sdm_economy
+  # A unique name for this server (eg: "survival_1", "lobby").
+  # Used for echo protection (to prevent the server from updating itself).
+  # If left blank, a random UUID will be generated.
+  server-name: server_1
+  # Connection string
+  # Local: mongodb://127.0.0.1:27017/?replicaSet=rs0
+  # Cloud: mongodb+srv://user:password@cluster.mongodb.net/
+  uri: mongodb://127.0.0.1:27017/?replicaSet=rs0
+# Values:
+# JSON - The data will be saved in the folder "config/sdm/economy/*",
+# MONGODB - The data will be stored in a database that automatically synchronizes data between multiple servers.,
+# CUSTOM - Self-written save type Default Value: JSON
+storage-type: JSON

@@ -1,0 +1,77 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.8
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.75
+    ]
+  },
+  "livingmotion_modifier": {
+    "sheath": {
+      "idle": "wom:biped/living/katana_sheathed_idle",
+      "run": "wom:biped/living/katana_sheathed_run",
+      "block": "wom:biped/skill/katana_guard",
+      "sneak": "cdmoveset:biped/new/katana/hold_katana_sheath",
+      "walk": "wom:biped/living/katana_sheathed_idle",
+      "swim": "cdmoveset:biped/new/katana/hold_katana_sheath",
+      "kneel": "cdmoveset:biped/new/katana/hold_katana_sheath",
+      "sit": "cdmoveset:biped/new/yamato/yamato_idle"
+    },
+    "one_hand": {
+      "idle": "cdmoveset:biped/new/katana/hold_katana",
+      "run": "reimportrob:biped/asanginxst_run_katana",
+      "block": "cdmoveset:biped/hit/guard_longsword",
+      "sneak": "cdmoveset:biped/new/katana/hold_katana",
+      "walk": "reimportrob:biped/reascer_old_sowrd_onehand_walk_forward",
+      "swim": "epicfight:biped/living/hold_longsword",
+      "kneel": "reimportrob:biped/reascer_old_sowrd_onehand_kneel"
+    }
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "passive_skill": "epicfight:battojutsu_passive",
+  "combos": {
+    "sheath": [
+      "cdmoveset:biped/new/katana/katana_sheath_auto",
+      "cdmoveset:biped/new/katana/katana_sheath_dash",
+      "cdmoveset:biped/new/yamato/skill/yamato_turnslash"
+    ],
+    "one_hand": [
+      "cdmoveset:biped/new/katana/katana_auto1",
+      "efn:biped/nf_sword/nf_sword_auto2",
+      "cdmoveset:biped/new/katana/katana_auto3",
+      "wom:biped/combat/katana_auto_3",
+      "wom:biped/combat/agony_auto_1",
+      "efn:biped/nf_sword/nf_sword_dash",
+      "efn:biped/nf_sword/nf_sword_airslash"
+    ]
+  },
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "sheath",
+        "conditions": [
+          {
+            "predicate": "epicfight:passive_skill_boolean_data_key",
+            "expected_value": 1,
+            "skill_data_key": "epicfight:sheath"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "uchigatana",
+  "innate_skills": {
+    "one_hand": "cdmoveset:katanaskill",
+	"sheath": "cdmoveset:katanaskill"
+  },
+  "usable_in_offhand": true
+}

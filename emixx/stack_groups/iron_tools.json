@@ -1,0 +1,10 @@
+{
+  "id": "klopperquest:iron_tools",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:iron_shovel",
+"minecraft:iron_pickaxe",
+"minecraft:iron_axe",
+"minecraft:iron_hoe"
+  ]
+}

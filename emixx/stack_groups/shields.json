@@ -1,0 +1,13 @@
+{
+  "id": "klopperquest:shields",
+  "type": "emixx:group",
+  "contents": [
+"dungeons_and_combat:wooden_shield",
+"dungeons_and_combat:stone_shield",
+"dungeons_and_combat:golden_shield",
+"dungeons_and_combat:iron_shield",
+"dungeons_and_combat:diamond_shield",
+"dungeons_and_combat:netherite_shield",
+"legendary_monsters:spiky_shield"
+  ]
+}

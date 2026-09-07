@@ -1,0 +1,32 @@
+
+[general]
+
+	[general.spawning]
+		#Enable natural Crayfish spawning from biome spawn rules. Bucket of Bait summoning is not affected.
+		naturalCrayfishSpawning = true
+		#Cooldown in ticks after a successful natural Crayfish spawn in a local area. 0 = disabled. 24000 = one Minecraft day.
+		#Range: > 0
+		naturalCrayfishSpawnCooldownTicks = 24000
+		#Width and length in blocks of the local area affected by natural Crayfish spawn cooldown.
+		#Range: > 1
+		naturalCrayfishSpawnCooldownAreaSize = 64
+		#Change the roll chance for Crayfishes. Higher number = lower chance of spawning
+		#Range: > 0
+		crayfishSpawnRolls = 4
+		#Change the roll chance for Maneater Shells. Higher number = lower chance of spawning
+		#Range: > 0
+		maneaterRolls = 2
+		#Chance in percent for a thrown Bucket of Bait to summon a Crayfish.
+		#Range: 0 ~ 100
+		crayfishBaitSummonChance = 80
+		#Play the blue lobster meme sound at 200% volume when a blue Crayfish appears.
+		playBlueLobsterSpawnSound = true
+
+	[general.smithing]
+		#Changes the maximum amount of damage granted by somber smithing stones. -1 = uncapped; otherwise must be at least 1.
+		#Range: > -1
+		somberCap = -1
+		#Changes the maximum amount of extra durability granted by smithing stones. -1 = uncapped; otherwise must be at least 10.
+		#Range: > -1
+		smithingCap = -1
+

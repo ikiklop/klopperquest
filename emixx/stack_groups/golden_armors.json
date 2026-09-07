@@ -1,0 +1,14 @@
+{
+  "id": "klopperquest:golden_armors",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:golden_helmet",
+"minecraft:golden_chestplate",
+"minecraft:golden_leggings",
+"minecraft:golden_boots",
+"dungeons_and_combat:golden_helmet",
+"dungeons_and_combat:golden_chestplate",
+"dungeons_and_combat:golden_leggings",
+"dungeons_and_combat:golden_boots"
+  ]
+}

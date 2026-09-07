@@ -1,0 +1,96 @@
+{
+    "properties": [
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "Scorched Giant Health",
+            "amount": {
+                "min": 100,
+                "max": 100
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.attack_damage",
+            "modifier_name": "Scorched Giant Damage",
+            "amount": {
+                "min": 8,
+                "max": 8
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.movement_speed",
+            "modifier_name": "Scorched Giant Speed",
+            "amount": {
+                "min": -0.15,
+                "max": -0.15
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "property": "scale",
+            "scale": 1.2,
+            "scale_types": [
+                "pehkui:base"
+            ],
+            "operation": "set"
+        },
+        {
+            "property": "custom_name",
+            "overrides": ["Scorched Giant"]
+        },
+        {
+            "property": "equipment",
+            "slot": "head",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:centinel_armor_helmet",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "chest",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:centinel_armor_chestplate",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "legs",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:centinel_armor_leggings",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "feet",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:centinel_armor_boots",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:sandstorm_greatsword",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

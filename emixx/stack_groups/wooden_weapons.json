@@ -1,0 +1,25 @@
+{
+  "id": "klopperquest:wooden_weapons",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:wooden_sword",
+"sticknstone:wooden_sai",
+"sticknstone:wooden_cutlass",
+"sticknstone:wooden_rapier",
+"sticknstone:wooden_twinblade",
+"sticknstone:wooden_chakram",
+"sticknstone:wooden_katana",
+"sticknstone:wooden_warglaive",
+"sticknstone:wooden_longsword",
+"sticknstone:wooden_claymore",
+"sticknstone:wooden_spear",
+"sticknstone:wooden_glaive",
+"sticknstone:wooden_scythe",
+"sticknstone:wooden_greataxe",
+"sticknstone:wooden_halberd",
+"sticknstone:wooden_greathammer",
+"epicfight:wooden_dagger",
+"epicfight:wooden_tachi",
+"epicfight:wooden_greatsword"
+  ]
+}

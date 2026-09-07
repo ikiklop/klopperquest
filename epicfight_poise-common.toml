@@ -1,0 +1,252 @@
+
+#How this file behaves when the mod is updated.
+#Forge only ever writes defaults ONCE. Without this, a rebalance shipped in a later version
+#(mob base stance 32 -> 28, for example) would never reach anyone who had already run the mod.
+#
+#  ALWAYS     restore every setting below to the mod's defaults on every launch.
+#             Your edits are discarded. Use this if you just want the intended balance.
+#  ON_UPDATE  restore only when the mod ships new defaults (config_version changes).
+#             Your edits survive until then. RECOMMENDED if you tune anything.
+#  NEVER      never touch this file. You keep your values and receive no rebalances.
+#
+#config_version is written by the mod. Don't edit it — lowering it just forces one extra reset.
+[config]
+	#ALWAYS / ON_UPDATE / NEVER
+	#Allowed Values: ALWAYS, ON_UPDATE, NEVER
+	update_mode = "ON_UPDATE"
+	#Managed by the mod. Which set of defaults this file was last written from.
+	#Range: > 0
+	config_version = 5
+
+[natural_poise]
+	#Natural base poise for specific mobs (added on top of armorPoints × 8).
+	#Mobs not listed here default to 70 natural poise.
+	#Format: "modid:mob_name=value"
+	#Example: "minecraft:iron_golem=200"
+	entries = ["minecraft:iron_golem=200", "minecraft:ravager=180", "minecraft:hoglin=100", "minecraft:zoglin=100", "minecraft:wither=400", "minecraft:ender_dragon=500", "minecraft:piglin_brute=60", "minecraft:warden=400", "minecraft:elder_guardian=150"]
+
+#Max-stamina bonus granted by the held weapon, by weight class.
+#The class comes from the weapon's Epic Fight weapon category; its vanilla attack speed is
+#only a fallback for weapons whose category doesn't map to one of the five classes.
+#Light weapons help stamina, heavy ones hurt it. Re-equip the weapon for changes to apply.
+[weapon_stamina]
+	#Daggers (attack speed > 2.0)
+	#Range: -1024.0 ~ 1024.0
+	fast = 4.0
+	#Shortswords (1.6 - 2.0)
+	#Range: -1024.0 ~ 1024.0
+	shortsword = 3.0
+	#Swords, tachi and longswords (1.35 - 1.6)
+	#Range: -1024.0 ~ 1024.0
+	medium_fast = 2.0
+	#Axes (1.1 - 1.35)
+	#Range: -1024.0 ~ 1024.0
+	medium = 0.0
+	#Greatswords (0.9 - 1.1)
+	#Range: -1024.0 ~ 1024.0
+	medium_slow = -2.0
+	#Colossal weapons (<= 0.9)
+	#Range: -1024.0 ~ 1024.0
+	slow = -4.0
+
+#Epic Fight Nightfall (EFN) weapons bypass EF's stamina system, so the mod charges this
+#flat stamina per swing. If you don't have this much stamina, the EFN swing is cancelled.
+[efn]
+	#Stamina per EFN weapon swing
+	#Range: 0.0 ~ 1024.0
+	attack_cost = 1.5
+
+#How fast stamina comes back, and when it starts.
+#RATE is a flat amount per tick (flat_per_tick) — it does NOT depend on how full the bar is.
+#WHEN it starts depends on the weapon: after an ATTACK, regen begins
+#(attack_swing_factor / weaponAttackSpeed) + attack_flat_delay seconds from the swing's start,
+#so slower weapons wait longer.
+#  e.g. sword speed 1.6: 1.85/1.6 = ~1.16s;  greatsword 1.0: 1.85/1.0 = ~1.85s.
+[stamina_regen]
+	#Multiplier on the weapon's swing time (1/attackSpeed)
+	#Range: 0.0 ~ 100.0
+	attack_swing_factor = 1.85
+	#Extra flat seconds added after that (0 = none)
+	#Range: 0.0 ~ 100.0
+	attack_flat_delay = 0.0
+	#Seconds before regen after a dodge / roll / step
+	#Range: 0.0 ~ 100.0
+	dodge_delay = 0.75
+	#Stamina restored per tick once regen is running, as a FLAT amount.
+	#Epic Fight's own regen accelerates as the bar fills (1x when empty up to 5x when full);
+	#this replaces that curve with a constant rate, so recovery no longer depends on how much
+	#stamina you currently have. Still multiplied by the Stamina Regen attribute (default 1.0).
+	#0.3 per tick = 6.0 stamina per second = a full 15-stamina bar in 2.5s.
+	#Range: 0.0 ~ 100.0
+	flat_per_tick = 0.3
+
+#Poise-break knockback is RECOMPUTED from a normalized impact (player base 0.5 + the
+#weapon's modifiers), so identical weapons give identical knockback on ANY attacker —
+#mobs push exactly like players (EF's own value varies per attack animation and per mob):
+#  min(0.25 + 0.1*impact, 2) * 80 / (effWeight + 300),  effWeight = 40 + 0.7*(weight-40),
+#with an impact taper (unchanged at 1.6, -15% at 4.5, linear, capped -50%) and knockback
+#resistance at 50% effectiveness (resistance >= 1.0 stays fully immune).
+#strength_multiplier scales the final result. Other EF knockback sources (guard/parry)
+#get the same weight curve applied to their native strength.
+[knockback]
+	#Final multiplier on the reshaped knockback (1.0 = formula as-is).
+	#Range: 0.0 ~ 10.0
+	strength_multiplier = 1.0
+	#Poise-break knockback counts every attack as at least this much impact.
+	#Without it, attackers with no EF weapon modifiers (zombies, bare fists) would
+	#compute as impact 0.5 and barely shove the target.
+	#Range: 0.0 ~ 20.0
+	min_attacker_impact = 2.5
+
+#Stagger (SHORT stun) duration. Epic Fight normally derives it from the attack's impact
+#and the target's knockback resistance; the mod overrides it to a FIXED total instead:
+#  total = blend-in + the 0.4s stagger clip + ~0.05s return-to-idle.
+[stun]
+	#Total stagger length in seconds — same for every hit and every entity.
+	#Range: 0.0 ~ 10.0
+	total_seconds = 0.55
+	#Stun types that punch THROUGH a held poise pool instead of being suppressed by it.
+	#Poise's job is to gate the routine hit flinch (short/long staggers), but skills that
+	#launch a target into the air (knockdown) or crush its guard (neutralize) are built
+	#AROUND their stun landing — with poise swallowing those, such a skill silently did
+	#nothing against any enemy whose poise was still standing.
+	#Types listed here play Epic Fight's own stun even while the target's poise holds
+	#(only the launch/crush itself: EF converts hold to a short flinch internally, and
+	#true grab skills apply their stun directly, never through this gate at all).
+	#The hit still deals its poise damage.
+	#ENEMIES ONLY — a player's own poise still gates every stun type as normal, so
+	#mob attacks tagged knockdown/neutralize cannot walk through your poise.
+	#Valid entries: knockdown, neutralize, hold, long, short. Set to [] to disable the
+	#bypass entirely — but note a list whose entries are ALL invalid is reset to the
+	#default, not treated as empty.
+	#Never applies while an enemy's stance-break window is open: nothing may knock a
+	#breakable enemy out of the front-stab pose.
+	poise_bypass_stun_types = ["knockdown", "neutralize"]
+
+#Client-side visual tweaks.
+[client]
+	#Hide YOUR OWN weapon trails while in first person (others' trails stay visible).
+	hide_own_trail_in_first_person = true
+
+#The Stance pool — a SEPARATE resource from poise, ENEMIES ONLY. Depleted by weapon hits
+#(see WeaponTier.stanceDamage); breaking it fully refills the pool and triggers a stance-
+#break state during which a well-placed follow-up attack becomes a critical front-stab.
+[stance]
+	#Base max stance for enemies, before +3 stance per point of armor.
+	#This is the fallback for every mob whose max_stance ATTRIBUTE is still 0 (the
+	#default), which is all of them until something tunes one. Give an entity type a
+	#non-zero epicfight_poise:max_stance from a datapack to override this for that mob
+	#alone; armor still adds on top either way.
+	#Range: 0.0 ~ 10000.0
+	base_stance = 28.0
+	#Draw a small stance bar above enemies that have a stance pool. Off by default.
+	#The bar is only a readout — nothing about how stance builds or breaks changes.
+	#On a server BOTH sides read this key: the server sends the meter only when its own
+	#copy is true, and the client draws it only when its copy is true. A client alone
+	#cannot turn the bar on against a server that has it off, and vice versa.
+	show_stance_bar = false
+	#How long an enemy resists further Stance damage AFTER a break, in seconds.
+	#This is counted from the END of the break, i.e. it is the window that is still
+	#running once the enemy is back on its feet — the break itself already blocks
+	#Stance damage outright, so the two do not overlap in any way you can feel.
+	#Long enough to stop an instant re-break, short enough that it is not most of the
+	#next exchange. Set to 0 to disable.
+	#Range: 0.0 ~ 60.0
+	break_resist_seconds = 3.0
+	#Stance damage multiplier during that window. 0.5 = half damage, 0.0 = immune,
+	#1.0 = no reduction at all.
+	#Range: 0.0 ~ 1.0
+	break_resist_multiplier = 0.5
+	#How long the attacker is invulnerable for after starting a front stab, in
+	#seconds. The animation locks you in place with no way to react, so without this a
+	#second enemy can freely punish you for landing the finisher. Blocks damage, stuns
+	#and knockback alike. Damage that ignores invulnerability outright (the void,
+	#/kill) still goes through. Set to 0 to disable.
+	#Range: 0.0 ~ 60.0
+	front_stab_invulnerable_seconds = 3.0
+	#How long a front-stabbed enemy resists further Stance damage once the finisher
+	#ENDS, in seconds. Uses break_resist_multiplier above for the reduction.
+	#Separate from break_resist_seconds because that window is anchored to the break
+	#and this one to the end of the animation; whichever has longer left is the one
+	#that applies, so the two never cut each other short. Set to 0 to disable.
+	#Range: 0.0 ~ 60.0
+	front_stab_resist_seconds = 3.0
+	#How much Stance a front-stabbed enemy is left with once the finisher ends, as a
+	#fraction of its maximum. 0.5 = half a bar, 1.0 = completely full, 0.0 = empty.
+	#Breaking an enemy already refills its bar, so at 1.0 a finisher leaves you chipping
+	#a WHOLE fresh bar while front_stab_resist_seconds is still halving your damage —
+	#roughly four times the work instead of two. Half a bar keeps the finisher meaningful
+	#without that.
+	#Range: 0.0 ~ 1.0
+	front_stab_refill_fraction = 0.5
+	#Extra seconds an enemy that was NOT finished stays immune to poise damage after
+	#its front-stab window closes. The break pose is a 2.85s clip re-played every tick
+	#for the whole 2.7s window, so its last copy runs well past the window's end; this
+	#is how long that overhang is allowed to matter. Small on purpose — the point is
+	#that once an enemy can no longer be finished, it can be staggered again.
+	#Does not apply to an enemy that WAS front stabbed; that case is timed off the
+	#finisher instead.
+	#Range: 0.0 ~ 10.0
+	stance_break_lock_grace_seconds = 0.3
+
+#Compatibility with other mods. Every option here is ignored unless the mod it names is
+#actually installed, so these are safe to leave alone.
+[compat]
+	#Combat Evolution only. When true, breaking an enemy's stance puts it into Combat
+	#Evolution's guard-broken state instead of this mod's: its execution animations and
+	#its execution key replace the front stab, so the two systems never both fire on the
+	#same break. The stance meter itself is unchanged — it is still what decides WHEN an
+	#enemy breaks. Set to false to keep this mod's own front stab with Combat Evolution
+	#installed.
+	combat_evolution_execution = true
+	#'Epic Fight x Paraglider Compat' only. That mod hides Epic Fight's stamina
+	#bar whenever it is installed, without checking whether its own Paraglider
+	#redirect is actually switched on — and it only switches on when ParCool's
+	#used_stamina is "Paraglider". On any other setting the bar ends up hidden for a
+	#feature that is doing nothing, leaving no readout of the pool your attacks and
+	#(with the ParCool link above) your parkour are spending.
+	#When true, this puts the bar back in exactly that case. While that mod's
+	#redirect IS live it keeps its bar hidden — that is its call to make.
+	#Set to false to leave the bar hidden either way.
+	restore_epicfight_stamina_bar = true
+	#ParCool only. When true, parkour actions (vault, roll, wall run, cat leap...)
+	#drain EPIC FIGHT's stamina bar instead of ParCool's own stamina pool — one
+	#stamina, everywhere, in BOTH battle and mining mode. While linked, ParCool's own
+	#pool is completely dormant: it never drains, never recovers, never exhausts, and
+	#its HUD shows the Epic Fight value in mining mode (Epic Fight's own bar covers
+	#battle mode). Empty Epic Fight stamina blocks parkour actions.
+	#ParCool's own 'used_stamina' client setting is ignored while this is on.
+	#Set to false to give ParCool its stock stamina system back, untouched.
+	#AUTO-DISABLES only while 'Epic Fight x Paraglider Compat'
+	#(epicfightparaglidercompat) is actually redirecting stamina — that mod makes
+	#Paraglider the master pool and mirrors it into Epic Fight, which would
+	#double-charge actions if this linked too. It turns that redirect on ONLY when
+	#ParCool's own used_stamina is set to "Paraglider", so that one setting picks the
+	#owner: leave it on anything else and parkour drains Epic Fight stamina through
+	#this option; set it to "Paraglider" and that mod takes over instead.
+	#Merely having it installed does not disable this.
+	#Takes effect on world (re)join.
+	parcool_use_epicfight_stamina = true
+	#How many ParCool stamina points equal ONE point of Epic Fight stamina.
+	#ParCool costs live on a ~2000 scale (roll 100, vault ~40, fast run 2/tick) while
+	#Epic Fight stamina is ~15, hence a divisor: at 40 a roll costs 100/40 = 2.5 EF
+	#stamina, a sixth of a default 15 bar.
+	#This is a DIVISOR, so it works the opposite way round to a cost: HALVE it to
+	#double what every parkour action spends, double it to halve them.
+	#Per-action costs themselves are tuned in parcool-client.toml under
+	#[Stamina.Consumption] if you want to reprice one action rather than all of them.
+	#Range: 1.0 ~ 100000.0
+	parcool_points_per_stamina = 40.0
+	#Combat Evolution only. Rebases an execution hit onto the executor's own attack
+	#damage: the hit deals ATTACK_DAMAGE x this value instead of whatever its animation
+	#was authored to deal.
+	#PER HIT, and an execution lands TWO of them — so the default is 2 + 2, i.e. 4x the
+	#weapon overall. Raise it to 4 only if you want 8x in total.
+	#Resistance is applied by hand on top of this, because Combat Evolution's execution
+	#damage type is tagged bypasses_effects and vanilla would skip the potion entirely.
+	#Combat Evolution's own scaling (Massacre, its execution_damage_multiply attribute)
+	#still applies, and it still clamps a non-final hit so the target survives.
+	#Set to 0 to leave its damage completely untouched.
+	#Range: 0.0 ~ 1000.0
+	combat_evolution_execution_damage = 2.0
+

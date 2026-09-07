@@ -1,0 +1,14 @@
+{
+  "id": "klopperquest:iron_armors",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:iron_helmet",
+"minecraft:iron_chestplate",
+"minecraft:iron_leggings",
+"minecraft:iron_boots",
+"dungeons_and_combat:iron_metal_helmet",
+"dungeons_and_combat:iron_metal_chestplate",
+"dungeons_and_combat:iron_metal_leggings",
+"dungeons_and_combat:iron_metal_boots"
+  ]
+}

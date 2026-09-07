@@ -1,0 +1,15 @@
+#Enemy detection radius around protected blocks (horizontal)
+#Range: 1 ~ 32
+detectionRadius = 8
+#Vertical detection height above and below the protected block
+#Range: 0 ~ 16
+verticalDetectionHeight = 1
+#If true, enemies near protected blocks will glow when detected
+enableGlowingEffect = true
+#If true, players will see a message when a chest is blocked
+enableBlockMessages = true
+#List of block IDs that should be protected by Loot Sentinel
+protectedBlocks = ["minecraft:chest", "minecraft:barrel", "minecraft:shulker_box", "lootr:lootr_chest", "lootr:lootr_barrel", "lootr:lootr_shulker_box"]
+#List of entity type IDs to exclude from detection
+excludedEntityTypes = []
+

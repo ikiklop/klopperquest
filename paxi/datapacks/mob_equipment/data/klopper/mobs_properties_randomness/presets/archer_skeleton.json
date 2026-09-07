@@ -1,0 +1,132 @@
+{
+    "properties": [
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "Archer Health",
+            "amount": {
+                "min": 0,
+                "max": 0
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.movement_speed",
+            "modifier_name": "Archer Speed",
+            "amount": {
+                "min": 0.1,
+                "max": 0.1
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "property": "custom_name",
+            "overrides": ["Archer Skeleton"]
+        },
+        {
+            "property": "equipment",
+            "slot": "head",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:rogue_helmet",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "chest",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:rogue_chestplate",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "legs",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:rogue_leggings",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "feet",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:rogue_boots",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": [
+                {
+                    "item": "minecraft:bow",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "event",
+            "event": "tick",
+            "id": "archer_switch_to_melee",
+            "update_interval": 5,
+            "conditions": [
+                {
+                    "condition": "has_target",
+                    "distance": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ],
+            "apply_properties": [
+                {
+                    "property": "equipment",
+                    "slot": "mainhand",
+                    "items": [
+                        {
+                            "item": "epicfight:stone_dagger",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "property": "event",
+            "event": "tick",
+            "id": "archer_switch_to_ranged",
+            "update_interval": 5,
+            "conditions": [
+                {
+                    "condition": "has_target",
+                    "distance": {
+                        "min": 4,
+                        "max": 999
+                    }
+                }
+            ],
+            "apply_properties": [
+                {
+                    "property": "equipment",
+                    "slot": "mainhand",
+                    "items": [
+                        {
+                            "item": "minecraft:bow",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "klopperquest:golden_tools",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:golden_shovel",
+"minecraft:golden_pickaxe",
+"minecraft:golden_axe",
+"minecraft:golden_hoe"
+  ]
+}

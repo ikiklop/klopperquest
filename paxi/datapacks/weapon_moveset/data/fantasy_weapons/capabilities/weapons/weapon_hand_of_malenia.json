@@ -1,0 +1,23 @@
+{
+  "attributes": {
+    "common": {
+      "impact": 1.2,
+	  "speed_bonus": 0.6,
+      "max_strikes": 2
+    }
+  },
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -0.9
+    ],
+    "number": 5,
+    "size": [
+      0.4,
+      0.4,
+      1.1
+    ]
+  },
+  "type": "wom:satsujin"
+}

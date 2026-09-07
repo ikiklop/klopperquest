@@ -1,0 +1,76 @@
+# Armor HUD Durability Config  (hot reload - no restart needed!)
+
+# === General ===
+bars_enabled=true
+# hud_layout: HORIZONTAL_ICONS_LEFT | HORIZONTAL_ICONS_RIGHT | VERTICAL_ICONS_BOTTOM | VERTICAL_ICONS_TOP
+hud_layout=VERTICAL_ICONS_BOTTOM
+# render_rate: bar redraw Hz (0=every frame, 0.01-60 to throttle)
+render_rate=0.0
+show_tool_bar=false
+# tool_bar_filter: BOTH | WEAPONS | TOOLS
+tool_bar_filter=WEAPONS
+tool_bar_hold_last=true
+
+# === Icons ===
+show_icons=true
+icon_scale=1.0
+icon_bg_enabled=false
+icon_bg_color=000000
+icon_bg_opacity=50
+icon_bg_show_empty=false
+icon_show_vanilla_bar=false
+
+# === Bars ===
+show_bar_graphic=true
+bar_height=8
+bar_width=65
+border_size=2.0
+border_color=000000
+corner_radius=0
+# position: BOTTOM_LEFT | BOTTOM_RIGHT | TOP_LEFT | TOP_RIGHT | BOTTOM_CENTER | CUSTOM
+position=BOTTOM_LEFT
+custom_x=10
+custom_y=300
+bar_gap=2
+all_colors_mode=false
+# fill_direction: RIGHT_TO_LEFT | LEFT_TO_RIGHT | TOP_TO_BOTTOM | BOTTOM_TO_TOP
+fill_direction=BOTTOM_TO_TOP
+
+# === Flicker ===
+flicker_threshold=20
+# flicker_condition: BELOW | ABOVE
+flicker_condition=BELOW
+flicker_color=FF0000
+flicker_smooth=true
+# flicker_speed: VERY_SHORT | SHORT | MEDIUM | LONG
+flicker_speed=VERY_SHORT
+flicker_freq_low=3.2
+flicker_freq_high=1.3
+
+# === Gradient ===
+# gradient_direction: LEFT_TO_RIGHT | RIGHT_TO_LEFT | TOP_TO_BOTTOM | BOTTOM_TO_TOP | LINES
+gradient_direction=LEFT_TO_RIGHT
+gradient_darkness=25
+
+# === Text ===
+# text_format: NONE | DURABILITY | PERCENT | DURABILITY_MAX | FULL
+text_format=PERCENT
+text_scale=0.9
+text_offset_x=17
+text_offset_y=-1
+text_outline=true
+text_sync_bar_color=false
+text_outline_sync_bar_color=false
+
+# === Color Ranges === (color_range=minPct-maxPct:#RRGGBB)
+color_range=0-10:#A00000
+color_range=11-16:#CC0000
+color_range=17-26:#CC5500
+color_range=27-35:#FF8000
+color_range=36-45:#FFD700
+color_range=46-56:#B3B800
+color_range=57-68:#4CD964
+color_range=69-78:#40A040
+color_range=79-87:#33CCCC
+color_range=88-94:#66B2FF
+color_range=95-100:#4A90E2

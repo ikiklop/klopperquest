@@ -1,0 +1,13 @@
+{
+  "id": "klopperquest:utility_tools",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:fishing_rod",
+"minecraft:flint_and_steel",
+"minecraft:shears",
+"epicawaken_grappling_hook:grappling_hook",
+"epicawaken_grappling_hook:phantom_grappling_hook",
+"waystones:warp_stone",
+"legendary_monsters:somber_key"
+  ]
+}

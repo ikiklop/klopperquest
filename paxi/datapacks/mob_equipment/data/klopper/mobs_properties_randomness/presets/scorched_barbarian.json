@@ -1,0 +1,98 @@
+{
+    "properties": [
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "Scorched Barbarian Health",
+            "amount": {
+                "min": 40,
+                "max": 40
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.attack_damage",
+            "modifier_name": "Scorched Barbarian Damage",
+            "amount": {
+                "min": 5,
+                "max": 5
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.movement_speed",
+            "modifier_name": "Scorched Barbarian Speed",
+            "amount": {
+                "min": 0.15,
+                "max": 0.15
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "property": "custom_name",
+            "overrides": ["Scorched Barbarian"]
+        },
+        {
+            "property": "equipment",
+            "slot": "head",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:centinel_armor_helmet",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "chest",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:ammit_armor_chestplate",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "legs",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:ammit_armor_leggings",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "feet",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:centinel_armor_boots",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:sandstone_axe_war",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "offhand",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:sandstone_axe_war",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

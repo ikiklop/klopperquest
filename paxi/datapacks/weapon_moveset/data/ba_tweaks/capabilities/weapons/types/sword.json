@@ -1,0 +1,113 @@
+{
+  "collider": {
+    "number": 5,
+    "center": [
+      0.0,
+      0.0,
+      -0.75
+    ],
+    "size": [
+      0.4,
+      0.4,
+      0.8
+    ]
+  },
+  "combos": {
+    "one_hand": [
+      "cdmoveset:biped/new/sword/sword_onehand_auto_1",
+      "cdmoveset:biped/new/sword/sword_onehand_auto_4",
+      "wom:biped/combat/agony_auto_1",
+      "wom:biped/skill/herrscher_trane",
+      "wom:biped/combat/herrscher_verdammnis",
+      "wom:biped/combat/ruine_chatiment",
+      "wom:biped/combat/herrscher_ausrottung"
+    ],
+    "ochs": [
+      "epicfight:biped/combat/longsword_auto1",
+      "epicfight:biped/combat/longsword_auto2",
+      "wom:biped/combat/herrscher_auto_3",
+      "wom:biped/skill/gezets_auto_1",
+      "wom:biped/skill/gezets_auto_2",
+      "wom:biped/skill/gezets_sprengkopf",
+      "wom:biped/combat/herrscher_ausrottung"
+    ],
+    "two_hand": [
+      "wom:biped/combat/nova_attack_1",
+      "efn:biped/nf_dual/nf_dual_auto1",
+      "wom:biped/combat/nova_attack_2",
+      "cdmoveset:biped/new/dual_tachi/dual_tachi_auto3",
+      "wom:biped/combat/nova_attack_4",
+      "wom:biped/combat/nova_attack_3",
+      "wom:biped/combat/nova_attack_dash",
+      "cdmoveset:biped/new/dual_tachi/rising_skill"
+    ]
+  },
+  "livingmotion_modifier": {
+    "ochs": {
+      "run": "wom:biped/living/herrscher_run",
+      "block": "wom:biped/skill/herrscher_guard",
+      "idle": "wom:biped/living/herrscher_idle",
+      "walk": "wom:biped/living/herrscher_walk"
+    },
+    "one_hand": {
+      "run": "epicfight:biped/living/run_longsword",
+      "walk": "epicfight:biped/living/walk_longsword",
+      "block": "cdmoveset:biped/hit/guard_longsword",
+      "idle": "epicfight:biped/living/hold_longsword"
+    },
+    "two_hand": {
+      "run": "wom:biped/living/nova_run",
+      "walk": "epicfight:biped/living/walk",
+      "block": "wom:biped/skill/nova_guard_hold",
+      "idle": "wom:biped/living/nova_idle"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_rod",
+  "offhand_item_compatible_predicate": [
+    {
+      "category": "sword",
+      "predicate": "epicfight:offhand_item_category"
+    }
+  ],
+  "innate_skills": {
+    "two_hand": "cdmoveset:sword_slash",
+    "one_hand": "cdmoveset:sword_slash",
+    "ochs": "wom:agony_plunge"
+  },
+  "hit_particle": "wom:solar_hit",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "styles": {
+    "cases": [
+      {
+        "style": "one_hand",
+        "conditions": [
+          {
+            "category": "not_weapon",
+            "predicate": "epicfight:offhand_item_category"
+          }
+        ]
+      },
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "sword"
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "category": "shield",
+            "predicate": "epicfight:offhand_item_category"
+          }
+        ],
+        "style": "ochs"
+      }
+    ],
+    "default": "one_hand"
+  },
+  "category": "sword",
+  "usable_in_offhand": true
+}

@@ -1,0 +1,88 @@
+{
+    "properties": [
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "Knight Health",
+            "amount": {
+                "min": 20,
+                "max": 20
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.movement_speed",
+            "modifier_name": "Knight Speed",
+            "amount": {
+                "min": -0.1,
+                "max": -0.1
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "property": "custom_name",
+            "overrides": ["Zombie Knight"]
+        },
+        {
+            "property": "equipment",
+            "slot": "head",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:forgotten_knight_helmet",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "chest",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:forgotten_knight_chestplate",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "legs",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:forgotten_knight_leggings",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "feet",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:forgotten_knight_boots",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": [
+                {
+                    "item": "minecraft:iron_sword",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "offhand",
+            "items": [
+                {
+                    "item": "minecraft:shield",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "ba_tweaks:longsword",
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -1.2
+    ],
+    "size": [
+      0.4,
+      0.4,
+      1.8
+    ],
+    "number": 5
+  },
+  "attributes": {
+    "common": {
+	  "speed_bonus": -0.4,
+	  "impact": 1.2,
+	  "max_strikes": 3
+    }
+  }
+}

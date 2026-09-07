@@ -1,0 +1,94 @@
+{
+    "properties": [
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "Knight Vindicator Health",
+            "amount": {
+                "min": 80,
+                "max": 80
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.attack_damage",
+            "modifier_name": "Knight Vindicator Damage",
+            "amount": {
+                "min": 6,
+                "max": 6
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.movement_speed",
+            "modifier_name": "Knight Vindicator Speed",
+            "amount": {
+                "min": -0.1,
+                "max": -0.1
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "property": "custom_name",
+            "overrides": ["Knight Vindicator"]
+        },
+        {
+            "property": "equipment",
+            "slot": "head",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:titan_helmet",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "chest",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:titan_chestplate",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "legs",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:titan_leggings",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "feet",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:titan_boots",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": [
+                {
+                    "item": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "set_raw_nbt",
+                            "nbt": "{BielGGSwordSpellSlot: 1, \"irons_spellbooks:spell_container\": {maxSpells: 1, mustEquip: 0, data: [], spellWheel: 1}}"
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

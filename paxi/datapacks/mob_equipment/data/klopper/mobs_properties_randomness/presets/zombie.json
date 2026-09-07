@@ -1,0 +1,18 @@
+{
+    "properties": [
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "Zombie Health",
+            "amount": {
+                "min": 30,
+                "max": 30
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "custom_name",
+            "overrides": ["Zombie"]
+        }
+    ]
+}

@@ -1,0 +1,136 @@
+
+[Main]
+	#Nether Siphon Core Useful To Piglin Max Reach
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"下界汲取器对猪灵生效最大距离" = 64.0
+	#Nether Siphon Link Station Link Max Reach
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"下界汲取连接站连接最大距离" = 12.0
+	#Nether Siphon Link Station Mutually Influence Reach
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"下界汲取连接站互相影响距离" = 12.0
+
+[Attributes]
+
+	[Attributes.Boss]
+		#Boss Base Attribute Can Use Config
+		"Boss基础属性可以被配置影响" = true
+		#Raid Boss Can Increase Summon Count Based On Player Count
+		"袭击类boss可以依靠玩家数量提升生成数量" = false
+		#Raid Boss Can Increase Summon Count Based On Player Count Find Reach
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"袭击类boss可以依靠玩家数量提升生成数量依照范围" = 128.0
+		#Raid Boss Can Increase Summon Count Based On Player Count Max Count
+		#Range: > 0
+		"袭击类boss可以依靠玩家数量提升生成数量最大数量" = 6
+		#Raid Boss Can Increase Summon Count Based On Player Count Contain All Boss
+		"袭击类boss可以依靠玩家数量提升生成数量包含所有boss" = true
+		#Raid Boss Can Increase Summon Count Based On Player Count Contain Boss
+		"袭击类boss可以依靠玩家数量提升生成数量包含boss" = ["meowhem:mira_bell"]
+		#Boss Has Percentage Damage
+		"Boss拥有百分比伤害" = []
+		#Boss Has Damage Cap
+		"Boss拥有限伤" = []
+		#Boss Has Damage Cooldown Tick
+		"Boss拥有无敌帧" = []
+
+		[Attributes.Boss."Piglin Raid Nether Portal"]
+			#[Boss] Max Health : 300.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Piglin Raid Nether Portal Max Health" = 300.0
+			#[Boss] Melee Damage : 6.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Piglin Raid Nether Portal Melee Damage" = 6.0
+			#[Boss] Armor : 5.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Piglin Raid Nether Portal Armor" = 5.0
+			#[Boss] Movement Speed : 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Piglin Raid Nether Portal Movement Speed" = 0.0
+			#[Boss] Attack Knockback : 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Piglin Raid Nether Portal Attack Knockback" = 0.0
+			#[Boss] Knockback Resistance : 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Piglin Raid Nether Portal Knockback Resistance" = 1.0
+			#[Boss] Round Time : 300.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Piglin Raid Nether Portal Round Time" = 300.0
+			#[Boss] Level Add Round Time : 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Piglin Raid Nether Portal Level Add Round Time" = 15.0
+			#[Boss] Attack Percentage : 5.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Piglin Raid Nether Portal Attack Percentage" = 5.0
+			#[Boss] Magic Attack Percentage : 5.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Piglin Raid Nether Portal Magic Attack Percentage" = 5.0
+			#[Boss] Damage Cap : 20
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Piglin Raid Nether Portal Damage Cap" = 20.0
+			#[Boss] Damage Cooldown Tick : 20
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Piglin Raid Nether Portal Damage Cooldown Tick" = 20.0
+			#Piglin Raid Nether Portal Boss Bar Color
+			#Range: 0 ~ 6
+			"猪灵袭击下界传送门Boss血条颜色" = 0
+			#Piglin Raid Nether Portal Boss Bar Name Color
+			#Range: > 0
+			"猪灵袭击下界传送门Boss血条名字颜色" = 2752587
+
+		[Attributes.Boss."The Black Gold Marshal"]
+			#[Boss] Max Health : 320.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Max Health" = 320.0
+			#[Boss] Melee Damage : 12.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Melee Damage" = 12.0
+			#[Boss] Armor : 5.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Armor" = 5.0
+			#[Boss] Movement Speed : 0.40
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Movement Speed" = 0.4
+			#[Boss] Attack Knockback : 0.5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Attack Knockback" = 0.5
+			#[Boss] Knockback Resistance : 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Knockback Resistance" = 1.0
+			#[Boss] Block Gold Ground Crack Cooldown : 18.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Block Gold Ground Crack Cooldown" = 18.0
+			#[Boss] Crossbow Shoot Cooldown : 18.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Crossbow Shoot Cooldown" = 18.0
+			#[Boss] Drop Equipment Chance : 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Drop Equipment Chance" = 0.0
+			#[Boss] Spell Normal Level : 5
+			#Range: > 0
+			"The Black Gold Marshal Spell Normal Level" = 5
+			#[Boss] Break Block Cooldown : 1.5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Break Block Cooldown" = 1.5
+			#[Boss] Attack Percentage : 5.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Attack Percentage" = 5.0
+			#[Boss] Magic Attack Percentage : 5.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Magic Attack Percentage" = 5.0
+			#[Boss] Damage Cap : 22
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Damage Cap" = 999.0
+			#[Boss] Damage Cooldown Tick : 20
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Damage Cooldown Tick" = 20.0
+			#The Black Gold Marshal Boss Bar Color
+			#Range: 0 ~ 6
+			"黑金军主Boss血条颜色" = 4
+			#The Black Gold Marshal Boss Bar Name Color
+			#Range: > 0
+			"黑金军主Boss血条名字颜色" = 13861682
+			#[Boss] Block Gold Order Cooldown : 60.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"The Black Gold Marshal Block Gold  Order Cooldown" = 60.0
+

@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:item",
+  "item": "minecraft:netherite_ingot",
+  "id": "sdm:netherite"
+}

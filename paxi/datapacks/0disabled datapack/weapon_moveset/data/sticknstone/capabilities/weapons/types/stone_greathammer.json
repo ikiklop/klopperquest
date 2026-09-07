@@ -1,0 +1,89 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.5,
+      0.8,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "livingmotion_modifier": {
+    "one_hand": {
+      "fall": "epicfight:biped/living/hold_greatsword",
+      "idle": "efn:biped/ng_greatsword/ng_great_idle",
+      "run": "efn:biped/ng_greatsword/ng_great_run",
+      "block": "wom:biped/skill/solar_guard",
+      "sneak": "wom:biped/living/torment_berserk_idle",
+      "swim": "cdmoveset:biped/new/dual_greatsword/living/run_greatsword",
+      "kneel": "epicfight:biped/living/hold_greatsword",
+      "walk": "efn:biped/ng_greatsword/ng_great_walk",
+      "sit": "wom:biped/living/torment_berserk_idle"
+    },
+    "ochs": {
+      "fall": "wom:biped/living/solar_obscuridad_idle",
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_idle",
+      "run": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_run",
+      "block": "wom:biped/skill/solar_guard",
+      "sneak": "reimportrob:biped/asanginxst_sneak",
+      "swim": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_idle",
+      "walk": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_walk",
+      "kneel": "reimportrob:biped/reascer_old_sowrd_onehand_kneel"
+    }
+  },
+  "hit_particle": "wom:antitheus_punch_hit",
+  "hit_sound": "simplyswords:elemental_sword_earth_attack_02",
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "greatsword"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "ochs",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "greatsword"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "one_hand": [
+      "reimportrob:biped/asanginxst_greatsword_auto1",
+      "wom:biped/combat/torment_auto_1",
+      "efn:biped/ng_greatsword/ng_great_auto1",
+      "wom:biped/combat/solar_auto_1",
+      "efn:biped/ng_greatsword/ng_great_auto3",
+      "wom:biped/combat/solar_auto_2",
+      "wom:biped/combat/solar_horno"
+    ],
+    "ochs": [
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dual_auto_1",
+      "efn:biped/exsiliumgladius_reborn/exsiliumgladius_aab",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dual_auto_2",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dual_auto_3",
+      "efn:biped/exsiliumgladius_reborn/exsiliumgladius_ab",
+	  "efn:biped/exsiliumgladius_reborn/exsiliumgladius_aabb",
+	  "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dual_auto_4",
+      "wom:biped/combat/torment_dash",
+      "cdmoveset:biped/new/dual_tachi/rising_skill"
+    ]
+  },
+  "category": "greatsword",
+  "innate_skills": {
+    "one_hand": "s_epicfied:charged_slam",
+    "ochs": "cdmoveset:greatsword_dual_skill"
+  },
+  "usable_in_offhand": true
+}

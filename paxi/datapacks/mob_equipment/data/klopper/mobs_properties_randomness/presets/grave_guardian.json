@@ -1,0 +1,90 @@
+{
+    "properties": [
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "Grave Guardian Health",
+            "amount": {
+                "min": 60,
+                "max": 60
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.attack_damage",
+            "modifier_name": "Grave Guardian Damage",
+            "amount": {
+                "min": 6,
+                "max": 6
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "scale",
+            "scale": 1.2,
+            "scale_types": [
+                "pehkui:base"
+            ],
+            "operation": "set"
+        },
+        {
+            "property": "custom_name",
+            "overrides": ["Grave Guardian"]
+        },
+        {
+            "property": "equipment",
+            "slot": "head",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:tombwarden_helmet",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "chest",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:tombwarden_chestplate",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "legs",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:kamath_armor_leggings",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "feet",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:blacksmith_boots",
+                    "weight": 1
+                },
+                {
+                    "item": "dungeons_and_combat:rogue_boots",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:ebony_long_sword",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

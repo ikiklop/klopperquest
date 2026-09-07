@@ -1,0 +1,33 @@
+
+["Soul Like Boss Battle"]
+	SoulLikeBossBattleOn = true
+	#Soul Like Boss Battle entity id.
+	SoulLikeBossBattleEntity = ["minecraft:wither", "minecraft:ender_dragon", "minecraft:warden", "cataclysm:ancient_remnant", "cataclysm:the_leviathan", "cataclysm:the_harbinger", "cataclysm:netherite_monstrosity", "cataclysm:ignis", "cataclysm:ender_guardian", "cataclysm:maledictus", "cataclysm:scylla", "irons_spellbooks:dead_king", "irons_spellbooks:fire_boss", "alexsmobs:void_worm", "alexsmobs:void_worm_part", "ba_bt:land_golem", "ba_bt:ocean_golem", "ba_bt:core_golem", "ba_bt:nether_golem", "ba_bt:sky_golem", "ba_bt:end_golem", "aether:valkyrie", "tcr_bosses:citadel_keeper", "tcr_bosses:gilded_hunter", "tcr_bosses:valkyrie", "tcr_bosses:evening_ghost", "tcr_bosses:golden_executor", "tcr_bosses:scylla_humanoid", "tcr_bosses:ancient_remnant_humanoid", "tcr_bosses:harbinger_humanoid", "tcr_bosses:maledictus_humanoid", "tcr_bosses:netherite_humanoid", "tcr_bosses:ender_guardian_humanoid", "tcr_bosses:leviathan_humanoid", "tcr_bosses:ignis_humanoid"]
+	#Radius of Soul Like Boss Battle. Minimum is 1, maximum is 1024.(Default is 64 blocks)
+	#Range: 1 ~ 1024
+	BossBattleDistance = 64
+	#Soul Like Boss Battle valid player's gamemode: [survival, adventure, creative, spectator]
+	PlayerGamemode = ["survival", "adventure"]
+	#Iron Golem entity id.
+	IronGolemEntity = ["minecraft:iron_golem"]
+	#Not allow Iron Golem hurt BOSS.
+	#Not allow Iron Golem hurt BOSS.
+	AntiIronGolem = true
+	#Enable Soul Like Boss Battle remove effects
+	RemoveEffect = true
+	#Effects that will NOT be removed when RemoveEffect clears the boss's effects. 
+	#Use full effect registry ids, e.g. "minecraft:glowing". Leave empty to remove all effects.
+	RemoveEffectExcept = ["minecraft:glowing"]
+	#Enable scaling boss health and damage based on number of nearby players.
+	MultiplierPerPlayerOn = true
+	#Enable scaling boss health and damage based on number of online players. (have priority)
+	MultiplierPerOnlinePlayerOn = true
+	#Multiplier per additional player for boss health. When two or more players are near, each extra player increases boss health by this percentage (e.g., 0.25 = +25% per player).
+	#Range: 0.0 ~ 1000.0
+	HpMultiplierPerPlayer = 0.25
+	#Multiplier per additional player for boss damage. When two or more players are near, each extra player increases boss damage by this percentage (e.g., 0.25 = +25% per player).
+	#Range: 0.0 ~ 1000.0
+	DmgMultiplierPerPlayer = 0.25
+	#Debug log output
+	Debug = false
+

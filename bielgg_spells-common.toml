@@ -1,0 +1,78 @@
+
+[lightweight]
+	#Enables The Broken Script, Unstable spells, items, structures and related mechanics.
+	#Restart the game/server after changing this option.
+	enableUnstableContent = false
+	#Enables the Relicron school and EEEAB's Mobs integration content.
+	#This option only has an effect while eeeabsmobs is installed.
+	#Restart the game/server after changing this option.
+	enableRelicronContent = false
+	#Enables the Infinity school and Avaritia integration content.
+	#This option only has an effect while avaritia is installed.
+	#Restart the game/server after changing this option.
+	enableInfinityContent = false
+	#Enables the Tainted school and Cracker's Wither Storm Mod integration content.
+	#This option only has an effect while witherstormmod is installed.
+	#Restart the game/server after changing this option.
+	enableTaintedContent = false
+	#Enables the Mirroring spell and its creative-tab scroll.
+	#Restart the game/server after changing this option.
+	enableMirroringSpell = false
+	#Shows BielGG's Spells message when a player joins a world or server.
+	showLoginMessage = false
+	#Makes BielGG's summon spells use Iron's Spells 'n Spellbooks summon/recast logic.
+	#While enabled, a second cast of the same summon spell uses ISS recast behavior instead of creating another group.
+	#The custom simultaneous Summoned Knight, Shade and Relicron summon limits are ignored.
+	#Restart the game/server after changing this option.
+	issSummonLogic = false
+	#Power and resistance multiplier for any Iron's Spellbooks school.
+	#School power controls spell damage, range, duration and other spell-specific scaling.
+	#Values below 1.0 weaken a school: 0.5 = 50%, 0.25 = 25%, and 0.0 = no scaling power.
+	#Format: modid:school=multiplier. Examples:
+	#bielgg_spells:shadow=0.5
+	#bielgg_spells:unstable=1.0
+	#irons_spellbooks:fire=1.25
+	schoolMultipliers = ["bielgg_spells:shadow=1.0", "bielgg_spells:unstable=1.0", "bielgg_spells:relicron=1.0", "bielgg_spells:infinity=1.0", "bielgg_spells:tainted=1.0"]
+	#Individual power multiplier for BielGG's Spells.
+	#This is combined with the spell's school multiplier and Iron's native power_multiplier.
+	#Values below 1.0 nerf one spell without weakening its entire school.
+	#Format: bielgg_spells:spell_name=multiplier.
+	spellMultipliers = ["bielgg_spells:the_final_breath=1.0", "bielgg_spells:death_sorrows=1.0", "bielgg_spells:mirroring=1.0", "bielgg_spells:snowgrave=1.0", "bielgg_spells:rude_buster=1.0", "bielgg_spells:ice_shock=1.0", "bielgg_spells:fire_shock=1.0", "bielgg_spells:pacify=1.0", "bielgg_spells:x_slash=1.0", "bielgg_spells:bone_volley=1.0", "bielgg_spells:bone_corridor=1.0", "bielgg_spells:blue_bone_barrage=1.0", "bielgg_spells:gravity_slam=1.0", "bielgg_spells:gaster_blaster=1.0", "bielgg_spells:bad_time=1.0", "bielgg_spells:laser_ex3=1.0", "bielgg_spells:glitch_projectiles=1.0", "bielgg_spells:file_collection=1.0", "bielgg_spells:earth_corruption=1.0", "bielgg_spells:unstable_blink=1.0", "bielgg_spells:unstable_bombardment=1.0", "bielgg_spells:multi_task=1.0", "bielgg_spells:surge_array=1.0", "bielgg_spells:pulse_grenade_fan=1.0", "bielgg_spells:observer_storm=1.0", "bielgg_spells:ripper_cyclone=1.0", "bielgg_spells:annihilation_protocol=1.0", "bielgg_spells:guardian_blades=1.0", "bielgg_spells:guardian_laser=1.0", "bielgg_spells:realmquake=1.0", "bielgg_spells:immortal_shuriken=1.0", "bielgg_spells:poison_arrow_volley=1.0", "bielgg_spells:shaman_bombardment=1.0", "bielgg_spells:blood_orb_rite=1.0", "bielgg_spells:immortal_laser=1.0", "bielgg_spells:immortal_matrix=1.0", "bielgg_spells:crimson_judgment=1.0", "bielgg_spells:corpse_cohort=1.0", "bielgg_spells:immortal_vanguard=1.0", "bielgg_spells:relicron_patrol=1.0", "bielgg_spells:crystal_barrage=1.0", "bielgg_spells:prism_rain=1.0", "bielgg_spells:knife_dance=1.0", "bielgg_spells:void_slash=1.0", "bielgg_spells:star_shard=1.0", "bielgg_spells:rapid_cut=1.0", "bielgg_spells:cutting_vortex=1.0", "bielgg_spells:puppeting=1.0", "bielgg_spells:glint=1.0", "bielgg_spells:beam_of_fear=1.0", "bielgg_spells:dark_fan=1.0", "bielgg_spells:shadow_control=1.0", "bielgg_spells:ultra_penumbra=1.0", "bielgg_spells:summon_knight=1.0", "bielgg_spells:summon_shade=1.0", "bielgg_spells:roaring=1.0"]
+
+	[lightweight.spells]
+		#Enables the Snowgrave spell. Restart the game/server after changing this option.
+		enableSnowgrave = true
+		#Enables the Rude Buster spell. Restart the game/server after changing this option.
+		enableRudeBuster = true
+		#Enables the IceShock spell. Restart the game/server after changing this option.
+		enableIceShock = true
+		#Enables the FireShock spell. Restart the game/server after changing this option.
+		enableFireShock = true
+		#Enables the Pacify spell. Restart the game/server after changing this option.
+		enablePacify = false
+		#Allows eligible hostile mobs below 40% health to become Tired.
+		#Disabling Pacify also disables this mechanic.
+		enableTiredMechanic = true
+		#Enables the X-Slash spell. Restart the game/server after changing this option.
+		enableXSlash = true
+		#Enables the complete Bone & Blaster Evocation spells content package.
+		#Restart the game/server after changing this option.
+		enableBoneAndBlasterEvocationSpells = true
+		#Base damage in hearts dealt by every Bone & Blaster Evocation hit.
+		#Individual spellMultipliers are applied afterwards and may reduce a spell to zero.
+		#The final damage can never exceed one heart per hit.
+		#Range: 0.1 ~ 1.0
+		boneAndBlasterDamageHearts = 0.5
+		#Enables the Bone Volley spell. Restart the game/server after changing this option.
+		enableBoneVolley = false
+		#Enables the Bone Corridor spell. Restart the game/server after changing this option.
+		enableBoneCorridor = false
+		#Enables the Blue Bone Barrage spell. Restart the game/server after changing this option.
+		enableBlueBoneBarrage = false
+		#Enables the Gravity Slam spell. Restart the game/server after changing this option.
+		enableGravitySlam = false
+		#Enables the Gaster Blaster spell. Restart the game/server after changing this option.
+		enableGasterBlaster = false
+		#Enables the Bad Time spell. Restart the game/server after changing this option.
+		enableBadTime = false
+

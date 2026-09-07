@@ -1,0 +1,634 @@
+
+#General boss attributes.
+[General_Stats]
+	#Maximum health of the custom Wither
+	#Range: 1.0 ~ 100000.0
+	witherMaxHealth = 500.0
+	#Global multiplier for all Wither damage output
+	#Range: 0.0 ~ 100.0
+	globalDamageMultiplier = 1.0
+
+#AI attack weights and cooldowns (Cooldowns in ticks)
+[AI_Behavior]
+	#Range: 0 ~ 10000
+	cooldownSlam = 100
+	#Range: 0 ~ 10000
+	cooldownShotgun = 140
+	#Range: 0 ~ 10000
+	cooldownTackle = 80
+	#Range: 0 ~ 10000
+	cooldownStrafe = 60
+	#Range: 0 ~ 10000
+	cooldownSkyTurret = 160
+	#Range: 0 ~ 10000
+	cooldownChargeExplosion = 200
+	#Range: 0 ~ 10000
+	cooldownHover = 40
+	#Range: 0 ~ 10000
+	cooldownCrescentSweep = 80
+	#Range: 0 ~ 10000
+	cooldownUppercut = 100
+	#Range: 0 ~ 10000
+	cooldownSprinkler = 260
+	#Range: 0 ~ 1000
+	weightSlam = 25
+	#Range: 0 ~ 1000
+	weightShotgun = 50
+	#Range: 0 ~ 1000
+	weightTackle = 50
+	#Range: 0 ~ 1000
+	weightStrafe = 50
+	#Range: 0 ~ 1000
+	weightSkyTurret = 15
+	#Range: 0 ~ 1000
+	weightChargeExplosion = 15
+	#Range: 0 ~ 1000
+	weightHover = 100
+	#Range: 0 ~ 1000
+	weightCrescentSweep = 50
+	#Range: 0 ~ 1000
+	weightUppercut = 50
+	#Range: 0 ~ 1000
+	weightSprinkler = 80
+
+#Settings for Wither terrain destruction per attack.
+[Block_Breaking]
+	#Master toggle for Wither Skulls. If false, projectiles NEVER break blocks.
+	skullsBreakBlocks = true
+	chargeBreaksBlocks = true
+	crescentSweepBreaksBlocks = true
+	deathSequenceBreaksBlocks = true
+	hoverBreaksBlocks = true
+	shotgunBreaksBlocks = true
+	skyTurretBreaksBlocks = true
+	slamBreaksBlocks = true
+	sprinklerBreaksBlocks = true
+	strafeBreaksBlocks = true
+	tackleBreaksBlocks = true
+	phaseTwoTransitionBreaksBlocks = true
+	uppercutBreaksBlocks = true
+	uppercutSlamBreaksBlocks = true
+
+#Fine-tune the mechanics, damage, and timings of every attack.
+[Attacks]
+
+	[Attacks.Charge_Explosion]
+
+		#Timing and mechanics (Durations in ticks [20 = 1s], Distances in blocks, Speeds in blocks/tick)
+		[Attacks.Charge_Explosion.Timing_And_Mechanics]
+			#Range: 1 ~ 1000
+			minChargeTicks = 60
+			#Range: 1 ~ 1000
+			tellFreezeTicks = 15
+			#Range: 1 ~ 1000
+			flashTicksBeforeLaunch = 5
+			#Range: 1 ~ 10000
+			maxBackupTicks = 200
+			#Range: 0.0 ~ 100.0
+			minChargeDistance = 16.0
+			#Range: 0.0 ~ 200.0
+			maxChargeDistance = 80.0
+			#Range: 0.0 ~ 100.0
+			abortChargeDistance = 16.0
+			#Range: 1 ~ 1000
+			executeDurationP1 = 40
+			#Range: 1 ~ 1000
+			recoverDurationP1 = 20
+			#Range: 0.1 ~ 20.0
+			dashSpeedP1 = 4.0
+			#Range: 0.0 ~ 10.0
+			collisionSizeP1 = 0.2
+			#Range: 0.0 ~ 20.0
+			knockbackPowerP1 = 1.5
+			#Range: 1 ~ 1000
+			executeDurationP2 = 40
+			#Range: 1 ~ 1000
+			recoverDurationP2 = 10
+			#Range: 0.1 ~ 20.0
+			dashSpeedP2 = 5.5
+			#Range: 0.0 ~ 10.0
+			collisionSizeP2 = 0.2
+			#Range: 0.0 ~ 20.0
+			knockbackPowerP2 = 3.5
+
+		#Damage settings (Values are in health points, 2.0 points = 1 full heart)
+		[Attacks.Charge_Explosion.Damage_Settings]
+			#Range: 0.0 ~ 1000.0
+			collisionDamageP1 = 150.0
+			#Range: 0.0 ~ 1000.0
+			collisionDamageP2 = 200.0
+
+	[Attacks.Crescent_Sweep]
+
+		#Timing and mechanics (Durations in ticks [20 = 1s], Distances in blocks, Speeds in blocks/tick)
+		[Attacks.Crescent_Sweep.Timing_And_Mechanics]
+			#Range: 1 ~ 1000
+			windup = 5
+			#Range: 1 ~ 1000
+			recover = 5
+			#Pause Between Sweeps in Phase 2
+			#Range: 0 ~ 1000
+			comboPauseTicks = 3
+			#Range: 0.1 ~ 50.0
+			p1SweepVelocity = 8.0
+			#Range: 0.1 ~ 50.0
+			p2SweepVelocity = 12.0
+			#Range: 1 ~ 100
+			minSweepTicks = 4
+			#Range: 0.0 ~ 50.0
+			p2ComboLungeDistance = 4.5
+			#Range: 0.0 ~ 10.0
+			launchVelocity = 1.75
+			#Range: 0.0 ~ 1.0
+			activeFrameStart = 0.15
+			#Range: 0.0 ~ 1.0
+			activeFrameEnd = 0.85
+			#Range: 0.1 ~ 10.0
+			bladeThickness = 0.8
+			#Range: 0.1 ~ 20.0
+			bladeReachDown = 2.5
+			#Range: 0.1 ~ 20.0
+			bladeReachUp = 1.5
+			#Range: 0.0 ~ 10.0
+			bladeForwardOffset = 1.0
+			#Range: 1.0 ~ 50.0
+			arcWidth = 10.0
+			#Range: 0.0 ~ 20.0
+			windupPullback = 3.0
+			#Range: 1.0 ~ 100.0
+			maxLungeDistance = 30.0
+
+		#Damage settings (Values are in health points, 2.0 points = 1 full heart)
+		[Attacks.Crescent_Sweep.Damage_Settings]
+			#Range: 0.0 ~ 1000.0
+			attackDamage = 20.0
+
+	[Attacks.Dizzy]
+
+		#Timing and mechanics (Durations in ticks [20 = 1s])
+		[Attacks.Dizzy.Timing_And_Mechanics]
+			#Range: 1 ~ 1000
+			windup = 80
+			#Range: 1 ~ 1000
+			execute = 10
+			#Range: 1 ~ 1000
+			recover = 20
+
+	[Attacks.Hover_And_Attack]
+
+		#Timing and mechanics (Durations in ticks [20 = 1s], Distances in blocks, Speeds in blocks/tick)
+		[Attacks.Hover_And_Attack.Timing_And_Mechanics]
+			#Range: 1 ~ 10000
+			duration = 120
+			#Range: 0.0 ~ 50.0
+			orbitDistanceP1 = 8.0
+			#Range: 0.0 ~ 10.0
+			movementSpeedP1 = 0.8
+			#Range: 0.0 ~ 10.0
+			skullSpeedP1 = 0.5
+			#Range: 0 ~ 100
+			burstCooldownBaseP1 = 3
+			#Range: 0 ~ 100
+			burstCooldownVarianceP1 = 5
+			#Range: 0.0 ~ 50.0
+			orbitDistanceP2 = 8.0
+			#Range: 0.0 ~ 10.0
+			movementSpeedP2 = 0.75
+			#Range: 0.0 ~ 10.0
+			skullSpeedP2 = 1.0
+			#Range: 0 ~ 100
+			burstCooldownBaseP2 = 1
+			#Range: 0 ~ 100
+			burstCooldownVarianceP2 = 3
+			#Range: 0.0 ~ 10.0
+			spawnForwardOffset = 1.5
+			skullCausesFire = false
+			skullCausesSplashDamage = false
+			#Range: 0.0 ~ 20.0
+			skullSplashRadius = 1.0
+			#Range: 0.0 ~ 1.0
+			skullHomingStrengthP1 = 0.05
+			#Range: 0.0 ~ 1.0
+			skullHomingStrengthP2 = 0.1
+
+		#Damage settings (Values are in health points, 2.0 points = 1 full heart)
+		[Attacks.Hover_And_Attack.Damage_Settings]
+			#Range: 0.0 ~ 1000.0
+			damageP1 = 6.0
+			#Range: 0.0 ~ 1000.0
+			damageP2 = 10.0
+			#Range: 0.0 ~ 20.0
+			skullExplosionPower = 1.0
+
+	[Attacks.Phase_Two_Transition]
+
+		#Timing and mechanics (Durations in ticks [20 = 1s], Distances in blocks, Speeds in blocks/tick)
+		[Attacks.Phase_Two_Transition.Timing_And_Mechanics]
+			#Range: 1 ~ 1000
+			riseTime = 80
+			#Range: 1 ~ 10000
+			stormTime = 120
+			#Range: 1 ~ 1000
+			recover = 40
+			#Range: 0.0 ~ 360.0
+			spinSpeed = 35.0
+			#Range: 0.0 ~ 5.0
+			riseSpeed = 0.08
+			#Range: 1 ~ 100
+			skullFireFrequencyBase = 5
+			#Range: 0 ~ 100
+			skullFireFrequencyVariance = 3
+			#Range: 1 ~ 100
+			skullBurstMin = 1
+			#Range: 1 ~ 100
+			skullBurstMax = 5
+			#Range: 0.0 ~ 100.0
+			skullRadiusMin = 3.0
+			#Range: 0.0 ~ 100.0
+			skullRadiusMax = 18.0
+			#Range: -1.0 ~ 5.0
+			skullCustomGravityBase = 0.05
+			#Range: 1.0 ~ 200.0
+			skullFlightTimeBase = 30.0
+			skullCausesFire = false
+
+		#Damage settings (Values are in health points, 2.0 points = 1 full heart)
+		[Attacks.Phase_Two_Transition.Damage_Settings]
+			#Range: 0.0 ~ 1000.0
+			skullDamage = 15.0
+			#Range: 0.0 ~ 20.0
+			skullBlastPower = 2.5
+
+	[Attacks.Shotgun_Barrage]
+
+		#Timing and mechanics (Durations in ticks [20 = 1s], Distances in blocks, Speeds in blocks/tick)
+		[Attacks.Shotgun_Barrage.Timing_And_Mechanics]
+			#Range: 1 ~ 100
+			skullsPerShot = 5
+			#Range: 0.1 ~ 20.0
+			skullSpeed = 3.2
+			#Range: 0.0 ~ 5.0
+			skullSpread = 0.1
+			skullCausesFire = false
+			#Range: 1 ~ 1000
+			recover = 15
+			#How many blocks deep each pellet can punch through in a straight line on impact. This is separate from skullExplosionRadius below - it doesn't widen the blast or splash damage, it just lets the bullet itself tunnel through that many layers of wall.
+			#Range: 0 ~ 20
+			drillDepth = 3
+
+		#Damage settings (Values are in health points, 2.0 points = 1 full heart)
+		[Attacks.Shotgun_Barrage.Damage_Settings]
+			#Range: 0.0 ~ 1000.0
+			skullDamage = 10.0
+			#Range: 0.0 ~ 20.0
+			skullExplosionRadius = 1.0
+
+	[Attacks.Sky_Turret]
+
+		#Timing and mechanics (Durations in ticks [20 = 1s], Distances in blocks, Speeds in blocks/tick)
+		[Attacks.Sky_Turret.Timing_And_Mechanics]
+			#Range: 1 ~ 1000
+			windupP1 = 80
+			#Range: 1 ~ 1000
+			executeP1 = 80
+			#Range: 1 ~ 1000
+			recoverP1 = 20
+			#Range: 1 ~ 100
+			firingIntervalP1 = 8
+			#Range: 0.1 ~ 20.0
+			launchPowerP1 = 2.5
+			#Range: 0.0 ~ 20.0
+			hurtRadiusP1 = 1.5
+			#Range: 1 ~ 1000
+			windupP2 = 40
+			#Range: 1 ~ 1000
+			executeP2 = 120
+			#Range: 1 ~ 1000
+			recoverP2 = 20
+			#Range: 1 ~ 100
+			lightFiringIntervalP2 = 3
+			#Range: 0.1 ~ 20.0
+			launchPowerP2Light = 1.5
+			#Range: 0.0 ~ 20.0
+			hurtRadiusP2Light = 1.5
+			#Range: 1 ~ 100
+			heavyFiringIntervalP2 = 18
+			#Range: 0.1 ~ 20.0
+			launchPowerP2Heavy = 2.0
+			#Range: 0.0 ~ 1000.0
+			damageP2Heavy = 32.0
+			#Range: 0.0 ~ 20.0
+			blastPowerP2Heavy = 3.0
+			#Range: 0.0 ~ 20.0
+			hurtRadiusP2Heavy = 2.0
+			#Range: 1.0 ~ 100.0
+			artilleryHeight = 10.0
+			#Range: 0 ~ 20
+			clearingRadius = 5
+			skullCausesFire = true
+
+		#Damage settings (Values are in health points, 2.0 points = 1 full heart)
+		[Attacks.Sky_Turret.Damage_Settings]
+			#Range: 0.0 ~ 1000.0
+			damageP1 = 6.0
+			#Range: 0.0 ~ 20.0
+			blastPowerP1 = 1.0
+			#Range: 0.0 ~ 1000.0
+			damageP2Light = 6.0
+			#Range: 0.0 ~ 20.0
+			blastPowerP2Light = 1.0
+
+	[Attacks.Slam]
+
+		#Timing for the slam is based on when the wither hits the peak. It doesn't have a timer. It's based on the block height and the wither's ascent velocity. Descent speed is controlled by slamVelocityP1/P2 below - the attack now tracks the target continuously through the hang and the fall itself, not just during the ascent.
+		[Attacks.Slam.Timing_And_Mechanics]
+			#Range: 1.0 ~ 200.0
+			apexHeightOffset = 48.0
+			#Range: 0.1 ~ 10.0
+			ascentSpeed = 1.5
+			#Range: 0.0 ~ 2.0
+			ascentTrackingHorizontalP1 = 0.15
+			#Range: 0.0 ~ 2.0
+			ascentTrackingHorizontalP2 = 0.3
+			#Range: 1 ~ 1000
+			windupP1 = 80
+			#Range: 1 ~ 1000
+			executeP1 = 100
+			#Range: 1 ~ 1000
+			recoverP1 = 60
+			#Range: 1 ~ 20
+			maxSlamsP1 = 1
+			#Range: 0.0 ~ 50.0
+			impactRadiusP1 = 3.0
+			#Range: 0.0 ~ 50.0
+			shockwaveRadiusP1 = 2.0
+			#Range: -20.0 ~ -0.1
+			slamVelocityP1 = -5.5
+			#Range: 0.1 ~ 20.0
+			collisionSizeP1 = 2.0
+			#Range: 1 ~ 1000
+			windupP2 = 60
+			#Range: 1 ~ 1000
+			executeP2 = 100
+			#Range: 1 ~ 1000
+			recoverP2 = 30
+			#Range: 1 ~ 20
+			maxSlamsP2 = 3
+			#Range: 0.0 ~ 50.0
+			impactRadiusP2 = 4.0
+			#Range: 0.0 ~ 50.0
+			shockwaveRadiusP2 = 2.0
+			#Range: -20.0 ~ -0.1
+			slamVelocityP2 = -6.5
+			#Range: 0.1 ~ 20.0
+			collisionSizeP2 = 2.0
+
+		#Damage settings (Values are in health points, 2.0 points = 1 full heart)
+		[Attacks.Slam.Damage_Settings]
+			#Range: 0.0 ~ 1000.0
+			collisionDamageP1 = 150.0
+			#Range: 0.0 ~ 1000.0
+			shockwaveDamageP1 = 15.0
+			#Range: 0.0 ~ 1000.0
+			collisionDamageP2 = 200.0
+			#Range: 0.0 ~ 1000.0
+			shockwaveDamageP2 = 35.0
+
+	#Phase 2 exclusive. Wither plants in place, spins rapidly, and fires a fast single stream of arcing skulls outward as it rotates - does not require line of sight to the target, so it punishes players hiding behind cover instead of just tracking them directly.
+	[Attacks.Sprinkler]
+
+		#Timing and mechanics (Durations in ticks [20 = 1s], Distances in blocks, Speeds in degrees/tick). Default spinSpeed of 18.0 = 1 full orbit per second; execute of 40 ticks = 2 seconds = exactly 2 orbits.
+		[Attacks.Sprinkler.Timing_And_Mechanics]
+			#Range: 1 ~ 1000
+			windup = 30
+			#Range: 1 ~ 2000
+			execute = 40
+			#Range: 1 ~ 1000
+			recover = 25
+			#Range: 0.0 ~ 360.0
+			windupSpinSpeed = 4.0
+			#Range: 0.0 ~ 360.0
+			spinSpeed = 18.0
+			#Range: 1 ~ 12
+			headsPerVolley = 1
+			#Range: 1 ~ 100
+			fireIntervalTicks = 1
+			#Range: 0.0 ~ 100.0
+			minRadius = 3.0
+			#Range: 0.0 ~ 100.0
+			maxRadius = 14.0
+			#Range: 1.0 ~ 200.0
+			flightTimeTicks = 22.0
+			#Range: -1.0 ~ 5.0
+			customGravity = 0.06
+			#Range: 0.0 ~ 10.0
+			spawnHeightOffset = 1.5
+			skullCausesFire = false
+
+		#Damage settings (Values are in health points, 2.0 points = 1 full heart)
+		[Attacks.Sprinkler.Damage_Settings]
+			#Range: 0.0 ~ 1000.0
+			skullDamage = 5.0
+			#Range: 0.0 ~ 20.0
+			skullBlastPower = 2.0
+
+	[Attacks.Strafe]
+
+		#Timing and mechanics (Durations in ticks [20 = 1s], Distances in blocks, Speeds in blocks/tick)
+		[Attacks.Strafe.Timing_And_Mechanics]
+			#Range: 1 ~ 100
+			windup = 8
+			#Range: 1 ~ 1000
+			execute = 24
+			#Range: 1 ~ 100
+			recover = 8
+			#Range: 1.0 ~ 50.0
+			idealDistance = 10.0
+			#Range: 0.0 ~ 5.0
+			forwardSpeed = 0.15
+			skullCausesFire = false
+			skullCausesSplashDamage = false
+			#Range: 0.0 ~ 20.0
+			skullSplashRadius = 1.0
+			#Range: 0.1 ~ 20.0
+			strafeSpeedP1 = 1.5
+			#Range: 0.1 ~ 20.0
+			strafeSpeedP2 = 2.5
+			#Range: 0.1 ~ 10.0
+			skullSpeedP1 = 0.4
+			#Range: 0.1 ~ 10.0
+			skullSpeedP2 = 0.8
+			#Range: 0.0 ~ 1.0
+			skullHomingStrengthP1 = 0.05
+			#Range: 0.0 ~ 1.0
+			skullHomingStrengthP2 = 0.1
+			#Range: 1 ~ 100
+			fireRateP1 = 2
+			#Range: 1 ~ 100
+			fireRateP2 = 1
+
+		#Damage settings (Values are in health points, 2.0 points = 1 full heart)
+		[Attacks.Strafe.Damage_Settings]
+			#Range: 0.0 ~ 1000.0
+			damageP1 = 6.0
+			#Range: 0.0 ~ 1000.0
+			damageP2 = 10.0
+			#Range: 0.0 ~ 20.0
+			skullExplosionPower = 1.0
+
+	[Attacks.Stunned]
+
+		#Timing and mechanics (Durations in ticks [20 = 1s])
+		[Attacks.Stunned.Timing_And_Mechanics]
+			#Range: 1 ~ 1000
+			windup = 20
+			#Range: 1 ~ 1000
+			executeP1 = 80
+			#Range: 1 ~ 1000
+			recoverP1 = 10
+			#Range: 1 ~ 1000
+			executeP2 = 40
+			#Range: 1 ~ 1000
+			recoverP2 = 5
+			#Range: 1 ~ 10000
+			immunityAfterStun = 100
+
+	[Attacks.Tackle]
+
+		#Tackle, I recommend not disabling block breaking for this attack, as it can get pretty stuck.
+		[Attacks.Tackle.Timing_And_Mechanics]
+			#Range: 1 ~ 1000
+			windup = 30
+			#Range: 1 ~ 1000
+			execute = 45
+			#Range: 1 ~ 1000
+			recoverNormal = 15
+			#Range: 1 ~ 1000
+			recoverCrashed = 60
+			#Range: 1.0 ~ 200.0
+			maxTackleDistanceP1 = 32.0
+			#Range: 1.0 ~ 200.0
+			maxTackleDistanceP2 = 48.0
+			#Range: 0.1 ~ 20.0
+			dashSpeedP1 = 2.2
+			#Range: 0.0 ~ 10.0
+			collisionSizeP1 = 0.2
+			#Range: 0.0 ~ 20.0
+			knockbackP1 = 1.5
+			#Range: 0.1 ~ 20.0
+			dashSpeedP2 = 3.5
+			#Range: 0.0 ~ 10.0
+			collisionSizeP2 = 0.25
+			#Range: 0.0 ~ 20.0
+			knockbackP2 = 3.0
+			#Range: 0.0 ~ 100.0
+			minChargeDistance = 16.0
+			#Range: 0.1 ~ 10.0
+			retreatSpeed = 2.0
+			#Range: 0.1 ~ 20.0
+			orbitSpeed = 1.75
+			#Phase 2 windup retreat/orbit speeds have their own dedicated values instead of just multiplying the phase 1 ones, so they can be tuned to feel punchy without touching phase 1's pacing.
+			#Range: 0.1 ~ 20.0
+			retreatSpeedP2 = 3.2
+			#Range: 0.1 ~ 20.0
+			orbitSpeedP2 = 3.0
+
+		#Damage settings (Values are in health points, 2.0 points = 1 full heart)
+		[Attacks.Tackle.Damage_Settings]
+			#Range: 0.0 ~ 1000.0
+			damageP1 = 80.0
+			#Range: 0.0 ~ 1000.0
+			damageP2 = 150.0
+
+	[Attacks.Uppercut]
+
+		#Uppercut attack, Chase ticks is the positioning, trigger distance is the distance before the WINDUP starts. Slam is for a phase 2 follow up.
+		[Attacks.Uppercut.Timing_And_Mechanics]
+			#Range: 1 ~ 1000
+			maxChaseTicks = 100
+			#Range: 0.1 ~ 50.0
+			triggerDistance = 4.0
+			#Range: 1 ~ 1000
+			windupTicks = 5
+			#Range: 1 ~ 1000
+			slamDelayTicks = 40
+			#Range: 1 ~ 1000
+			recover = 30
+			#Range: 0.1 ~ 50.0
+			p1SweepVelocity = 3.8
+			#Range: 0.1 ~ 50.0
+			p2SweepVelocity = 5.5
+			#Range: 1 ~ 100
+			minSweepTicks = 4
+			#Range: 0.0 ~ 10.0
+			launchVelocity = 1.75
+			#Range: 0.0 ~ 5.0
+			slamTrackingHorizontal = 0.08
+			#Range: -20.0 ~ -0.1
+			slamVelocity = -4.0
+			#Range: 0.0 ~ 50.0
+			impactRadius = 4.0
+			#Range: 0.0 ~ 50.0
+			shockwaveRadius = 3.0
+			#Range: 0.0 ~ 1.0
+			activeFrameStart = 0.15
+			#Range: 0.0 ~ 1.0
+			activeFrameEnd = 0.9
+			#Range: 0.1 ~ 10.0
+			bladeThickness = 1.0
+			#Range: 0.1 ~ 20.0
+			bladeReach = 3.0
+			#Range: 0.0 ~ 10.0
+			bladeForwardOffset = 0.5
+
+		#Damage settings (Values are in health points, 2.0 points = 1 full heart)
+		[Attacks.Uppercut.Damage_Settings]
+			#Range: 0.0 ~ 1000.0
+			slamCollisionDamage = 20.0
+			#Range: 0.0 ~ 1000.0
+			slamShockwaveDamage = 15.0
+			#Range: 0.0 ~ 1000.0
+			attackDamage = 1.0
+
+	[Attacks.Death_Sequence]
+
+		#windupTime/desperationTime/recover are timed to the music - don't change them.
+		[Attacks.Death_Sequence.Timing_And_Mechanics]
+			#Range: 1 ~ 1000
+			windupTime = 10
+			#Range: 1 ~ 10000
+			desperationTime = 230
+			#Range: 1 ~ 1000
+			recover = 10
+			#Ticks of climbing before the end of desperationTime. 30 = liftoff at tick 200/230.
+			#Range: 1 ~ 1000
+			ascensionTicks = 30
+			#Liftoff climb speed, blocks/tick.
+			#Range: 0.05 ~ 10.0
+			riseSpeed = 2.4
+			#Liftoff height cap, blocks above the anchor point.
+			#Range: 1.0 ~ 300.0
+			maxRiseHeight = 32.0
+			#Dash target radius around the anchor point.
+			#Range: 1.0 ~ 100.0
+			boxRadiusXZ = 16.0
+			#Range: 1.0 ~ 200.0
+			maxDashDistance = 20.0
+			#Range: 0.1 ~ 20.0
+			dashSpeed = 3.0
+			#Range: -1.0 ~ 5.0
+			skullCustomGravityBase = 0.05
+			skullCausesFire = false
+			finalExplosionFire = true
+			#Range: 1 ~ 100000
+			cloudDuration = 3600
+
+		#Damage settings (Values are in health points, 2.0 points = 1 full heart)
+		[Attacks.Death_Sequence.Damage_Settings]
+			#Range: 0.0 ~ 1000.0
+			skullDamage = 1.0
+			#Range: 0.0 ~ 20.0
+			skullBlastPower = 0.5
+			#Range: 0.0 ~ 200.0
+			finalExplosionPower = 20.0
+

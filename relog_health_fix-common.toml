@@ -1,0 +1,4 @@
+#登录后恢复生命值前等待的服务器 tick 数，默认 60 tick
+#Range: > 0
+restoreDelayTicks = 200
+

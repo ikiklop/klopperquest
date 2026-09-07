@@ -1,0 +1,12 @@
+{
+  "confirmTypeInFinalQuit": "SCREEN",
+  "confirmTypeInSingleplayer": "SCREEN",
+  "confirmTypeInMultiplayer": "SCREEN",
+  "enableScreenShortcutKey": true,
+  "buttonWaitTime": 1000,
+  "enableTextFieldConfirm": false,
+  "textFieldConfirmText": "BocchiChan",
+  "confirmScreenStyle": "CLASSIC",
+  "toastConfirmDisplayTime": 5000,
+  "toastConfirmDelayTime": 500
+}

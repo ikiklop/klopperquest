@@ -1,0 +1,1346 @@
+{
+  "skillLocks": {
+    "minecraft:crafting_table": [
+      "building:1"
+    ],
+    "sticknstone:wooden_sai": [
+      "attack:1"
+    ],
+    "sticknstone:wooden_cutlass": [
+      "attack:1"
+    ],
+    "sticknstone:wooden_rapier": [
+      "attack:1"
+    ],
+    "sticknstone:wooden_twinblade": [
+      "attack:1"
+    ],
+    "sticknstone:wooden_chakram": [
+      "attack:1"
+    ],
+    "sticknstone:wooden_katana": [
+      "attack:1"
+    ],
+    "sticknstone:wooden_warglaive": [
+      "attack:1"
+    ],
+    "sticknstone:wooden_longsword": [
+      "attack:1"
+    ],
+    "sticknstone:wooden_claymore": [
+      "attack:1"
+    ],
+    "sticknstone:wooden_spear": [
+      "attack:1"
+    ],
+    "sticknstone:wooden_glaive": [
+      "attack:1"
+    ],
+    "sticknstone:wooden_scythe": [
+      "attack:1"
+    ],
+    "sticknstone:wooden_greataxe": [
+      "attack:1"
+    ],
+    "sticknstone:wooden_halberd": [
+      "attack:1"
+    ],
+    "sticknstone:wooden_greathammer": [
+      "attack:1"
+    ],
+    "epicfight:wooden_dagger": [
+      "attack:1"
+    ],
+    "epicfight:wooden_tachi": [
+      "attack:1"
+    ],
+    "epicfight:wooden_greatsword": [
+      "attack:1"
+    ],
+    "minecraft:wooden_sword": [
+      "attack:1"
+    ],
+    "sticknstone:stone_sai": [
+      "attack:5"
+    ],
+    "sticknstone:stone_cutlass": [
+      "attack:5"
+    ],
+    "sticknstone:stone_rapier": [
+      "attack:5"
+    ],
+    "sticknstone:stone_twinblade": [
+      "attack:5"
+    ],
+    "sticknstone:stone_chakram": [
+      "attack:5"
+    ],
+    "sticknstone:stone_katana": [
+      "attack:5"
+    ],
+    "sticknstone:stone_warglaive": [
+      "attack:5"
+    ],
+    "sticknstone:stone_longsword": [
+      "attack:5"
+    ],
+    "sticknstone:stone_claymore": [
+      "attack:5"
+    ],
+    "sticknstone:stone_spear": [
+      "attack:5"
+    ],
+    "sticknstone:stone_glaive": [
+      "attack:5"
+    ],
+    "sticknstone:stone_scythe": [
+      "attack:5"
+    ],
+    "sticknstone:stone_greataxe": [
+      "attack:5"
+    ],
+    "sticknstone:stone_halberd": [
+      "attack:5"
+    ],
+    "sticknstone:stone_greathammer": [
+      "attack:5"
+    ],
+    "epicfight:stone_dagger": [
+      "attack:5"
+    ],
+    "epicfight:stone_tachi": [
+      "attack:5"
+    ],
+    "epicfight:stone_greatsword": [
+      "attack:5"
+    ],
+    "minecraft:stone_sword": [
+      "attack:5"
+    ],
+    "simplyswords:iron_sai": [
+      "attack:10"
+    ],
+    "epicfight:iron_dagger": [
+      "attack:10"
+    ],
+    "simplyswords:iron_cutlass": [
+      "attack:10"
+    ],
+    "simplyswords:iron_rapier": [
+      "attack:10"
+    ],
+    "simplyswords:iron_twinblade": [
+      "attack:10"
+    ],
+    "minecraft:iron_sword": [
+      "attack:10"
+    ],
+    "simplyswords:iron_chakram": [
+      "attack:10"
+    ],
+    "simplyswords:iron_katana": [
+      "attack:10"
+    ],
+    "epicfight:iron_tachi": [
+      "attack:10"
+    ],
+    "simplyswords:iron_warglaive": [
+      "attack:10"
+    ],
+    "simplyswords:iron_longsword": [
+      "attack:10"
+    ],
+    "simplyswords:iron_claymore": [
+      "attack:10"
+    ],
+    "simplyswords:iron_spear": [
+      "attack:10"
+    ],
+    "simplyswords:iron_glaive": [
+      "attack:10"
+    ],
+    "epicfight:iron_greatsword": [
+      "attack:10"
+    ],
+    "simplyswords:iron_scythe": [
+      "attack:10"
+    ],
+    "simplyswords:iron_greataxe": [
+      "attack:10"
+    ],
+    "simplyswords:iron_halberd": [
+      "attack:10"
+    ],
+    "simplyswords:iron_greathammer": [
+      "attack:10"
+    ],
+    "simplyswords:gold_sai": [
+      "attack:25"
+    ],
+    "epicfight:golden_dagger": [
+      "attack:25"
+    ],
+    "simplyswords:gold_cutlass": [
+      "attack:25"
+    ],
+    "simplyswords:gold_rapier": [
+      "attack:25"
+    ],
+    "simplyswords:gold_twinblade": [
+      "attack:25"
+    ],
+    "minecraft:golden_sword": [
+      "attack:25"
+    ],
+    "simplyswords:gold_chakram": [
+      "attack:25"
+    ],
+    "simplyswords:gold_katana": [
+      "attack:25"
+    ],
+    "epicfight:golden_tachi": [
+      "attack:25"
+    ],
+    "simplyswords:gold_warglaive": [
+      "attack:25"
+    ],
+    "simplyswords:gold_longsword": [
+      "attack:25"
+    ],
+    "simplyswords:gold_claymore": [
+      "attack:25"
+    ],
+    "simplyswords:gold_spear": [
+      "attack:25"
+    ],
+    "simplyswords:gold_glaive": [
+      "attack:25"
+    ],
+    "epicfight:golden_greatsword": [
+      "attack:25"
+    ],
+    "simplyswords:gold_scythe": [
+      "attack:25"
+    ],
+    "simplyswords:gold_greataxe": [
+      "attack:25"
+    ],
+    "simplyswords:gold_halberd": [
+      "attack:25"
+    ],
+    "simplyswords:gold_greathammer": [
+      "attack:25"
+    ],
+    "simplyswords:diamond_sai": [
+      "attack:40"
+    ],
+    "epicfight:diamond_dagger": [
+      "attack:40"
+    ],
+    "simplyswords:diamond_cutlass": [
+      "attack:40"
+    ],
+    "simplyswords:diamond_rapier": [
+      "attack:40"
+    ],
+    "simplyswords:diamond_twinblade": [
+      "attack:40"
+    ],
+    "minecraft:diamond_sword": [
+      "attack:40"
+    ],
+    "simplyswords:diamond_chakram": [
+      "attack:40"
+    ],
+    "simplyswords:diamond_katana": [
+      "attack:40"
+    ],
+    "epicfight:diamond_tachi": [
+      "attack:40"
+    ],
+    "simplyswords:diamond_warglaive": [
+      "attack:40"
+    ],
+    "simplyswords:diamond_longsword": [
+      "attack:40"
+    ],
+    "simplyswords:diamond_claymore": [
+      "attack:40"
+    ],
+    "simplyswords:diamond_spear": [
+      "attack:40"
+    ],
+    "simplyswords:diamond_glaive": [
+      "attack:40"
+    ],
+    "epicfight:diamond_greatsword": [
+      "attack:40"
+    ],
+    "simplyswords:diamond_scythe": [
+      "attack:40"
+    ],
+    "simplyswords:diamond_greataxe": [
+      "attack:40"
+    ],
+    "simplyswords:diamond_halberd": [
+      "attack:40"
+    ],
+    "simplyswords:diamond_greathammer": [
+      "attack:40"
+    ],
+    "simplyswords:netherite_sai": [
+      "attack:60"
+    ],
+    "epicfight:netherite_dagger": [
+      "attack:60"
+    ],
+    "simplyswords:netherite_cutlass": [
+      "attack:60"
+    ],
+    "simplyswords:netherite_rapier": [
+      "attack:60"
+    ],
+    "simplyswords:netherite_twinblade": [
+      "attack:60"
+    ],
+    "minecraft:netherite_sword": [
+      "attack:60"
+    ],
+    "simplyswords:netherite_chakram": [
+      "attack:60"
+    ],
+    "simplyswords:netherite_katana": [
+      "attack:60"
+    ],
+    "epicfight:netherite_tachi": [
+      "attack:60"
+    ],
+    "simplyswords:netherite_warglaive": [
+      "attack:60"
+    ],
+    "simplyswords:netherite_longsword": [
+      "attack:60"
+    ],
+    "simplyswords:netherite_claymore": [
+      "attack:60"
+    ],
+    "simplyswords:netherite_spear": [
+      "attack:60"
+    ],
+    "simplyswords:netherite_glaive": [
+      "attack:60"
+    ],
+    "epicfight:netherite_greatsword": [
+      "attack:60"
+    ],
+    "simplyswords:netherite_scythe": [
+      "attack:60"
+    ],
+    "simplyswords:netherite_greataxe": [
+      "attack:60"
+    ],
+    "simplyswords:netherite_halberd": [
+      "attack:60"
+    ],
+    "simplyswords:netherite_greathammer": [
+      "attack:60"
+    ],
+    "simplyswords:brimstone_claymore": [
+      "attack:80"
+    ],
+    "simplyswords:watcher_claymore": [
+      "attack:80"
+    ],
+    "simplyswords:storms_edge": [
+      "attack:80"
+    ],
+    "simplyswords:stormbringer": [
+      "attack:80"
+    ],
+    "simplyswords:sword_on_a_stick": [
+      "attack:80"
+    ],
+    "simplyswords:bramblethorn": [
+      "attack:80"
+    ],
+    "simplyswords:watching_warglaive": [
+      "attack:80"
+    ],
+    "simplyswords:toxic_longsword": [
+      "attack:80"
+    ],
+    "simplyswords:emberblade": [
+      "attack:80"
+    ],
+    "simplyswords:hearthflame": [
+      "attack:80"
+    ],
+    "simplyswords:soulkeeper": [
+      "attack:80"
+    ],
+    "simplyswords:twisted_blade": [
+      "attack:80"
+    ],
+    "simplyswords:soulstealer": [
+      "attack:80"
+    ],
+    "simplyswords:soulrender": [
+      "attack:80"
+    ],
+    "simplyswords:soulpyre": [
+      "attack:80"
+    ],
+    "simplyswords:frostfall": [
+      "attack:80"
+    ],
+    "simplyswords:molten_edge": [
+      "attack:80"
+    ],
+    "simplyswords:livyatan": [
+      "attack:80"
+    ],
+    "simplyswords:icewhisper": [
+      "attack:80"
+    ],
+    "simplyswords:arcanethyst": [
+      "attack:80"
+    ],
+    "simplyswords:thunderbrand": [
+      "attack:80"
+    ],
+    "simplyswords:mjolnir": [
+      "attack:80"
+    ],
+    "simplyswords:slumbering_lichblade": [
+      "attack:80"
+    ],
+    "simplyswords:waking_lichblade": [
+      "attack:80"
+    ],
+    "simplyswords:awakened_lichblade": [
+      "attack:80"
+    ],
+    "simplyswords:shadowsting": [
+      "attack:80"
+    ],
+    "simplyswords:dormant_relic": [
+      "attack:80"
+    ],
+    "simplyswords:righteous_relic": [
+      "attack:80"
+    ],
+    "simplyswords:tainted_relic": [
+      "attack:80"
+    ],
+    "simplyswords:sunfire": [
+      "attack:80"
+    ],
+    "simplyswords:harbinger": [
+      "attack:80"
+    ],
+    "simplyswords:whisperwind": [
+      "attack:80"
+    ],
+    "simplyswords:emberlash": [
+      "attack:80"
+    ],
+    "simplyswords:waxweaver": [
+      "attack:80"
+    ],
+    "simplyswords:hiveheart": [
+      "attack:80"
+    ],
+    "simplyswords:stars_edge": [
+      "attack:80"
+    ],
+    "simplyswords:wickpiercer": [
+      "attack:80"
+    ],
+    "simplyswords:tempest": [
+      "attack:80"
+    ],
+    "simplyswords:flamewind": [
+      "attack:80"
+    ],
+    "simplyswords:ribboncleaver": [
+      "attack:80"
+    ],
+    "simplyswords:decaying_relic": [
+      "attack:80"
+    ],
+    "simplyswords:magiscythe": [
+      "attack:80"
+    ],
+    "simplyswords:enigma": [
+      "attack:80"
+    ],
+    "simplyswords:magispear": [
+      "attack:80"
+    ],
+    "simplyswords:magiblade": [
+      "attack:80"
+    ],
+    "simplyswords:caelestis": [
+      "attack:80"
+    ],
+    "efn:exsiliumgladius": [
+      "attack:100"
+    ],
+    "efn:yamato_dmc_in_sheath": [
+      "attack:100"
+    ],
+    "efn:excalibur": [
+      "attack:100"
+    ],
+    "efn:nf_shortsword_2": [
+      "attack:100"
+    ],
+    "efn:yamato_dmc4_in_sheath": [
+      "attack:100"
+    ],
+    "efn:air_tachi": [
+      "attack:100"
+    ],
+    "efn:broadblade": [
+      "attack:100"
+    ],
+    "efn:nf_shortsword": [
+      "attack:100"
+    ],
+    "efn:sword_of_pioneer": [
+      "attack:100"
+    ],
+    "efn:ruinsgreatsword": [
+      "attack:100"
+    ],
+    "efn:arc_tachi": [
+      "attack:100"
+    ],
+    "efn:co_tachi": [
+      "attack:100"
+    ],
+    "efn:fire_exsiliumgladius": [
+      "attack:100"
+    ],
+    "efn:crescent_moon": [
+      "attack:100"
+    ],
+    "efn:hf_blade": [
+      "attack:100"
+    ],
+    "efn:crimson_moon": [
+      "attack:100"
+    ],
+    "efn:kusabimaru": [
+      "attack:100"
+    ],
+    "efn:hf_murasama": [
+      "attack:100"
+    ],
+    "efn:nf_claw": [
+      "attack:100"
+    ],
+    "efn:nf_dual_sword": [
+      "attack:100"
+    ],
+    "efn:thornwheel": [
+      "attack:100"
+    ],
+    "epicfight_awaken:blood_blade": [
+      "attack:80"
+    ],
+    "epicfight_awaken:rage_of_flame": [
+      "attack:80"
+    ],
+    "epicfight_awaken:darknight_pursuiters": [
+      "attack:80"
+    ],
+    "epicfight_awaken:will_of_king": [
+      "attack:80"
+    ],
+    "minecraft:leather_helmet": [
+      "defense:1"
+    ],
+    "minecraft:leather_chestplate": [
+      "defense:1"
+    ],
+    "minecraft:leather_leggings": [
+      "defense:1"
+    ],
+    "minecraft:leather_boots": [
+      "defense:1"
+    ],
+    "jerotes:copper_helmet": [
+      "defense:5"
+    ],
+    "jerotes:copper_chestplate": [
+      "defense:5"
+    ],
+    "jerotes:copper_leggings": [
+      "defense:5"
+    ],
+    "jerotes:copper_boots": [
+      "defense:5"
+    ],
+    "minecraft:iron_helmet": [
+      "defense:10"
+    ],
+    "minecraft:iron_chestplate": [
+      "defense:10"
+    ],
+    "minecraft:iron_leggings": [
+      "defense:10"
+    ],
+    "minecraft:iron_boots": [
+      "defense:10"
+    ],
+    "minecraft:golden_helmet": [
+      "defense:25"
+    ],
+    "minecraft:golden_chestplate": [
+      "defense:25"
+    ],
+    "minecraft:golden_leggings": [
+      "defense:25"
+    ],
+    "minecraft:golden_boots": [
+      "defense:25"
+    ],
+    "minecraft:diamond_helmet": [
+      "defense:40"
+    ],
+    "minecraft:diamond_chestplate": [
+      "defense:40"
+    ],
+    "minecraft:diamond_leggings": [
+      "defense:40"
+    ],
+    "minecraft:diamond_boots": [
+      "defense:40"
+    ],
+    "minecraft:netherite_helmet": [
+      "defense:60"
+    ],
+    "minecraft:netherite_chestplate": [
+      "defense:60"
+    ],
+    "minecraft:netherite_leggings": [
+      "defense:60"
+    ],
+    "minecraft:netherite_boots": [
+      "defense:60"
+    ],
+    "minecraft:wooden_pickaxe": [
+      "mining:1"
+    ],
+    "minecraft:wooden_axe": [
+      "mining:1"
+    ],
+    "minecraft:wooden_shovel": [
+      "mining:1"
+    ],
+    "minecraft:wooden_hoe": [
+      "mining:1"
+    ],
+    "minecraft:stone_pickaxe": [
+      "mining:5"
+    ],
+    "minecraft:stone_axe": [
+      "mining:5"
+    ],
+    "minecraft:stone_shovel": [
+      "mining:5"
+    ],
+    "minecraft:stone_hoe": [
+      "mining:5"
+    ],
+    "jerotes:copper_pickaxe": [
+      "mining:5"
+    ],
+    "jerotes:copper_axe": [
+      "mining:5"
+    ],
+    "jerotes:copper_shovel": [
+      "mining:5"
+    ],
+    "jerotes:copper_hoe": [
+      "mining:5"
+    ],
+    "minecraft:iron_pickaxe": [
+      "mining:10"
+    ],
+    "minecraft:iron_axe": [
+      "mining:10"
+    ],
+    "minecraft:iron_shovel": [
+      "mining:10"
+    ],
+    "minecraft:iron_hoe": [
+      "mining:10"
+    ],
+    "minecraft:golden_pickaxe": [
+      "mining:25"
+    ],
+    "minecraft:golden_axe": [
+      "mining:25"
+    ],
+    "minecraft:golden_shovel": [
+      "mining:25"
+    ],
+    "minecraft:golden_hoe": [
+      "mining:25"
+    ],
+    "minecraft:diamond_pickaxe": [
+      "mining:40"
+    ],
+    "minecraft:diamond_axe": [
+      "mining:40"
+    ],
+    "minecraft:diamond_shovel": [
+      "mining:40"
+    ],
+    "minecraft:diamond_hoe": [
+      "mining:40"
+    ],
+    "minecraft:netherite_pickaxe": [
+      "mining:60"
+    ],
+    "minecraft:netherite_axe": [
+      "mining:60"
+    ],
+    "minecraft:netherite_shovel": [
+      "mining:60"
+    ],
+    "minecraft:netherite_hoe": [
+      "mining:60"
+    ],
+    "minecraft:bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "minecraft:crossbow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "fantasy_weapons:weapon_golden_horns_battleaxe": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_infected_sharp_curved_sword": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_old_dagger": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_infected_sharp_spear": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_sharp_spear": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_savage_hammer": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_fates_beacon": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_rivers_of_blood": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_sunset_wings_claymore": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_wandering_wizard_sword": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_hefty_club": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_savage_spear": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_forgotten_trace_spear": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_infected_sharp_sword": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_old_blade": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_thief_dagger": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_golden_execution_battleaxe": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_volcano_flame": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_black_katana": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_fog_guard_sword": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_hero_claymore": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_spider_fang": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_cursed_blade": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_dark_cover_sword": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_chess_board_knight_polearm": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_marika_hammer": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_wakizashi": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_nagakiba": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_dragons_doom": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_dark_lord_sword": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_phantom_needle": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_spark_of_dawn_polearm": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_sharp_sword": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_dragonslayer_halberd": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_golden_halberd": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_fury_of_the_storm": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_hand_of_malenia": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_eclipse_soldier_spear": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_desert_wind": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_old_broadsword": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_marai_executioner_sword": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_kingslayer": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_savage_dagger": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_sharp_curved_sword": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_crimson_reaper": [
+      "attack:80"
+    ],
+    "fantasy_weapons:weapon_savage_sword": [
+      "attack:80"
+    ],
+    "fantasy_armor:crucible_knight_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:spark_of_dawn_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:sunset_wings_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:redeemer_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:old_knight_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:ornstein_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:lady_maria_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:malenia_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:dark_cover_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:sunset_wings_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:ornstein_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:evening_ghost_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:dark_lord_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:hero_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:evening_ghost_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:gilded_hunt_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:ronin_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:fog_guard_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:sunset_wings_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:dead_gladiator_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:dragonslayer_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:flesh_of_the_feaster_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:old_knight_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:twinned_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:crucible_knight_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:chess_board_knight_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:chess_board_knight_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:lady_maria_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:silver_knight_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:ronin_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:ronin_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:malenia_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:hero_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:ornstein_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:gilded_hunt_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:eclipse_soldier_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:old_knight_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:twinned_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:golden_execution_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:gilded_hunt_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:dark_cover_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:forgotten_trace_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:spark_of_dawn_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:dark_cover_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:flesh_of_the_feaster_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:redeemer_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:chess_board_knight_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:dead_gladiator_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:redeemer_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:wind_worshipper_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:grave_sentinel_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:grave_sentinel_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:wandering_wizard_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:thief_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:forgotten_trace_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:dragonslayer_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:dark_lord_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:evening_ghost_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:silver_knight_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:fog_guard_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:silver_knight_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:twinned_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:hero_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:chess_board_knight_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:eclipse_soldier_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:fog_guard_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:golden_execution_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:grave_sentinel_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:hero_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:dark_lord_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:dead_gladiator_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:lady_maria_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:redeemer_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:old_knight_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:twinned_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:lady_maria_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:thief_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:golden_horns_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:crucible_knight_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:eclipse_soldier_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:malenia_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:forgotten_trace_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:gilded_hunt_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:spark_of_dawn_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:wind_worshipper_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:wind_worshipper_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:golden_horns_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:crucible_knight_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:flesh_of_the_feaster_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:sunset_wings_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:eclipse_soldier_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:ronin_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:wind_worshipper_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:wandering_wizard_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:wandering_wizard_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:dark_lord_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:golden_execution_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:dead_gladiator_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:golden_horns_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:grave_sentinel_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:flesh_of_the_feaster_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:golden_horns_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:forgotten_trace_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:dragonslayer_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:malenia_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:dragonslayer_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:dark_cover_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:thief_boots": [
+      "defense:80"
+    ],
+    "fantasy_armor:fog_guard_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:evening_ghost_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:spark_of_dawn_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:wandering_wizard_leggings": [
+      "defense:80"
+    ],
+    "fantasy_armor:thief_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:silver_knight_chestplate": [
+      "defense:80"
+    ],
+    "fantasy_armor:ornstein_helmet": [
+      "defense:80"
+    ],
+    "fantasy_armor:golden_execution_leggings": [
+      "defense:80"
+    ],
+    "epicfightx:eternal_night_scythe": [
+      "attack:80"
+    ],
+    "jerotes:copper_sword": [
+      "attack:5"
+    ],
+    "wom:tormented_mind": [
+      "attack:60"
+    ],
+    "wom:agony": [
+      "attack:60"
+    ],
+    "wom:napoleon": [
+      "attack:60"
+    ],
+    "wom:orbit": [
+      "attack:60"
+    ],
+    "wom:solar": [
+      "attack:60"
+    ],
+    "wom:satsujin": [
+      "attack:60"
+    ],
+    "wom:herrscher": [
+      "attack:60"
+    ],
+    "wom:hollow_longsword": [
+      "attack:60"
+    ],
+    "wom:ender_blaster": [
+      "attack:60"
+    ],
+    "wom:ruine": [
+      "attack:60"
+    ],
+    "wom:evil_tachi": [
+      "attack:60"
+    ],
+    "wom:antitheus": [
+      "attack:60"
+    ],
+    "wom:moonless": [
+      "attack:60"
+    ],
+    "wom:blackstar": [
+      "attack:60"
+    ],
+    "wom:nova": [
+      "attack:60"
+    ],
+    "wom:jabberwocky": [
+      "attack:60"
+    ],
+    "archeryexp:gold_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "archeryexp:wooden_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "archeryexp:diamond_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "archeryexp:iron_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "archeryexp:netherite_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "dungeons_and_combat:copper_helmet": [
+      "defense:5"
+    ],
+    "dungeons_and_combat:copper_chestplate": [
+      "defense:5"
+    ],
+    "dungeons_and_combat:copper_leggings": [
+      "defense:5"
+    ],
+    "dungeons_and_combat:copper_boots": [
+      "defense:5"
+    ],
+    "dungeons_and_combat:iron_metal_helmet": [
+      "defense:10"
+    ],
+    "dungeons_and_combat:iron_metal_chestplate": [
+      "defense:10"
+    ],
+    "dungeons_and_combat:iron_metal_leggings": [
+      "defense:10"
+    ],
+    "dungeons_and_combat:iron_metal_boots": [
+      "defense:10"
+    ],
+    "dungeons_and_combat:golden_helmet": [
+      "defense:25"
+    ],
+    "dungeons_and_combat:golden_chestplate": [
+      "defense:25"
+    ],
+    "dungeons_and_combat:golden_leggings": [
+      "defense:25"
+    ],
+    "dungeons_and_combat:golden_boots": [
+      "defense:25"
+    ],
+    "dungeons_and_combat:diamond_metal_helmet": [
+      "defense:40"
+    ],
+    "dungeons_and_combat:diamond_metal_chestplate": [
+      "defense:40"
+    ],
+    "dungeons_and_combat:diamond_metal_leggings": [
+      "defense:40"
+    ],
+    "dungeons_and_combat:diamond_metal_boots": [
+      "defense:40"
+    ],
+    "dungeons_and_combat:netherite_helmet": [
+      "defense:60"
+    ],
+    "dungeons_and_combat:netherite_chestplate": [
+      "defense:60"
+    ],
+    "dungeons_and_combat:netherite_leggings": [
+      "defense:60"
+    ],
+    "dungeons_and_combat:netherite_boots": [
+      "defense:60"
+    ]
+  }
+}

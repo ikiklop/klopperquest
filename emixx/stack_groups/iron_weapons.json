@@ -1,0 +1,25 @@
+{
+  "id": "klopperquest:iron_weapons",
+  "type": "emixx:group",
+  "contents": [
+"simplyswords:iron_sai",
+"epicfight:iron_dagger",
+"simplyswords:iron_cutlass",
+"simplyswords:iron_rapier",
+"simplyswords:iron_twinblade",
+"minecraft:iron_sword",
+"simplyswords:iron_chakram",
+"simplyswords:iron_katana",
+"epicfight:iron_tachi",
+"simplyswords:iron_warglaive",
+"simplyswords:iron_longsword",
+"simplyswords:iron_claymore",
+"simplyswords:iron_spear",
+"simplyswords:iron_glaive",
+"epicfight:iron_greatsword",
+"simplyswords:iron_scythe",
+"simplyswords:iron_greataxe",
+"simplyswords:iron_halberd",
+"simplyswords:iron_greathammer"
+  ]
+}

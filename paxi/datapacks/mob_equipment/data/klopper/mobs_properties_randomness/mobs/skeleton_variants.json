@@ -1,0 +1,45 @@
+{
+    "target": "minecraft:skeleton",
+    "priority": 100,
+    "properties": [
+        {
+            "property": "presets",
+            "presets": [
+                {
+                    "preset": "klopper:archer_skeleton",
+                    "weight": 1
+                },
+                {
+                    "preset": "klopper:samurai_skeleton",
+                    "weight": 1
+                },
+                {
+                    "preset": "klopper:skull_deserter",
+                    "weight": 1
+                },
+                {
+                    "preset": "klopper:royal_skull",
+                    "weight": 1
+                },
+                {
+                    "preset": "klopper:prisoner_skeleton",
+                    "weight": 1
+                },
+                {
+                    "preset": "klopper:kamath_skeleton",
+                    "weight": 1
+                },
+                {
+                    "preset": "klopper:grave_guardian",
+                    "weight": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.3
+                }
+            ]
+        }
+    ]
+}

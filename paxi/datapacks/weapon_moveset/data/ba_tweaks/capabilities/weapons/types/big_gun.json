@@ -1,0 +1,51 @@
+{
+  "hit_sound": "epicfight:entity.hit.blunt",
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "walk": "epicfight:biped/living/walk_longsword",
+      "run": "epicfight:biped/living/run_longsword",
+      "idle": "epicfight:biped/living/hold_crossbow"
+    }
+  },
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -0.25
+    ],
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.55
+    ]
+  },
+  "combos": {
+    "two_hand": [
+      "epicfight:biped/combat/fist_auto1",
+      "epicfight:biped/combat/fist_auto2",
+      "wom:biped/combat/enderblaster_onehand_auto_3",
+      "wom:biped/skill/kick_2",
+      "cdmoveset:biped/new/skill/fist_execute",
+      "wom:biped/combat/enderblaster_twohand_tishnaw"
+    ]
+  },
+  "category": "fist",
+  "hit_particle": "wom:solar_hit",
+  "styles": {
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "not_weapon"
+          }
+        ]
+      }
+    ],
+    "default": "two_hand"
+  },
+  "offhand_item_compatible_predicate": []
+}

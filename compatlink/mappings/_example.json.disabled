@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "backend": "epicfight",
+  "entities": [
+    { "target": "cataclysm:ignis", "preset": "epicfight:wither", "priority": 0 }
+  ],
+  "weapons": [
+    { "target": "cataclysm:the_incinerator", "preset": "epicfight:greatsword" }
+  ]
+}

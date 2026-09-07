@@ -1,0 +1,117 @@
+
+#Baseline and projected-max values used to scale HUD bar widths.
+#You will most likely be editing the server config version of stats data
+#Clients can choose whether to force server values or use their client config.
+#You need to use the reload command or reload the world to see the updated values.
+[stats_data]
+
+	[stats_data.health]
+		#Range: > 1
+		baseline = 10
+		#Range: > 1
+		projected_max = 300
+		#Range: 0.1 ~ 3.0
+		bar_width_curve = 1.0
+
+	[stats_data.stamina]
+
+		[stats_data.stamina.presets]
+
+			[stats_data.stamina.presets.epic_fight]
+				#Range: > 1
+				baseline = 1
+				#Range: > 1
+				projected_max = 200
+				#Range: 0.1 ~ 3.0
+				bar_width_curve = 1.0
+
+			[stats_data.stamina.presets.parcool]
+				#Range: > 1
+				baseline = 2000
+				#Range: > 1
+				projected_max = 3000
+				#Range: 0.1 ~ 3.0
+				bar_width_curve = 1.0
+
+			[stats_data.stamina.presets.paraglider]
+				#Range: > 1
+				baseline = 1000
+				#Range: > 1
+				projected_max = 3000
+				#Range: 0.1 ~ 3.0
+				bar_width_curve = 1.0
+
+			[stats_data.stamina.presets.mine_and_slash]
+				#Range: > 1
+				baseline = 50
+				#Range: > 1
+				projected_max = 1040
+				#Range: 0.1 ~ 3.0
+				bar_width_curve = 0.4
+
+	[stats_data.mana]
+
+		[stats_data.mana.presets]
+
+			[stats_data.mana.presets.irons_spellbooks]
+				#Range: > 1
+				baseline = 10
+				#Range: > 1
+				projected_max = 300
+				#Range: 0.1 ~ 3.0
+				bar_width_curve = 1.0
+
+			[stats_data.mana.presets.mine_and_slash]
+				#Range: > 1
+				baseline = 50
+				#Range: > 1
+				projected_max = 1040
+				#Range: 0.1 ~ 3.0
+				bar_width_curve = 0.4
+
+[server_performance]
+	#Range: 1 ~ 1200
+	ticks_interval = 10
+	#Should status effects like Health Boost update instantly for party members
+	update_on_mob_effect = true
+	#Should armor that grants bonus stats update instantly for party members
+	update_on_equipment_change = true
+	#Should casting spell update stats instantly for party members
+	update_on_spell_cast = true
+	#Should stamina-consuming actions (dodging, basic attacks, skills) update stats instantly for party members
+	update_on_dodge = true
+	#Throttle ticks between events that update party stat trackers such as spell casting.
+	#Range: 0 ~ 1200
+	min_instant_update_ticks = 10
+	#Throttle ticks between health update trackers.
+	#Range: 0 ~ 1200
+	min_health_update_ticks = 2
+
+[server_restrictions]
+	#Max teammates the server will track per player, 0 to disable
+	#Range: 0 ~ 16
+	max_tracked_party_members = 8
+	#If true, the server will never track party stats.
+	disable_party_tracking = false
+	#If true, the server will never track party health.
+	disable_health_tracking = false
+	#If true, the server will never track party stamina.
+	disable_stamina_tracking = true
+	#If true, the server will never track party mana.
+	disable_mana_tracking = false
+	#If true, the server will never track party status effects.
+	disable_status_effect_tracking = false
+	#Max status effects per party member the server will track and send, 0 to disable limit.
+	#Range: 0 ~ 64
+	max_tracked_status_effects = 0
+
+	[server_restrictions.server_source_preferences]
+		#Allowed Values: AUTO, EPIC_FIGHT, PARCOOL, PARAGLIDER, MINE_AND_SLASH
+		server_stamina_source = "AUTO"
+		#Allowed Values: AUTO, IRONS_SPELLBOOKS, MINE_AND_SLASH
+		server_mana_source = "AUTO"
+		#AUTO = prefer FTB Teams otherwise fall back to vanilla scoreboard teams.
+		#VANILLA / FTB_TEAMS = always use only that source.
+		#Allowed Values: AUTO, VANILLA, FTB_TEAMS
+		server_team_source = "AUTO"
+

@@ -1,0 +1,53 @@
+{
+  "styles": {
+    "cases": [
+      {
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "not_weapon"
+          }
+        ],
+        "style": "one_hand"
+      }
+    ],
+    "default": "one_hand"
+  },
+  "hit_sound": "epicfight:entity.hit.blunt_hard",
+  "combos": {
+    "one_hand": [
+      "efn:biped/ng_greatsword/ng_great_auto1",
+      "efn:biped/ng_greatsword/ng_great_chargeskill",
+      "cdmoveset:biped/new/dual_tachi/danger_dash2",
+      "efn:biped/ng_greatsword/ng_great_dash",
+      "wom:biped/combat/torment_charged_attack_3"
+    ]
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "livingmotion_modifier": {
+    "one_hand": {
+      "walk": "wom:biped/living/solar_walk",
+      "block": "epicfight:biped/skill/guard_greatsword",
+      "run": "wom:biped/living/torment_run",
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_idle"
+    }
+  },
+  "category": "greatsword",
+  "hit_particle": "wom:solar_hit",
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "size": [
+      0.4,
+      0.4,
+      1.0
+    ],
+    "number": 5
+  },
+  "innate_skills": {
+    "one_hand": "cdmoveset:greeat_tachiskill"
+  }
+}

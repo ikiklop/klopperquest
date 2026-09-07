@@ -1,0 +1,25 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.25,
+      0.45,
+      0.9
+    ],
+    "center": [
+      0.0,
+      -0.1,
+      -0.75
+    ]
+  },
+  "attributes": {
+    "two_hand": {
+      "impact": 2.8,
+      "max_strikes": 4,
+      "armor_negation": 15.0,
+      "damage_bonus": -2.1,
+      "speed_bonus": 0.11
+    }
+  },
+  "type": "simplyswords:greataxe"
+}

@@ -1,0 +1,644 @@
+{
+  "profession": "minecraft:librarian",
+  "removeOtherTrades": true,
+  "maxTrades": 27,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "xpbook:xp_tome",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "librarian_xp_tome_lvl1"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1,id:\"minecraft:power\"}]}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "librarian_power"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1,id:\"minecraft:sharpness\"}]}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "librarian_sharpness"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1,id:\"minecraft:smite\"}]}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "librarian_smite"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook{skill:\"efn:efn_dodge\"}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "librarian_efn_dodge"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook{skill:\"epicfight:guard\"}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "librarian_guard"
+    },
+    {
+      "offer": {
+        "itemKey": "xpbook:xp_tome",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "librarian_xp_tome_lvl2"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1,id:\"minecraft:feather_falling\"}]}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "librarian_feather_falling"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1,id:\"minecraft:projectile_protection\"}]}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "librarian_projectile_protection"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1,id:\"minecraft:protection\"}]}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "librarian_protection"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook{skill:\"epicfight:parrying\"}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "librarian_parrying"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook{skill:\"wom:natural_sprinter\"}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "librarian_natural_sprinter"
+    },
+    {
+      "offer": {
+        "itemKey": "xpbook:xp_tome",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "librarian_xp_tome_lvl3"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1,id:\"minecraft:blast_protection\"}]}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "librarian_blast_protection"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1,id:\"minecraft:fortune\"}]}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "librarian_fortune"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1,id:\"minecraft:looting\"}]}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "librarian_looting"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook{skill:\"epicfight:stamina_pillager\"}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "librarian_stamina_pillager"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook{skill:\"wom:aqua_maneuvre\"}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "librarian_aqua_maneuvre"
+    },
+    {
+      "offer": {
+        "itemKey": "xpbook:xp_tome",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "librarian_xp_tome_lvl4"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1,id:\"minecraft:efficiency\"}]}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "librarian_efficiency"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1,id:\"minecraft:respiration\"}]}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "librarian_respiration"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1,id:\"minecraft:swift_sneak\"}]}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "librarian_swift_sneak"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook{skill:\"epicfight:forbidden_strength\"}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "librarian_forbidden_strength"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook{skill:\"wom:pain_anticipation\"}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "librarian_pain_anticipation"
+    },
+    {
+      "offer": {
+        "itemKey": "xpbook:xp_tome",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "librarian_xp_tome_lvl5"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1,id:\"minecraft:silk_touch\"}]}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "librarian_silk_touch"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1,id:\"minecraft:unbreaking\"}]}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "librarian_unbreaking"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook{skill:\"epicfight:catharsis\"}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "librarian_catharsis"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook{skill:\"epicfight:emergency_escape\"}",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "librarian_emergency_escape"
+    }
+  ]
+}

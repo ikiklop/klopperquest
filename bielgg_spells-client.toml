@@ -1,0 +1,5 @@
+
+[visuals]
+	#Renders the Roaring Knight armor after-image trail for this client only.
+	enableRoaringKnightArmorAfterimage = false
+

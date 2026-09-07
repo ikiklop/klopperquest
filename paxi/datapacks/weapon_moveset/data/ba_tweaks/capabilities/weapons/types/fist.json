@@ -1,0 +1,71 @@
+{
+  "combos": {
+    "two_hand": [
+      "epicfight:biped/combat/fist_auto1",
+      "epicfight:biped/combat/fist_auto2",
+      "wom:biped/combat/enderblaster_onehand_auto_3",
+      "wom:biped/skill/kick_2",
+      "cdmoveset:biped/new/skill/fist_execute",
+      "wom:biped/combat/enderblaster_twohand_tishnaw"
+    ],
+    "one_hand": [
+      "epicfight:biped/combat/fist_auto1",
+      "epicfight:biped/combat/fist_auto2",
+      "wom:biped/combat/enderblaster_onehand_auto_3",
+      "wom:biped/skill/kick_2",
+      "cdmoveset:biped/new/skill/fist_execute",
+      "wom:biped/combat/enderblaster_twohand_tishnaw"
+    ]
+  },
+  "styles": {
+    "cases": [
+      {
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "not_weapon"
+          }
+        ],
+        "style": "one_hand"
+      },
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "category": "fist",
+            "predicate": "epicfight:offhand_item_category"
+          }
+        ]
+      }
+    ],
+    "default": "one_hand"
+  },
+  "hit_particle": "wom:solar_hit",
+  "category": "fist",
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "offhand_item_compatible_predicate": [
+    {
+      "category": "fist",
+      "predicate": "epicfight:offhand_item_category"
+    }
+  ],
+  "innate_skills": {
+    "one_hand": "epicfight:relentless_combo",
+    "two_hand": "epicfight:relentless_combo"
+  },
+  "hit_sound": "epicfight:entity.hit.blunt",
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.4,
+      0.4,
+      0.4
+    ],
+    "number": 5
+  },
+  "usable_in_offhand": true
+}

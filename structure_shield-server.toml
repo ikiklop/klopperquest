@@ -1,0 +1,17 @@
+
+["Structure Shield Config"]
+	#
+	# --- Protect All Structures ---
+	#If all structures should be protected.
+	#This will bypass the structure_shield_protected structure tag and just make every structure protected.
+	protectAllStructures = false
+	#
+	# --- Sanctums Curse Effect Duration ---
+	#How long in seconds a player will be affected by the Sanctums Curse when they try
+	#to place or break a protected block inside a protected structure.
+	#Sanctums Curse prevents players from placing or breaking blocks while they are under its effect.
+	#This is intended to prevent players from spam placing or breaking blocks inside protected structures.
+	#It is not necessary as performance should be great without it, but it will guarantee less structure checks.
+	#Default: 4 seconds. Set to 0 to disable this entirely.
+	sanctumsCurseEffectDuration = 4
+

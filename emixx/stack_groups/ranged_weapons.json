@@ -1,0 +1,14 @@
+{
+  "id": "ranged_weapons",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:trident",
+"minecraft:bow",
+"minecraft:crossbow",
+"archeryexp:gold_bow",
+"archeryexp:iron_bow",
+"archeryexp:diamond_bow",
+"archeryexp:netherite_bow",
+"archeryexp:wooden_bow"
+  ]
+}

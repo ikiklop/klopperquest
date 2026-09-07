@@ -1,0 +1,30 @@
+{
+  "id": "klopperquest:mythical_weapons",
+  "type": "emixx:group",
+  "contents": [
+"epicfight_awaken:darknight_pursuiters",
+"epicfight_awaken:will_of_king",
+"epicfight_awaken:rage_of_flame",
+"epicfightx:eternal_night_scythe",
+"efn:ruinsgreatsword",
+"efn:meen_spear",
+"efn:nf_dual_sword",
+"efn:sword_of_pioneer",
+"efn:yamato_dmc_in_sheath",
+"efn:yamato_dmc4_in_sheath",
+"efn:nf_claw",
+"efn:air_tachi",
+"efn:co_tachi",
+"efn:nf_shortsword",
+"efn:nf_shortsword_2",
+"efn:exsiliumgladius",
+"efn:fire_exsiliumgladius",
+"efn:hf_murasama",
+"efn:hf_blade",
+"efn:kusabimaru",
+"efn:thornwheel",
+"efn:crimson_moon",
+"efn:broadblade",
+"efn:crescent_moon"
+  ]
+}

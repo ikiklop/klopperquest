@@ -1,0 +1,121 @@
+{
+  "shader_packet": [
+    {
+      "category": "uchigatana",
+      "trigger_item": "simplyswords:runic_katana",
+      "activation_type": "style",
+      "effect": {
+        "style": "sheath",
+        "focus_blur": {
+          "time_in": 8,
+          "time_hold": 20,
+          "time_out": 8,
+          "intensity": 0.035,
+          "radius": 0.35,
+          "fall_off": 0.5,
+          "max_blur": 0.075
+        }
+      }
+    },
+    {
+      "category": "uchigatana",
+      "trigger_item": "simplyswords:netherite_katana",
+      "activation_type": "style",
+      "effect": {
+        "style": "sheath",
+        "focus_blur": {
+          "time_in": 8,
+          "time_hold": 20,
+          "time_out": 8,
+          "intensity": 0.035,
+          "radius": 0.35,
+          "fall_off": 0.5,
+          "max_blur": 0.075
+        }
+      }
+    },
+    {
+      "category": "uchigatana",
+      "trigger_item": "simplyswords:diamond_katana",
+      "activation_type": "style",
+      "effect": {
+        "style": "sheath",
+        "focus_blur": {
+          "time_in": 8,
+          "time_hold": 20,
+          "time_out": 8,
+          "intensity": 0.035,
+          "radius": 0.35,
+          "fall_off": 0.5,
+          "max_blur": 0.075
+        }
+      }
+    },
+    {
+      "category": "uchigatana",
+      "trigger_item": "simplyswords:iron_katana",
+      "activation_type": "style",
+      "effect": {
+        "style": "sheath",
+        "focus_blur": {
+          "time_in": 8,
+          "time_hold": 20,
+          "time_out": 8,
+          "intensity": 0.035,
+          "radius": 0.35,
+          "fall_off": 0.5,
+          "max_blur": 0.075
+        }
+      }
+    },
+    {
+      "category": "uchigatana",
+      "trigger_item": "simplyswords:gold_katana",
+      "activation_type": "style",
+      "effect": {
+        "style": "sheath",
+        "focus_blur": {
+          "time_in": 8,
+          "time_hold": 20,
+          "time_out": 8,
+          "intensity": 0.035,
+          "radius": 0.35,
+          "fall_off": 0.5,
+          "max_blur": 0.075
+		  }
+        }
+    },
+	{
+      "category": "uchigatana",
+      "trigger_item": "simplyswords:whisperwind",
+      "activation_type": "style",
+      "effect": {
+        "style": "sheath",
+        "focus_blur": {
+          "time_in": 8,
+          "time_hold": 20,
+          "time_out": 8,
+          "intensity": 0.035,
+          "radius": 0.35,
+          "fall_off": 0.5,
+          "max_blur": 0.075
+        }
+      }
+    },
+	{
+      "category": "uchigatana",
+      "trigger_item": "simplyswords:whisperwind",
+      "activation_type": "style",
+      "effect": {
+        "style": "sheath",
+        "sharpen": {
+          "time_in": 10,
+          "time_out": 20,
+          "amount": 5,
+          "radius": 0.96,
+          "threshold": 0.22
+        }
+      }
+    }
+  ]
+}

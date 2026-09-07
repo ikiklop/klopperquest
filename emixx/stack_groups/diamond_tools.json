@@ -1,0 +1,10 @@
+{
+  "id": "klopperquest:diamond_tools",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:diamond_shovel",
+"minecraft:diamond_pickaxe",
+"minecraft:diamond_axe",
+"minecraft:diamond_hoe"
+  ]
+}

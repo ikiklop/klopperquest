@@ -1,0 +1,1371 @@
+{
+  "format": 1,
+  "backend": "epicfight",
+  "weapons": [
+    { 
+      "target": "sticknstone:wooden_longsword", 
+      "preset": "simplyswords:longsword",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "end_pos": [0.0, 0.0, -1.25],
+        "lifetime": 8,
+        "begin_pos": [0.0, 0.0, -0.25],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:wooden_twinblade", 
+      "preset": "simplyswords:twinblade",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.25],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "begin_pos": [0.0, 0.0, 1.2],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:wooden_rapier", 
+      "preset": "simplyswords:rapier",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.22],
+        "texture_path": "simplyswords:textures/particle/swordd.png",
+        "begin_pos": [0.0, 0.0, -0.15],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:wooden_katana", 
+      "preset": "simplyswords:katana",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "texture_path": "simplyswords:textures/particle/swordd.png",
+        "end_pos": [0.0, 0.0, -1.5],
+        "lifetime": 8,
+        "begin_pos": [0.0, 0.0, -0.1],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:wooden_sai", 
+      "preset": "simplyswords:sai",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -0.8],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "begin_pos": [0.0, 0.0, -0.1],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:wooden_spear", 
+      "preset": "simplyswords:spear",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "texture_path": "simplyswords:textures/particle/swordd2.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.8],
+        "begin_pos": [0.0, 0.0, -0.8],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:wooden_glaive", 
+      "preset": "simplyswords:glaive",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.8],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.0, -0.68],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:wooden_warglaive", 
+      "preset": "simplyswords:warglaive",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.2, -1.3],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "begin_pos": [0.0, 0.2, 1.2],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:wooden_cutlass", 
+      "preset": "simplyswords:cutlass",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -0.8],
+        "begin_pos": [0.0, 0.0, -0.05],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:wooden_claymore", 
+      "preset": "simplyswords:claymore",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -2.0],
+        "begin_pos": [0.0, 0.0, -0.24],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:wooden_greathammer", 
+      "preset": "simplyswords:greathammer",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.45],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "begin_pos": [0.0, 0.0, -0.9],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:wooden_greataxe", 
+      "preset": "simplyswords:greataxe",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.6],
+        "begin_pos": [0.0, 0.0, -0.7],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:wooden_chakram", 
+      "preset": "simplyswords:chakram",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.22, -0.7],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "begin_pos": [0.0, 0.22, 0.25],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:wooden_scythe", 
+      "preset": "simplyswords:scythe",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.5],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "begin_pos": [0.0, 0.0, -0.6],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:wooden_halberd", 
+      "preset": "simplyswords:halberd",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [152, 122, 57],
+        "lifetime": 8,
+        "end_pos": [0.0, -0.15, -1.8],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "begin_pos": [0.0, -0.15, -1.05],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_longsword", 
+      "preset": "simplyswords:longsword",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "end_pos": [0.0, 0.0, -1.25],
+        "lifetime": 8,
+        "begin_pos": [0.0, 0.0, -0.25],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_twinblade", 
+      "preset": "simplyswords:twinblade",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.25],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "begin_pos": [0.0, 0.0, 1.2],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_rapier", 
+      "preset": "simplyswords:rapier",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.22],
+        "texture_path": "simplyswords:textures/particle/swordd.png",
+        "begin_pos": [0.0, 0.0, -0.15],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_katana", 
+      "preset": "simplyswords:katana",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "texture_path": "simplyswords:textures/particle/swordd.png",
+        "end_pos": [0.0, 0.0, -1.5],
+        "lifetime": 8,
+        "begin_pos": [0.0, 0.0, -0.1],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_sai", 
+      "preset": "simplyswords:sai",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -0.8],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "begin_pos": [0.0, 0.0, -0.1],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_spear", 
+      "preset": "simplyswords:spear",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "texture_path": "simplyswords:textures/particle/swordd2.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.8],
+        "begin_pos": [0.0, 0.0, -0.8],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_glaive", 
+      "preset": "simplyswords:glaive",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.8],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.0, -0.68],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_warglaive", 
+      "preset": "simplyswords:warglaive",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.2, -1.3],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "begin_pos": [0.0, 0.2, 1.2],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_cutlass", 
+      "preset": "simplyswords:cutlass",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -0.8],
+        "begin_pos": [0.0, 0.0, -0.05],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_claymore", 
+      "preset": "simplyswords:claymore",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -2.0],
+        "begin_pos": [0.0, 0.0, -0.24],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_greathammer", 
+      "preset": "simplyswords:greathammer",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.45],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "begin_pos": [0.0, 0.0, -0.9],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_greataxe", 
+      "preset": "simplyswords:greataxe",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.6],
+        "begin_pos": [0.0, 0.0, -0.7],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_chakram", 
+      "preset": "simplyswords:chakram",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.22, -0.7],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "begin_pos": [0.0, 0.22, 0.25],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_scythe", 
+      "preset": "simplyswords:scythe",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.5],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "begin_pos": [0.0, 0.0, -0.6],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "sticknstone:stone_halberd", 
+      "preset": "simplyswords:halberd",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [99, 97, 95],
+        "lifetime": 8,
+        "end_pos": [0.0, -0.15, -1.8],
+        "texture_path": "simplyswords:textures/particle/white_trail.png",
+        "begin_pos": [0.0, -0.15, -1.05],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_longsword", 
+      "preset": "simplyswords:runic_longsword",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "end_pos": [0.0, 0.0, -1.25],
+        "lifetime": 8,
+        "begin_pos": [0.0, 0.0, -0.25],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_twinblade", 
+      "preset": "simplyswords:runic_twinblade",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.25],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.0, 1.2],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_rapier", 
+      "preset": "simplyswords:runic_rapier",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.22],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.0, -0.15],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_katana", 
+      "preset": "simplyswords:runic_katana",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "end_pos": [0.0, 0.0, -1.5],
+        "lifetime": 8,
+        "begin_pos": [0.0, 0.0, -0.1],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_sai", 
+      "preset": "simplyswords:runic_sai",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -0.8],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.0, -0.1],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_spear", 
+      "preset": "simplyswords:runic_spear",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.8],
+        "begin_pos": [0.0, 0.0, -0.8],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_glaive", 
+      "preset": "simplyswords:runic_glaive",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.8],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.0, -0.68],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_warglaive", 
+      "preset": "simplyswords:runic_warglaive",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.2, -1.3],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.2, 1.2],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_cutlass", 
+      "preset": "simplyswords:runic_cutlass",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -0.8],
+        "begin_pos": [0.0, 0.0, -0.05],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_claymore", 
+      "preset": "simplyswords:runic_claymore",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -2.0],
+        "begin_pos": [0.0, 0.0, -0.24],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_greathammer", 
+      "preset": "simplyswords:runic_greathammer",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.45],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.0, -0.9],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_greataxe", 
+      "preset": "simplyswords:runic_greataxe",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.6],
+        "begin_pos": [0.0, 0.0, -0.7],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_chakram", 
+      "preset": "simplyswords:runic_chakram",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.22, -0.7],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.22, 0.25],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_scythe", 
+      "preset": "simplyswords:runic_scythe",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.5],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.0, -0.6],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ancient_metal_halberd", 
+      "preset": "simplyswords:runic_halberd",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [216, 182, 105],
+        "lifetime": 8,
+        "end_pos": [0.0, -0.15, -1.8],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, -0.15, -1.05],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_longsword", 
+      "preset": "simplyswords:runic_longsword",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "end_pos": [0.0, 0.0, -1.25],
+        "lifetime": 8,
+        "begin_pos": [0.0, 0.0, -0.25],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_twinblade", 
+      "preset": "simplyswords:runic_twinblade",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.25],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.0, 1.2],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_rapier", 
+      "preset": "simplyswords:runic_rapier",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.22],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.0, -0.15],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_katana", 
+      "preset": "simplyswords:runic_katana",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "end_pos": [0.0, 0.0, -1.5],
+        "lifetime": 8,
+        "begin_pos": [0.0, 0.0, -0.1],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_sai", 
+      "preset": "simplyswords:runic_sai",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -0.8],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.0, -0.1],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_spear", 
+      "preset": "simplyswords:runic_spear",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.8],
+        "begin_pos": [0.0, 0.0, -0.8],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_glaive", 
+      "preset": "simplyswords:runic_glaive",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.8],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.0, -0.68],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_warglaive", 
+      "preset": "simplyswords:runic_warglaive",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.2, -1.3],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.2, 1.2],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_cutlass", 
+      "preset": "simplyswords:runic_cutlass",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -0.8],
+        "begin_pos": [0.0, 0.0, -0.05],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_claymore", 
+      "preset": "simplyswords:runic_claymore",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -2.0],
+        "begin_pos": [0.0, 0.0, -0.24],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_greathammer", 
+      "preset": "simplyswords:runic_greathammer",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.45],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.0, -0.9],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_greataxe", 
+      "preset": "simplyswords:runic_greataxe",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.6],
+        "begin_pos": [0.0, 0.0, -0.7],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_chakram", 
+      "preset": "simplyswords:runic_chakram",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.22, -0.7],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.22, 0.25],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_scythe", 
+      "preset": "simplyswords:runic_scythe",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.5],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, 0.0, -0.6],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:black_steel_halberd", 
+      "preset": "simplyswords:runic_halberd",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [68, 77, 91],
+        "lifetime": 8,
+        "end_pos": [0.0, -0.15, -1.8],
+        "texture_path": "simplyswords:textures/particle/gray_trail3.png",
+        "begin_pos": [0.0, -0.15, -1.05],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_longsword", 
+      "preset": "simplyswords:runic_longsword",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "end_pos": [0.0, 0.0, -1.25],
+        "lifetime": 8,
+        "begin_pos": [0.0, 0.0, -0.25],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_twinblade", 
+      "preset": "simplyswords:runic_twinblade",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.25],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "begin_pos": [0.0, 0.0, 1.2],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_rapier", 
+      "preset": "simplyswords:runic_rapier",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.22],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "begin_pos": [0.0, 0.0, -0.15],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_katana", 
+      "preset": "simplyswords:runic_katana",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "end_pos": [0.0, 0.0, -1.5],
+        "lifetime": 8,
+        "begin_pos": [0.0, 0.0, -0.1],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_sai", 
+      "preset": "simplyswords:runic_sai",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -0.8],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "begin_pos": [0.0, 0.0, -0.1],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_spear", 
+      "preset": "simplyswords:runic_spear",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.8],
+        "begin_pos": [0.0, 0.0, -0.8],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_glaive", 
+      "preset": "simplyswords:runic_glaive",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.8],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "begin_pos": [0.0, 0.0, -0.68],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_warglaive", 
+      "preset": "simplyswords:runic_warglaive",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.2, -1.3],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "begin_pos": [0.0, 0.2, 1.2],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_cutlass", 
+      "preset": "simplyswords:runic_cutlass",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -0.8],
+        "begin_pos": [0.0, 0.0, -0.05],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_claymore", 
+      "preset": "simplyswords:runic_claymore",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -2.0],
+        "begin_pos": [0.0, 0.0, -0.24],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_greathammer", 
+      "preset": "simplyswords:runic_greathammer",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.45],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "begin_pos": [0.0, 0.0, -0.9],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_greataxe", 
+      "preset": "simplyswords:runic_greataxe",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.6],
+        "begin_pos": [0.0, 0.0, -0.7],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_chakram", 
+      "preset": "simplyswords:runic_chakram",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.22, -0.7],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "begin_pos": [0.0, 0.22, 0.25],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_scythe", 
+      "preset": "simplyswords:runic_scythe",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.5],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "begin_pos": [0.0, 0.0, -0.6],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:cursium_halberd", 
+      "preset": "simplyswords:runic_halberd",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [56, 207, 176],
+        "lifetime": 8,
+        "end_pos": [0.0, -0.15, -1.8],
+        "texture_path": "simplyswords:textures/particle/soul_blue_trail.png",
+        "begin_pos": [0.0, -0.15, -1.05],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_longsword", 
+      "preset": "simplyswords:runic_longsword",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "end_pos": [0.0, 0.0, -1.25],
+        "lifetime": 8,
+        "begin_pos": [0.0, 0.0, -0.25],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_twinblade", 
+      "preset": "simplyswords:runic_twinblade",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.25],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "begin_pos": [0.0, 0.0, 1.2],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_rapier", 
+      "preset": "simplyswords:runic_rapier",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.22],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "begin_pos": [0.0, 0.0, -0.15],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_katana", 
+      "preset": "simplyswords:runic_katana",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "end_pos": [0.0, 0.0, -1.5],
+        "lifetime": 8,
+        "begin_pos": [0.0, 0.0, -0.1],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_sai", 
+      "preset": "simplyswords:runic_sai",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -0.8],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "begin_pos": [0.0, 0.0, -0.1],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_spear", 
+      "preset": "simplyswords:runic_spear",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.8],
+        "begin_pos": [0.0, 0.0, -0.8],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_glaive", 
+      "preset": "simplyswords:runic_glaive",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.8],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "begin_pos": [0.0, 0.0, -0.68],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_warglaive", 
+      "preset": "simplyswords:runic_warglaive",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.2, -1.3],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "begin_pos": [0.0, 0.2, 1.2],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_cutlass", 
+      "preset": "simplyswords:runic_cutlass",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -0.8],
+        "begin_pos": [0.0, 0.0, -0.05],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_claymore", 
+      "preset": "simplyswords:runic_claymore",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -2.0],
+        "begin_pos": [0.0, 0.0, -0.24],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_greathammer", 
+      "preset": "simplyswords:runic_greathammer",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.45],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "begin_pos": [0.0, 0.0, -0.9],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_greataxe", 
+      "preset": "simplyswords:runic_greataxe",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.6],
+        "begin_pos": [0.0, 0.0, -0.7],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_chakram", 
+      "preset": "simplyswords:runic_chakram",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.22, -0.7],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "begin_pos": [0.0, 0.22, 0.25],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_scythe", 
+      "preset": "simplyswords:runic_scythe",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.5],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "begin_pos": [0.0, 0.0, -0.6],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:ignitium_halberd", 
+      "preset": "simplyswords:runic_halberd",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [252, 201, 70],
+        "lifetime": 8,
+        "end_pos": [0.0, -0.15, -1.8],
+        "texture_path": "simplyswords:textures/particle/flame_white.png",
+        "begin_pos": [0.0, -0.15, -1.05],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_longsword", 
+      "preset": "simplyswords:runic_longsword",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "end_pos": [0.0, 0.0, -1.25],
+        "lifetime": 8,
+        "begin_pos": [0.0, 0.0, -0.25],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_twinblade", 
+      "preset": "simplyswords:runic_twinblade",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.25],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "begin_pos": [0.0, 0.0, 1.2],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_rapier", 
+      "preset": "simplyswords:runic_rapier",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.22],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "begin_pos": [0.0, 0.0, -0.15],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_katana", 
+      "preset": "simplyswords:runic_katana",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "end_pos": [0.0, 0.0, -1.5],
+        "lifetime": 8,
+        "begin_pos": [0.0, 0.0, -0.1],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_sai", 
+      "preset": "simplyswords:runic_sai",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -0.8],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "begin_pos": [0.0, 0.0, -0.1],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_spear", 
+      "preset": "simplyswords:runic_spear",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.8],
+        "begin_pos": [0.0, 0.0, -0.8],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_glaive", 
+      "preset": "simplyswords:runic_glaive",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.8],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "begin_pos": [0.0, 0.0, -0.68],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_warglaive", 
+      "preset": "simplyswords:runic_warglaive",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.2, -1.3],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "begin_pos": [0.0, 0.2, 1.2],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_cutlass", 
+      "preset": "simplyswords:runic_cutlass",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -0.8],
+        "begin_pos": [0.0, 0.0, -0.05],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_claymore", 
+      "preset": "simplyswords:runic_claymore",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -2.0],
+        "begin_pos": [0.0, 0.0, -0.24],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_greathammer", 
+      "preset": "simplyswords:runic_greathammer",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.45],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "begin_pos": [0.0, 0.0, -0.9],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_greataxe", 
+      "preset": "simplyswords:runic_greataxe",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.6],
+        "begin_pos": [0.0, 0.0, -0.7],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_chakram", 
+      "preset": "simplyswords:runic_chakram",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.22, -0.7],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "begin_pos": [0.0, 0.22, 0.25],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_scythe", 
+      "preset": "simplyswords:runic_scythe",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "lifetime": 8,
+        "end_pos": [0.0, 0.0, -1.5],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "begin_pos": [0.0, 0.0, -0.6],
+        "interpolations": 12
+      }
+    },
+    { 
+      "target": "simplycataclysm:witherite_halberd", 
+      "preset": "simplyswords:runic_halberd",
+      "trail": {
+        "particle_type": "epicfight:swing_trail",
+        "color": [172, 35, 51],
+        "lifetime": 8,
+        "end_pos": [0.0, -0.15, -1.8],
+        "texture_path": "simplyswords:textures/particle/fire_trail.png",
+        "begin_pos": [0.0, -0.15, -1.05],
+        "interpolations": 12
+      }
+    }
+  ]
+}

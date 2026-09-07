@@ -1,0 +1,29 @@
+{
+    "target": "minecraft:zombie",
+    "priority": 100,
+    "properties": [
+        {
+            "property": "presets",
+            "presets": [
+                {
+                    "preset": "klopper:tank_zombie",
+                    "weight": 1
+                },
+                {
+                    "preset": "klopper:knight_zombie",
+                    "weight": 1
+                },
+                {
+                    "preset": "klopper:hunter_zombie",
+                    "weight": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.3
+                }
+            ]
+        }
+    ]
+}

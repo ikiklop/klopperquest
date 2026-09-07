@@ -1,0 +1,24 @@
+{
+  "attributes": {
+    "common": {
+	  "speed_bonus": -0.2,
+	  "impact": 2.0,
+	  "max_strikes": 4,
+	  "armor_negation": 10
+    }
+  },
+  "collider": {
+    "size": [
+      0.4,
+      0.4,
+      1.2
+    ],
+    "number": 5,
+    "center": [
+      0.0,
+      0.0,
+      -0.8
+    ]
+  },
+  "type": "ba_tweaks:greatsword"
+}

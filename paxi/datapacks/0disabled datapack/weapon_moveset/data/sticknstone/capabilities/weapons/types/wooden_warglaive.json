@@ -1,0 +1,49 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.8
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.75
+    ]
+  },
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "reimportrob:biped/reascer_staff_idle_old",
+      "run": "wom:biped/living/staff_run",
+      "block": "wom:biped/skill/agony_guard",
+      "sneak": "reimportrob:biped/asanginxst_sneak",
+      "swim": "epicfight:biped/living/hold_spear",
+      "kneel": "reimportrob:biped/asanginxst_kneel",
+      "walk": "reimportrob:biped/reascer_old_sowrd_onehand_walk_forward"
+    }
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "styles": {
+    "default": "two_hand",
+    "cases": []
+  },
+  "combos": {
+    "two_hand": [
+      "cdmoveset:biped/new/longsword/longsword_twohand_auto_3",
+      "cdmoveset:biped/new/longsword/longsword_twohand_auto_2",
+      "wom:biped/combat/napoleon_auto_2",
+      "wom:biped/combat/ruine_auto_2",
+      "wom:biped/skill/napoleon_reload_3",
+      "wom:biped/combat/napoleon_austerlitz",
+      "wom:biped/combat/napoleon_waterlow"
+    ]
+  },
+  "category": "spear",
+  "innate_skills": {
+    "two_hand": "wom:charybdis"
+  },
+  "usable_in_offhand": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "klopperquest:stone_weapons",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:stone_sword",
+"sticknstone:stone_sai",
+"sticknstone:stone_cutlass",
+"sticknstone:stone_rapier",
+"sticknstone:stone_twinblade",
+"sticknstone:stone_chakram",
+"sticknstone:stone_katana",
+"sticknstone:stone_warglaive",
+"sticknstone:stone_longsword",
+"sticknstone:stone_claymore",
+"sticknstone:stone_spear",
+"sticknstone:stone_glaive",
+"sticknstone:stone_scythe",
+"sticknstone:stone_greataxe",
+"sticknstone:stone_halberd",
+"sticknstone:stone_greathammer",
+"epicfight:stone_dagger",
+"epicfight:stone_tachi",
+"epicfight:stone_greatsword"
+  ]
+}

@@ -1,0 +1,1538 @@
+{
+  "id": "sdm:default",
+  "components": [
+    {
+      "type": "sdm:categories_manager"
+    },
+    {
+      "offers": [
+        {
+          "uuid": "14ff433c-8530-449d-9a83-60acce72ea33",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.rares",
+              "uuid": "19aebd60-220e-478e-8a9d-9bf8dd221bee",
+              "order": 60,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.enchanted_golden_apple",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:enchanted_golden_apple",
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:diamond",
+              "amount": 32.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "24ea7d27-2f79-45a1-a816-01da0c5f578a",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.utility",
+              "uuid": "0eeec168-d63b-427b-9e4e-ea5b860c4596",
+              "order": 40,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.name_tag",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:name_tag",
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 10.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "c3074b74-5459-4da5-86e6-8dd102a29315",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.resources",
+              "uuid": "5dba60a7-6c43-432a-82d0-89459506e1b4",
+              "order": 10,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.lapis_lazuli",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:lapis_lazuli",
+              "amount": 12,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "c1bcaba1-83d5-4eb2-af27-73cff2979691",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.redstone",
+              "uuid": "afb8adb8-c415-4909-bd9b-bedf0826eeca",
+              "order": 50,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.observer",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:observer",
+              "amount": 4,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "844681c4-0431-480f-8a4f-ace341988a12",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.resources",
+              "uuid": "5dba60a7-6c43-432a-82d0-89459506e1b4",
+              "order": 10,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.redstone",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:redstone",
+              "amount": 16,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "37d83fe7-547a-4a8f-b90c-3fdf92aa91a8",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.blocks",
+              "uuid": "29fcd73c-2abe-4dd3-812c-b5ff8d1d2d60",
+              "order": 20,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.white_wool",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:white_wool",
+              "amount": 16,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "12389e12-20f3-4ef5-9c19-5bfc302d63ff",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.utility",
+              "uuid": "0eeec168-d63b-427b-9e4e-ea5b860c4596",
+              "order": 40,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.ender_pearl",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:ender_pearl",
+              "amount": 4,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "a60be1af-5453-4fbe-88cc-da254c7d34c3",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.utility",
+              "uuid": "0eeec168-d63b-427b-9e4e-ea5b860c4596",
+              "order": 40,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.slime_ball",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:slime_ball",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "d72807af-100c-4141-bba0-ada8243b3d66",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.blocks",
+              "uuid": "29fcd73c-2abe-4dd3-812c-b5ff8d1d2d60",
+              "order": 20,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.terracotta",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:terracotta",
+              "amount": 16,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 3.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "5eb2daf5-5395-4ece-8097-12b7910a2297",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.utility",
+              "uuid": "0eeec168-d63b-427b-9e4e-ea5b860c4596",
+              "order": 40,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.bone",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:bone",
+              "amount": 16,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "cb6e3295-6463-4bd8-b2c9-480b70669dc2",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.resources",
+              "uuid": "5dba60a7-6c43-432a-82d0-89459506e1b4",
+              "order": 10,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.iron_ingot",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:iron_ingot",
+              "amount": 4,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "4f0644ae-2e00-40f9-809d-68dd616ac0dc",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.utility",
+              "uuid": "0eeec168-d63b-427b-9e4e-ea5b860c4596",
+              "order": 40,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.torch",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:torch",
+              "amount": 32,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 1.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "b12bdf65-36b7-4ad3-beca-90b06280ba79",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.rares",
+              "uuid": "19aebd60-220e-478e-8a9d-9bf8dd221bee",
+              "order": 60,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.totem_of_undying",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:totem_of_undying",
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:diamond",
+              "amount": 12.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "eefe813e-c3f7-40f2-838b-92f6226bc179",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.blocks",
+              "uuid": "29fcd73c-2abe-4dd3-812c-b5ff8d1d2d60",
+              "order": 20,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.stone_bricks",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:stone_bricks",
+              "amount": 16,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "418194e5-c9ef-4806-94ec-5bd2a73a4d38",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.blocks",
+              "uuid": "29fcd73c-2abe-4dd3-812c-b5ff8d1d2d60",
+              "order": 20,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.obsidian",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:obsidian",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 6.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "a4688d45-79e2-4891-9187-4700e592b1f8",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.utility",
+              "uuid": "0eeec168-d63b-427b-9e4e-ea5b860c4596",
+              "order": 40,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.string",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:string",
+              "amount": 16,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "27c26d9a-c4f2-4f6e-bebb-5c6103eaa940",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.farming_food",
+              "uuid": "d6bd0038-cc0e-4567-a077-85da7e2f4b6d",
+              "order": 30,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.spruce_sapling",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:spruce_sapling",
+              "amount": 4,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 1.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "50caf34b-5c44-4c43-b330-2b11a46ff27e",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.farming_food",
+              "uuid": "d6bd0038-cc0e-4567-a077-85da7e2f4b6d",
+              "order": 30,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.cooked_beef",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:cooked_beef",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 3.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "9e09f31d-8158-46ee-80c4-da7cf496b63b",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.resources",
+              "uuid": "5dba60a7-6c43-432a-82d0-89459506e1b4",
+              "order": 10,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.diamond",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:diamond",
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 4.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "5dbef637-0e94-4890-9069-7240d7cb4d56",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.exchange",
+              "uuid": "bfc4a9b7-69f4-4c23-b2f6-af3317e1079e",
+              "order": 70,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.diamond",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:diamond",
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 4.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "233de575-8a39-4910-9162-43c74150cf2e",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.farming_food",
+              "uuid": "d6bd0038-cc0e-4567-a077-85da7e2f4b6d",
+              "order": 30,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.melon_seeds",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:melon_seeds",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 1.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "ec321854-8e55-473a-afa1-854a416f64b6",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.exchange",
+              "uuid": "bfc4a9b7-69f4-4c23-b2f6-af3317e1079e",
+              "order": 70,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.netherite_ingot",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:netherite_ingot",
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:diamond",
+              "amount": 8.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "d0c43513-1e93-477c-8e91-916d67697a16",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.exchange",
+              "uuid": "bfc4a9b7-69f4-4c23-b2f6-af3317e1079e",
+              "order": 70,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.diamond",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:diamond",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:netherite",
+              "amount": 1.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "9beb75b1-1040-48d9-aa87-5c11dd0ea09a",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.redstone",
+              "uuid": "afb8adb8-c415-4909-bd9b-bedf0826eeca",
+              "order": 50,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.rail",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:rail",
+              "amount": 16,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 3.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "805f3e93-cd9d-468b-b85b-73f2c16729d6",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.resources",
+              "uuid": "5dba60a7-6c43-432a-82d0-89459506e1b4",
+              "order": 10,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.copper_ingot",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:copper_ingot",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 1.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "662fd825-ed5c-4ae8-87e3-3dbf03e26e42",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.farming_food",
+              "uuid": "d6bd0038-cc0e-4567-a077-85da7e2f4b6d",
+              "order": 30,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.bread",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:bread",
+              "amount": 16,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "5ce4709d-5587-4b2a-b1f5-558ef9158779",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.blocks",
+              "uuid": "29fcd73c-2abe-4dd3-812c-b5ff8d1d2d60",
+              "order": 20,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.glass",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:glass",
+              "amount": 16,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "7d6c7b7d-ba1c-4e00-9368-bde1803d1cfc",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.resources",
+              "uuid": "5dba60a7-6c43-432a-82d0-89459506e1b4",
+              "order": 10,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.quartz",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:quartz",
+              "amount": 12,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "fb6bfcc8-418c-4bd9-9260-4149c28ef619",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.utility",
+              "uuid": "0eeec168-d63b-427b-9e4e-ea5b860c4596",
+              "order": 40,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.gunpowder",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:gunpowder",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 3.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "bd3d135b-8cb1-4d13-b84e-6a08e2382373",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.farming_food",
+              "uuid": "d6bd0038-cc0e-4567-a077-85da7e2f4b6d",
+              "order": 30,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.golden_carrot",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:golden_carrot",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "6d499cb4-d072-4512-b04a-1d26370060b8",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.utility",
+              "uuid": "0eeec168-d63b-427b-9e4e-ea5b860c4596",
+              "order": 40,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.lantern",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:lantern",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 4.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "4a29d471-76af-4786-8bff-c7a8735856b7",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.rares",
+              "uuid": "19aebd60-220e-478e-8a9d-9bf8dd221bee",
+              "order": 60,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.experience_bottle",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:experience_bottle",
+              "amount": 16,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 3.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "45eb1450-5c5e-4ec4-a8a5-2f1e887723a7",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.utility",
+              "uuid": "0eeec168-d63b-427b-9e4e-ea5b860c4596",
+              "order": 40,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.arrow",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:arrow",
+              "amount": 32,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "d9159375-ff2b-45ae-a91b-698b76eac850",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.rares",
+              "uuid": "19aebd60-220e-478e-8a9d-9bf8dd221bee",
+              "order": 60,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.wither_skeleton_skull",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:wither_skeleton_skull",
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:diamond",
+              "amount": 10.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "7a46e012-19b8-43c7-bf24-e94305b672aa",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.rares",
+              "uuid": "19aebd60-220e-478e-8a9d-9bf8dd221bee",
+              "order": 60,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.dragon_egg",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:dragon_egg",
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:netherite",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            },
+            {
+              "money_id": "sdm:diamond",
+              "amount": 16.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "d1837228-85bf-4177-bdd2-9f4f596cac43",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.redstone",
+              "uuid": "afb8adb8-c415-4909-bd9b-bedf0826eeca",
+              "order": 50,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.hopper",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:hopper",
+              "amount": 2,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 4.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "7c089cc1-dbcc-46da-80ec-e9f49e29abba",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.resources",
+              "uuid": "5dba60a7-6c43-432a-82d0-89459506e1b4",
+              "order": 10,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.gold_ingot",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:gold_ingot",
+              "amount": 2,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 3.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "24c9d603-f11a-4f95-bdd7-21a00f06dfe2",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.blocks",
+              "uuid": "29fcd73c-2abe-4dd3-812c-b5ff8d1d2d60",
+              "order": 20,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.glowstone",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:glowstone",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 4.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "78abdced-089b-4768-87d1-cccc810bfff5",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.blocks",
+              "uuid": "29fcd73c-2abe-4dd3-812c-b5ff8d1d2d60",
+              "order": 20,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.sea_lantern",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:sea_lantern",
+              "amount": 4,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "0b062a0a-d60c-4d97-aab3-afd269a95009",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.rares",
+              "uuid": "19aebd60-220e-478e-8a9d-9bf8dd221bee",
+              "order": 60,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.elytra",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:elytra",
+              "nbt": "{Damage:0}",
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:diamond",
+              "amount": 64.0,
+              "type": "sdm:cost_money"
+            },
+            {
+              "money_id": "sdm:netherite",
+              "amount": 4.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "028d72b4-d450-48ca-96d9-7282df83e42c",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.blocks",
+              "uuid": "29fcd73c-2abe-4dd3-812c-b5ff8d1d2d60",
+              "order": 20,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.end_stone",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:end_stone",
+              "amount": 16,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 3.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "b120704c-4b8d-40af-9aac-a4871e0cb5be",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.farming_food",
+              "uuid": "d6bd0038-cc0e-4567-a077-85da7e2f4b6d",
+              "order": 30,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.pumpkin_seeds",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:pumpkin_seeds",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 1.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "d916c083-38fc-4727-b43c-4afa231732c7",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.farming_food",
+              "uuid": "d6bd0038-cc0e-4567-a077-85da7e2f4b6d",
+              "order": 30,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.wheat_seeds",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:wheat_seeds",
+              "amount": 16,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 1.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "ea302814-9494-48bb-84bf-5d338083a85f",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.farming_food",
+              "uuid": "d6bd0038-cc0e-4567-a077-85da7e2f4b6d",
+              "order": 30,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.potato",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:potato",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 1.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "ed71aab6-a9ce-47e9-99de-75d9fedb0867",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.exchange",
+              "uuid": "bfc4a9b7-69f4-4c23-b2f6-af3317e1079e",
+              "order": 70,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.emerald",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:emerald",
+              "amount": 4,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 1.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "9f6d9e09-fc84-448d-80e6-01d01b13cd97",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.rares",
+              "uuid": "19aebd60-220e-478e-8a9d-9bf8dd221bee",
+              "order": 60,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.shulker_shell",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:shulker_shell",
+              "amount": 2,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:diamond",
+              "amount": 4.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "c7d1b1f9-503c-4106-96ff-351eeb61a7f2",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.utility",
+              "uuid": "0eeec168-d63b-427b-9e4e-ea5b860c4596",
+              "order": 40,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.blaze_rod",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:blaze_rod",
+              "amount": 4,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 3.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "e25aaac9-a8d9-474e-b287-4c55ea4fd5f8",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.farming_food",
+              "uuid": "d6bd0038-cc0e-4567-a077-85da7e2f4b6d",
+              "order": 30,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.oak_sapling",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:oak_sapling",
+              "amount": 4,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 1.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "aa5f9894-4385-4a72-b568-b7b40639133d",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.farming_food",
+              "uuid": "d6bd0038-cc0e-4567-a077-85da7e2f4b6d",
+              "order": 30,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.carrot",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:carrot",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 1.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "70a98ff4-1da6-4df8-b664-b54cfe59281b",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.exchange",
+              "uuid": "bfc4a9b7-69f4-4c23-b2f6-af3317e1079e",
+              "order": 70,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.gold_ingot",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:gold_ingot",
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 4.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "3d9efe18-2888-4506-8dd7-10552ec119a7",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.rares",
+              "uuid": "19aebd60-220e-478e-8a9d-9bf8dd221bee",
+              "order": 60,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.phantom_membrane",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:phantom_membrane",
+              "amount": 4,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 4.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "923241ef-f587-443b-8a6d-aea698e44120",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.redstone",
+              "uuid": "afb8adb8-c415-4909-bd9b-bedf0826eeca",
+              "order": 50,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.repeater",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:repeater",
+              "amount": 4,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "ff8c35f2-4c80-4bba-ae57-45798b5a755e",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.redstone",
+              "uuid": "afb8adb8-c415-4909-bd9b-bedf0826eeca",
+              "order": 50,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.piston",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:piston",
+              "amount": 4,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 4.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "f84893c8-8d77-4445-ac98-f1b7c385ebe8",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.resources",
+              "uuid": "5dba60a7-6c43-432a-82d0-89459506e1b4",
+              "order": 10,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.amethyst_shard",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:amethyst_shard",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 2.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "e85a8125-837f-4323-a971-057c480620d8",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.exchange",
+              "uuid": "bfc4a9b7-69f4-4c23-b2f6-af3317e1079e",
+              "order": 70,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.gold_ingot",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:gold_ingot",
+              "amount": 4,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:diamond",
+              "amount": 1.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "3ee2efe2-1217-4161-8d2b-6c2a911d6098",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.blocks",
+              "uuid": "29fcd73c-2abe-4dd3-812c-b5ff8d1d2d60",
+              "order": 20,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.deepslate_bricks",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:deepslate_bricks",
+              "amount": 16,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 3.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "6f3e627b-ce75-49d9-9566-143a0604d843",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.redstone",
+              "uuid": "afb8adb8-c415-4909-bd9b-bedf0826eeca",
+              "order": 50,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.comparator",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:comparator",
+              "amount": 2,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 4.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "d8d1b67c-845b-4ea3-821f-87db614089a3",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.redstone",
+              "uuid": "afb8adb8-c415-4909-bd9b-bedf0826eeca",
+              "order": 50,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.powered_rail",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:powered_rail",
+              "amount": 8,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 3.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "0ed7356e-8595-4a38-bd27-fd8c8cae7369",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.utility",
+              "uuid": "0eeec168-d63b-427b-9e4e-ea5b860c4596",
+              "order": 40,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.saddle",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:saddle",
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 8.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "c6eb9662-9bcd-4f71-81a8-f5ef7ac799cd",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.redstone",
+              "uuid": "afb8adb8-c415-4909-bd9b-bedf0826eeca",
+              "order": 50,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "block.minecraft.sticky_piston",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:sticky_piston",
+              "amount": 4,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:gold",
+              "amount": 3.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        },
+        {
+          "uuid": "cf8cd4f9-48e3-4006-91d3-db6ba97b0fa8",
+          "components": [
+            {
+              "catalog_id": "shop.default.category.resources",
+              "uuid": "5dba60a7-6c43-432a-82d0-89459506e1b4",
+              "order": 10,
+              "type": "sdm:catalog"
+            },
+            {
+              "name": "item.minecraft.coal",
+              "type": "sdm:name"
+            },
+            {
+              "item": "minecraft:coal",
+              "amount": 16,
+              "type": "sdm:reward_item"
+            },
+            {
+              "money_id": "sdm:emerald",
+              "amount": 1.0,
+              "type": "sdm:cost_money"
+            }
+          ]
+        }
+      ],
+      "type": "sdm:offers_container"
+    }
+  ]
+}

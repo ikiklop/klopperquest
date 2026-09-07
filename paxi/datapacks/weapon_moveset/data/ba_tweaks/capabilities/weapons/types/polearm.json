@@ -1,0 +1,56 @@
+{
+  "innate_skills": {
+    "two_hand": "wom:agony_plunge"
+  },
+  "combos": {
+    "two_hand": [
+      "wom:biped/combat/torment_auto_4",
+      "wom:biped/combat/napoleon_austerlitz",
+      "wom:biped/combat/orbit_attack_2",
+      "wom:biped/combat/orbit_attack_3",
+      "cdmoveset:biped/new/spear_slash",
+      "wom:biped/combat/torment_charged_attack_1",
+      "wom:biped/combat/agony_clawstrike",
+      "efn:biped/ng_greatsword/ng_great_charge1max_2"
+    ]
+  },
+  "hit_sound": "epicfight:entity.hit.blade",
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "hit_particle": "wom:solar_hit",
+  "styles": {
+    "cases": [
+      {
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "not_weapon"
+          }
+        ],
+        "style": "two_hand"
+      }
+    ],
+    "default": "two_hand"
+  },
+  "livingmotion_modifier": {
+    "two_hand": {
+      "block": "wom:biped/skill/agony_guard",
+      "walk": "wom:biped/living/torment_walk",
+      "idle": "efn:biped/falchion/falchion_idle",
+      "run": "wom:biped/living/torment_run"
+    }
+  },
+  "category": "spear",
+  "collider": {
+    "size": [
+      0.6,
+      0.6,
+      2.0
+    ],
+    "number": 5,
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  }
+}

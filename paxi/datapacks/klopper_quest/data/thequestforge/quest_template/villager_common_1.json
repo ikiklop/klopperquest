@@ -1,0 +1,250 @@
+{
+  "pool": "none",
+  "type": "LOCAL",
+  "weight": 100,
+  "requirement": [],
+  "name": {
+    "en_us": [
+      "Zombie Menace",
+      "Clearing the Undead",
+      "Put Them to Rest",
+      "Zombie Extermination",
+      "The Walking Dead Problem",
+      "Too Many Zombies",
+      "Graveyard Shift",
+      "Undead Purge",
+      "Zombie Infestation",
+      "Restless Corpses"
+    ]
+  },
+  "description": {
+    "en_us": [
+      "%npc_name% is terrified! Zombies have been lurking around his property at night, scaring his livestock and making it impossible to sleep. He needs someone brave enough to deal with the undead threat. Take out 10 zombies and he'll reward you handsomely.",
+      "The village has been having a serious zombie problem lately. %npc_name% has had enough of the moaning and groaning outside his window every night. He's offering a reward for anyone who can kill 10 of those rotten creatures.",
+      "%npc_name% is offering a bounty on zombies. He says they've been trampling his crops and scaring his family. His request is simple: eliminate 10 zombies and collect your payment.",
+      "The undead are getting too close to %npc_name%'s home for comfort. He needs a skilled fighter to thin out the zombie population in the area. Kill 10 zombies and he'll pay you in iron ingots.",
+      "Zombies have been causing trouble around %npc_name%'s farm for weeks now. He's finally decided to do something about it and is hiring a mercenary to take care of the problem. The job: kill 10 zombies. The payment: 10 iron ingots.",
+      "%npc_name% needs help with a zombie infestation. They're everywhere—in the fields, near the well, even trying to break down his door. He needs someone to kill 10 of them to send a message to the rest.",
+      "There's a zombie problem in the area, and %npc_name% is willing to pay for a solution. His offer: 10 iron ingots for 10 zombie kills. Simple, straightforward, and profitable.",
+      "%npc_name% can't sleep at night because of all the zombie moaning. He's looking for a brave adventurer to clear out the area. Kill 10 zombies and claim your iron ingot reward.",
+      "The walking dead have become a nuisance for %npc_name%. His garden is ruined, and his animals are stressed. He needs someone to kill 10 zombies and restore some peace to his property.",
+      "Zombies are becoming a real problem in the village. %npc_name% is offering a reward for anyone willing to deal with 10 of them. The payment is 10 iron ingots—fair compensation for a dangerous job."
+    ]
+  },
+  "max_reward": 1,
+  "dialogs": {
+    "start": {
+      "text": {
+        "en_us": [
+          "Greetings, traveler! You look like someone who knows how to handle a weapon. Am I right?",
+          "Hello there! You look like a fighter to me—someone who's not afraid to get their hands dirty. Am I right?",
+          "Well met, adventurer! I can tell by your stance that you've seen battle before. Am I right?",
+          "Good day, stranger! You've got the look of someone who's dealt with danger before. Am I right?"
+        ]
+      },
+      "buttons": [
+        {
+          "text": {
+            "en_us": [
+              "Yes, I've handled a weapon or two. What do you need?",
+              "You could say that. What's the problem?",
+              "That's right. What can I help you with?"
+            ]
+          },
+          "to_go": "dialog_1",
+          "actions": []
+        }
+      ]
+    },
+    "dialog_1": {
+      "text": {
+        "en_us": [
+          "I need someone to deal with a zombie problem. They've been lurking around my property every night, scaring my animals and keeping my family awake. I can't take it anymore!",
+          "Zombies, traveler. Zombies everywhere! They're ruining my crops, scaring my livestock, and I haven't had a good night's sleep in weeks. I need someone to thin their numbers.",
+          "The undead are becoming a menace around here. They come from the woods every night and surround my home. I've had enough of it. I need a fighter to take care of them.",
+          "It's the zombies, see. They're everywhere—hiding in the shadows, moaning all night, trying to break through my fences. I can't handle them alone. I need your help."
+        ]
+      },
+      "buttons": [
+        {
+          "text": {
+            "en_us": [
+              "How many do you need killed?",
+              "What's the job exactly?",
+              "How many zombies are we talking about?",
+              "Tell me more."
+            ]
+          },
+          "to_go": "dialog_2",
+          "actions": []
+        }
+      ]
+    },
+    "dialog_2": {
+      "text": {
+        "en_us": [
+          "I need you to kill 10 zombies. Do that, and I'll pay you 10 iron ingots. Simple as that.",
+          "Just 10 zombies. Not too many, not too few. Kill 10 of those stinking undead, and 10 iron ingots are yours.",
+          "The number is 10. Kill 10 zombies, and I'll give you 10 iron ingots. Fair deal, if you ask me.",
+          "10 zombies. That's all I'm asking. One iron ingot per zombie. A fair price for a dangerous job."
+        ]
+      },
+      "buttons": [
+        {
+          "text": {
+            "en_us": [
+              "Deal. I'll kill 10 zombies.",
+              "Agreed. 10 zombies for 10 iron ingots.",
+              "Sounds fair. I'm in.",
+              "You've got yourself a deal."
+            ]
+          },
+          "to_go": "dialog_3",
+          "actions": [
+            "thequestforge:accept",
+            "thequestforge:save"
+          ]
+        },
+        {
+          "text": {
+            "en_us": [
+              "Can you offer more?",
+              "That doesn't seem like enough payment."
+            ]
+          },
+          "to_go": "dialog_payment",
+          "actions": []
+        }
+      ]
+    },
+    "dialog_payment": {
+      "text": {
+        "en_us": [
+          "Look, 10 iron ingots is all I can spare. Take it or leave it. I don't have much, but it's honest pay for honest work.",
+          "I'm not rich, traveler. 10 iron ingots is a fair price. If you want more, you'll have to negotiate with someone else.",
+          "Sorry, but that's the best I can do. 10 iron ingots for 10 zombies. I think it's reasonable.",
+          "Times are tough. 10 iron ingots is what I'm offering. It's a fair wage for a short job."
+        ]
+      },
+      "buttons": [
+        {
+          "text": {
+            "en_us": [
+              "Fine, I'll take the job.",
+              "Alright, 10 zombies it is.",
+              "Deal."
+            ]
+          },
+          "to_go": "dialog_3",
+          "actions": [
+            "thequestforge:accept",
+            "thequestforge:save"
+          ]
+        }
+      ]
+    },
+    "dialog_3": {
+      "text": {
+        "en_us": [
+          "Excellent! Thank you for taking this on. The zombies usually come out at night, but you'll find them anywhere in the dark. Good luck, and stay safe out there!",
+          "Great! I knew I could count on you. The zombies are mostly in the fields and near the woods. Just be careful—they're relentless. Come back when you've killed 10 of them.",
+          "Perfect. I'm so relieved to have someone handle this. Go find those zombies and send them back to where they came from. I'll be here waiting with your reward.",
+          "Wonderful! You're a lifesaver, truly. I'll be here with your 10 iron ingots. Just show me proof that the job is done and the payment is yours."
+        ]
+      },
+      "buttons": [
+        {
+          "text": {
+            "en_us": [
+              "I'll be back soon.",
+              "I won't let you down.",
+              "On my way."
+            ]
+          },
+          "to_go": "exit",
+          "actions": [
+            "thequestforge:save",
+            "thequestforge:close"
+          ]
+        }
+      ]
+    },
+    "dialog_4": {
+      "text": {
+        "en_us": [
+          "Welcome back! Did you get them?",
+          "You're back! Please tell me you handled those zombies.",
+          "I was starting to worry. Did you kill the zombies?"
+        ]
+      },
+      "buttons": [
+        {
+          "text": {
+            "en_us": [
+              "Yes, the job is done."
+            ]
+          },
+          "to_go": "dialog_5",
+          "actions": [
+            "thequestforge:complete"
+          ],
+          "alt_to_go": "dialog_6"
+        }
+      ]
+    },
+    "dialog_5": {
+      "text": {
+        "en_us": [
+          "Fantastic! You're a true hero! I can finally sleep peacefully. Here are your 10 iron ingots, as promised.",
+          "Thank you! Thank you so much! My family and I are forever grateful. Here is your payment—10 iron ingots, just as we agreed.",
+          "Amazing work! Those zombies won't bother anyone anymore. Here's your reward—10 iron ingots. You earned every one of them.",
+          "You did it! I can't thank you enough. Please, take these 10 iron ingots. You've earned them, and so much more."
+        ]
+      },
+      "buttons": [
+        {
+          "text": {
+            "en_us": [
+              "Thank you! Glad I could help.",
+              "Happy to help. Stay safe!",
+              "Pleasure doing business."
+            ]
+          },
+          "to_go": "exit",
+          "actions": [
+            "thequestforge:close"
+          ]
+        }
+      ]
+    },
+    "dialog_6": {
+      "text": {
+        "en_us": [
+          "That's not 10. Are you sure you killed them all? I need at least 10 before I can pay you.",
+          "Wait... I don't think you've killed enough. I said 10 zombies, and you're not there yet. Come back when you've dealt with all of them.",
+          "Hmm, I'm pretty sure I asked for 10 zombies. Check your count and come back when the job is actually complete.",
+          "Not yet, traveler. I need 10 zombies dead. I'm not paying until the job is done. Go finish what you started."
+        ]
+      },
+      "buttons": [
+        {
+          "text": {
+            "en_us": [
+              "I'll take care of the rest and come back.",
+              "Alright, I'll finish the job."
+            ]
+          },
+          "to_go": "exit",
+          "actions": [
+            "thequestforge:close"
+          ]
+        }
+      ]
+    }
+  },
+  "group": "thequestforge:villager_plains_zombie_kill_1",
+  "task_count": {
+    "min": 1,
+    "max": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "attributes": {
+    "common": {
+      "max_strikes": 1,
+	  "impact": 1.1
+    }
+  },
+  "collider": {
+    "size": [
+      0.4,
+      0.8,
+      1.4
+    ],
+    "number": 5,
+    "center": [
+      0.0,
+      -0.1,
+      -0.5
+    ]
+  },
+  "type": "cdmoveset:s_tachi"
+}

@@ -1,0 +1,4 @@
+{
+  "_comment": "auto_trails: when true (the default), every mapped weapon inherits its weapon type's representative Epic Fight swing trail. Set to false so that only weapons whose mapping contains an explicit \"trail\" object get a trail. Opt a single weapon out with \"trail\": \"none\" (or false) in its mapping.",
+  "auto_trails": true
+}

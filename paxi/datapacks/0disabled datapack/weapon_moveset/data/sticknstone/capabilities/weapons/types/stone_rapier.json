@@ -1,0 +1,76 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.8
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.75
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "reimportrob:biped/roberton_rapier_animeahh_idle",
+      "block": "reimportrob:biped/roberton_one_guard",
+      "run": "reimportrob:biped/roberton_rapier_animeahh_run",
+      "sneak": "reimportrob:biped/asanginxst_sneak",
+      "swim": "epicfight:biped/living/hold_spear",
+      "kneel": "reimportrob:biped/asanginxst_kneel",
+      "walk": "reimportrob:biped/roberton_rapier_animeahh_walk"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/herrscher_idle",
+      "run": "wom:biped/living/herrscher_run",
+      "block": "reimportrob:biped/asanginxst_shield_mirror",
+      "sneak": "reimportrob:biped/asanginxst_sneak",
+      "walk": "wom:biped/living/herrscher_walk",
+      "swim": "epicfight:biped/living/hold_spear",
+      "kneel": "reimportrob:biped/reascer_old_sowrd_onehand_kneel"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "shield"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+    "common": [
+      "reimportrob:biped/asanginxst_sword_dual_auto1",
+      "reimportrob:biped/asanginxst_old_sword_auto2",
+      "wom:biped/combat/agony_auto_1",
+      "cdmoveset:biped/new/spear/spear_dash",
+      "wom:biped/combat/herrscher_auto_2",
+      "cdmoveset:biped/new/sword/sword_onehand_auto_4",
+      "efn:biped/nf_sword/nf_sword_dash",
+      "reimportrob:biped/asanginxst_sword_airslash"
+    ]
+  },
+  "styles": {
+    "default": "two_hand",
+    "cases": [
+      {
+        "style": "one_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "shield"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "longsword",
+  "innate_skills": {
+    "two_hand": "cdmoveset:blade_rush_finisher",
+    "one_hand": "epicfight:sharp_stab"
+  },
+  "usable_in_offhand": true
+}

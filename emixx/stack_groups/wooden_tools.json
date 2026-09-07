@@ -1,0 +1,10 @@
+{
+  "id": "klopperquest:wooden_tools",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:wooden_shovel",
+"minecraft:wooden_pickaxe",
+"minecraft:wooden_axe",
+"minecraft:wooden_hoe"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "cdmoveset:s_spear",
+  "collider": {
+    "center": [
+      0.0,
+      0.1,
+      -0.9
+    ],
+    "size": [
+      0.4,
+      0.6,
+      2.5
+    ],
+    "number": 5
+  },
+  "attributes": {
+    "common": {
+	  "speed_bonus": -0.4,
+	  "impact": 1.2,
+	  "max_strikes": 3,
+	  "armor_negation": 5
+    }
+  }
+}

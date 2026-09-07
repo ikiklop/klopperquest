@@ -1,0 +1,69 @@
+{
+  // default: true
+  "enableMod": true,
+  // default: false
+  "timeInSeconds": true,
+  // default: true
+  "showDurability": true,
+  // default: true
+  "showFoodValues": true,
+  // default: true
+  "showCompostable": false,
+  // default: true
+  "showBurnTime": true,
+  // default: false
+  "showUseCooldown": false,
+  // default: true
+  "showSongDuration": false,
+  // default: false
+  "showEnchantability": false,
+  // default: false
+  "showRepairCost": false,
+  // default: false
+  "showStrength": false,
+  // default: true
+  "showEnchantmentPower": true,
+  // default: false
+  "showMiningLevel": true,
+  // default: false
+  "showMiningSpeed": true,
+  // default: false
+  "showModName": false,
+  // default: false
+  "showComponents": false,
+
+  // min: 7, width: 7, default: #555555
+  "durabilityColor": "#555555",
+  // min: 7, width: 7, default: #555555
+  "foodValuesColor": "#555555",
+  // min: 7, width: 7, default: #555555
+  "compostableColor": "#555555",
+  // min: 7, width: 7, default: #555555
+  "burnTimeColor": "#555555",
+  // min: 7, width: 7, default: #555555
+  "useCooldownColor": "#555555",
+  // min: 7, width: 7, default: #555555
+  "songDurationColor": "#555555",
+  // min: 7, width: 7, default: #555555
+  "enchantabilityColor": "#555555",
+  // min: 7, width: 7, default: #555555
+  "repairCostColor": "#555555",
+  // min: 7, width: 7, default: #555555
+  "strengthColor": "#555555",
+  // min: 7, width: 7, default: #555555
+  "enchantmentPowerColor": "#555555",
+  // min: 7, width: 7, default: #555555
+  "miningLevelColor": "#555555",
+  // min: 7, width: 7, default: #555555
+  "miningSpeedColor": "#555555",
+  // min: 7, width: 7, default: #5555ff
+  "modNameColor": "#5555ff",
+  // Order: Title, Ctrl, Key, Value
+  // min: 7, width: 7, default: [#555555, #55FFFF, #AAAAAA, #555555]
+  "componentsColors": [
+    "#555555",
+    "#55FFFF",
+    "#AAAAAA",
+    "#555555"
+  ]
+}

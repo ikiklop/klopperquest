@@ -1,0 +1,97 @@
+{
+    "properties": [
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "Wither Crimson Health",
+            "amount": {
+                "min": 200,
+                "max": 200
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.movement_speed",
+            "modifier_name": "Wither Crimson Speed",
+            "amount": {
+                "min": 0,
+                "max": 0
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "custom_name",
+            "overrides": ["Wither Crimson"]
+        },
+        {
+            "property": "equipment",
+            "slot": "head",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:crimson_helmet",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "chest",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:crimson_chestplate",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "legs",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:crimson_leggings",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "feet",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:crimson_boots",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:crimson_long_sword",
+                    "weight": 1,
+                    "nbt": {
+                        "BielGGSwordSpellSlot": 1,
+                        "irons_spellbooks:spell_container": {
+                            "maxSpells": 1,
+                            "mustEquip": 0,
+                            "data": [],
+                            "spellWheel": 1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "offhand",
+            "items": [
+                {
+                    "item": "minecraft:air",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

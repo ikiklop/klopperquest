@@ -1,0 +1,314 @@
+{
+  "minecraft:silverfish": [
+    { "attribute": "minecraft:generic.max_health", "value": 10, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:endermite": [
+    { "attribute": "minecraft:generic.max_health", "value": 10, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:slime": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:cave_spider": [
+    { "attribute": "minecraft:generic.max_health", "value": 30, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:spider": [
+    { "attribute": "minecraft:generic.max_health", "value": 40, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:zombie_villager": [
+    { "attribute": "minecraft:generic.max_health", "value": 50, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:zombie": [
+    { "attribute": "minecraft:generic.max_health", "value": 50, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:husk": [
+    { "attribute": "minecraft:generic.max_health", "value": 65, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:drowned": [
+    { "attribute": "minecraft:generic.max_health", "value": 65, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:skeleton": [
+    { "attribute": "minecraft:generic.max_health", "value": 30, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:stray": [
+    { "attribute": "minecraft:generic.max_health", "value": 30, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:creeper": [
+    { "attribute": "minecraft:generic.max_health", "value": 15, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:witch": [
+    { "attribute": "minecraft:generic.max_health", "value": 30, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:phantom": [
+    { "attribute": "minecraft:generic.max_health", "value": 15, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:vex": [
+    { "attribute": "minecraft:generic.max_health", "value": 5, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:evoker": [
+    { "attribute": "minecraft:generic.max_health", "value": 35, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:vindicator": [
+    { "attribute": "minecraft:generic.max_health", "value": 70, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:illusioner": [
+    { "attribute": "minecraft:generic.max_health", "value": 40, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:pillager": [
+    { "attribute": "minecraft:generic.max_health", "value": 50, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:ravager": [
+    { "attribute": "minecraft:generic.max_health", "value": 150, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:guardian": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:elder_guardian": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:warden": [
+    { "attribute": "minecraft:generic.max_health", "value": 2000, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:wither": [
+    { "attribute": "minecraft:generic.max_health", "value": 500, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:zombified_piglin": [
+    { "attribute": "minecraft:generic.max_health", "value": 100, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:magma_cube": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:zoglin": [
+    { "attribute": "minecraft:generic.max_health", "value": 200, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:piglin": [
+    { "attribute": "minecraft:generic.max_health", "value": 100, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:piglin_brute": [
+    { "attribute": "minecraft:generic.max_health", "value": 125, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:hoglin": [
+    { "attribute": "minecraft:generic.max_health", "value": 200, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:blaze": [
+    { "attribute": "minecraft:generic.max_health", "value": 70, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:ghast": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:wither_skeleton": [
+    { "attribute": "minecraft:generic.max_health", "value": 120, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:enderman": [
+    { "attribute": "minecraft:generic.max_health", "value": 200, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:shulker": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:ender_dragon": [
+    { "attribute": "minecraft:generic.max_health", "value": 5000, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:allay": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:axolotl": [
+    { "attribute": "minecraft:generic.max_health", "value": 10, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:bat": [
+    { "attribute": "minecraft:generic.max_health", "value": 5, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:bee": [
+    { "attribute": "minecraft:generic.max_health", "value": 10, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:camel": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:cat": [
+    { "attribute": "minecraft:generic.max_health", "value": 30, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:chicken": [
+    { "attribute": "minecraft:generic.max_health", "value": 15, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:cod": [
+    { "attribute": "minecraft:generic.max_health", "value": 5, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:cow": [
+    { "attribute": "minecraft:generic.max_health", "value": 30, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:dolphin": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:donkey": [
+    { "attribute": "minecraft:generic.max_health", "value": 50, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:fox": [
+    { "attribute": "minecraft:generic.max_health", "value": 25, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:frog": [
+    { "attribute": "minecraft:generic.max_health", "value": 15, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:giant": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:glow_squid": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:goat": [
+    { "attribute": "minecraft:generic.max_health", "value": 40, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:horse": [
+    { "attribute": "minecraft:generic.max_health", "value": 100, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:iron_golem": [
+    { "attribute": "minecraft:generic.max_health", "value": 225, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 25, "operation": "BASE" }
+  ],
+  "minecraft:llama": [
+    { "attribute": "minecraft:generic.max_health", "value": 30, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:mooshroom": [
+    { "attribute": "minecraft:generic.max_health", "value": 30, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:mule": [
+    { "attribute": "minecraft:generic.max_health", "value": 40, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:ocelot": [
+    { "attribute": "minecraft:generic.max_health", "value": 30, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:panda": [
+    { "attribute": "minecraft:generic.max_health", "value": 80, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:parrot": [
+    { "attribute": "minecraft:generic.max_health", "value": 15, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:pig": [
+    { "attribute": "minecraft:generic.max_health", "value": 25, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:polar_bear": [
+    { "attribute": "minecraft:generic.max_health", "value": 60, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:pufferfish": [
+    { "attribute": "minecraft:generic.max_health", "value": 5, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:rabbit": [
+    { "attribute": "minecraft:generic.max_health", "value": 10, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:salmon": [
+    { "attribute": "minecraft:generic.max_health", "value": 5, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:sheep": [
+    { "attribute": "minecraft:generic.max_health", "value": 25, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:skeleton_horse": [
+    { "attribute": "minecraft:generic.max_health", "value": 50, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:sniffer": [
+    { "attribute": "minecraft:generic.max_health", "value": 100, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:snow_golem": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:squid": [
+    { "attribute": "minecraft:generic.max_health", "value": 20, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:strider": [
+    { "attribute": "minecraft:generic.max_health", "value": 30, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:trader_llama": [
+    { "attribute": "minecraft:generic.max_health", "value": 30, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:tropical_fish": [
+    { "attribute": "minecraft:generic.max_health", "value": 5, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:turtle": [
+    { "attribute": "minecraft:generic.max_health", "value": 50, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 10, "operation": "BASE" }
+  ],
+  "minecraft:villager": [
+    { "attribute": "minecraft:generic.max_health", "value": 50, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:wandering_trader": [
+    { "attribute": "minecraft:generic.max_health", "value": 50, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:wolf": [
+    { "attribute": "minecraft:generic.max_health", "value": 40, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ],
+  "minecraft:zombie_horse": [
+    { "attribute": "minecraft:generic.max_health", "value": 50, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 0, "operation": "BASE" }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+    "properties": [
+        {
+            "property": "attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier_name": "Prisoner Health",
+            "amount": {
+                "min": 10,
+                "max": 10
+            },
+            "operation": "addition"
+        },
+        {
+            "property": "custom_name",
+            "overrides": ["Prisoner"]
+        },
+        {
+            "property": "equipment",
+            "slot": "head",
+            "items": [
+                {
+                    "item": "dungeons_and_combat:prisoner_helmet",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": [
+                {
+                    "item": "minecraft:stone_sword",
+                    "weight": 2
+                },
+                {
+                    "item": "minecraft:iron_sword",
+                    "weight": 1
+                },
+                {
+                    "item": "minecraft:stone_axe",
+                    "weight": 2
+                }
+            ]
+        }
+    ]
+}

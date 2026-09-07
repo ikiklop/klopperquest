@@ -1,0 +1,55 @@
+{
+  "styles": {
+    "default": "two_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "category": "not_weapon",
+            "predicate": "epicfight:offhand_item_category"
+          }
+        ]
+      }
+    ]
+  },
+  "hit_sound": "epicfight:entity.hit.blade",
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "combos": {
+    "two_hand": [
+      "efn:biped/ng_greatsword/ng_great_auto2",
+      "wom:biped/combat/ruine_auto_1",
+      "efn:biped/ng_greatsword/ng_great_dash",
+      "wom:biped/combat/solar_auto_4",
+      "wom:biped/combat/torment_auto_4",
+      "wom:biped/combat/torment_charged_attack_2",
+      "efn:biped/ng_greatsword/ng_great_airslash"
+    ]
+  },
+  "category": "spear",
+  "hit_particle": "wom:solar_hit",
+  "innate_skills": {
+    "two_hand": "epicfight:steel_whirlwind"
+  },
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "size": [
+      0.5,
+      0.8,
+      1.0
+    ],
+    "number": 5
+  },
+  "livingmotion_modifier": {
+    "two_hand": {
+      "run": "wom:biped/living/torment_run",
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_idle",
+      "walk": "wom:biped/living/torment_walk",
+      "block": "wom:biped/skill/ruine_guard"
+    }
+  }
+}

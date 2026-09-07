@@ -1,0 +1,9 @@
+{
+  "attributes": {
+    "common": {
+	  "speed_bonus": 0.9,
+	  "impact": 0.7
+    }
+  },
+  "type": "ba_tweaks:fist"
+}

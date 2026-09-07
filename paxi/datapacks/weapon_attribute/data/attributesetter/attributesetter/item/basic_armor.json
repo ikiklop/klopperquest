@@ -1,0 +1,510 @@
+{
+  "minecraft:leather_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 0.5,
+      "operation": "BASE"
+    }
+  ],
+  "minecraft:leather_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "BASE"
+    }
+  ],
+  "minecraft:leather_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1,
+      "operation": "BASE"
+    }
+  ],
+  "minecraft:leather_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 0.5,
+      "operation": "BASE"
+    }
+  ],
+  "jerotes:copper_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 0.75,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.00625,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "jerotes:copper_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2.25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.00625,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "jerotes:copper_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1.25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.00625,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "jerotes:copper_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 0.75,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.00625,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:copper_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1.25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.0125,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:copper_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2.75,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.0125,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:copper_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1.75,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.0125,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:copper_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1.25,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.0125,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:iron_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.0125,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:iron_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.0125,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:iron_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.0125,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:iron_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.0125,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:iron_metal_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.025,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:iron_metal_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.025,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:iron_metal_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.025,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:iron_metal_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.025,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:golden_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.025,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:golden_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.025,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:golden_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.025,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:golden_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 1.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.025,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:golden_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.05,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:golden_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 5.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.05,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:golden_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 4,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.05,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:golden_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.05,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:diamond_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.03,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:diamond_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.03,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:diamond_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.03,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:diamond_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.03,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:diamond_metal_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 4,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.06,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:diamond_metal_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 7,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.06,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:diamond_metal_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.06,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:diamond_metal_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 4,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.06,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:netherite_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.0375,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:netherite_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 4,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.0375,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:netherite_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 3,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.0375,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "minecraft:netherite_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 2.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.0375,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:netherite_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.075,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:netherite_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 8.5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.075,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:netherite_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 6,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.075,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "dungeons_and_combat:netherite_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 5,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.075,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "hit_sound": "epicfight:entity.hit.blunt_hard",
+  "combos": {
+    "one_hand": [
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_twohand_auto_1",
+      "efn:biped/ng_greatsword/ng_great_charge1min",
+      "wom:biped/combat/solar_auto_2",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_twohand_auto_3",
+      "efn:biped/ng_greatsword/ng_great_skill_clash",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dash",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_airslash"
+    ]
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "hit_particle": "wom:solar_hit",
+  "livingmotion_modifier": {
+    "one_hand": {
+      "idle": "epicfight:biped/living/hold_greatsword",
+      "block": "epicfight:biped/skill/guard_greatsword",
+      "walk": "epicfight:biped/living/walk_greatsword",
+      "run": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_run"
+    }
+  },
+  "collider": {
+    "size": [
+      0.4,
+      0.6,
+      1.2
+    ],
+    "number": 5,
+    "center": [
+      0.0,
+      0.0,
+      -0.8
+    ]
+  },
+  "category": "greatsword",
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "not_weapon"
+          }
+        ],
+        "style": "one_hand"
+      },
+      {
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "greatsword"
+          }
+        ],
+        "style": "two_hand"
+      }
+    ]
+  },
+  "innate_skills": {
+    "one_hand": "cdmoveset:wind_slash"
+  }
+}

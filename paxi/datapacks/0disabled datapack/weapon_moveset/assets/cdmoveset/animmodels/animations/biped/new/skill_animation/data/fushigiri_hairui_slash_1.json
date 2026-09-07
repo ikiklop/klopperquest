@@ -1,0 +1,41 @@
+{
+	"trail_effects": [
+		{
+			"color": [80, 80, 80],
+			"begin_pos": [0.0, 0.0, 0.8],
+    		"end_pos": [0.0, 0.05, -2.4],
+			"start_time": 0.95,
+			"end_time": 1.1,
+			"lifetime": 12,
+			"joint": "Tool_R",
+			"interpolations": 5,
+			"item_skin_hand": "main_hand",
+			"texture_path": "cdmoveset:textures/particle/fushigiri_hairui_slash/fushigiri_hairui_slash1.png"
+		},
+		{
+			"color": [80, 80, 80],
+			"begin_pos": [0.0, 0.0, 0.8],
+    		"end_pos": [0.0, -0.1, -4.8],
+			"start_time": 1.9,
+			"end_time": 1.9,
+			"lifetime": 9,
+			"joint": "Tool_R",
+			"interpolations": 3,
+			"item_skin_hand": "main_hand",
+			"texture_path": "cdmoveset:textures/particle/fushigiri_hairui_slash/fushigiri_hairui_slash1.png"
+		},
+		{
+			"color": [255, 255, 255],
+			"begin_pos": [0.1, 0.0, 0.8],
+    		"end_pos": [0.0, -0.1, -4.8],
+			"start_time": 1.9,
+			"end_time": 2.6,
+			"fade_time": 2.7,
+			"lifetime": 21,
+			"joint": "Tool_R",
+			"interpolations": 9,
+			"item_skin_hand": "main_hand",
+			"texture_path": "cdmoveset:textures/particle/fushigiri_hairui_slash/fushigiri_hairui_slash2.png"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "attributes": {
+    "common": {
+      "armor_negation": 20,
+	  "speed_bonus": -0.5,
+	  "impact": 2.5,
+	  "max_strikes": 9
+    }
+  },
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -0.6
+    ],
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      1.2
+    ]
+  },
+  "type": "ba_tweaks:heavy_weapon"
+}

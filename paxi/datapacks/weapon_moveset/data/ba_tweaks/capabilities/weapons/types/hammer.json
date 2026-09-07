@@ -1,0 +1,56 @@
+{
+  "innate_skills": {
+    "one_hand": "cdmoveset:wind_slash"
+  },
+  "hit_particle": "wom:solar_hit",
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "category": "axe",
+  "collider": {
+    "size": [
+      0.4,
+      0.4,
+      0.55
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.5
+    ],
+    "number": 5
+  },
+  "combos": {
+    "one_hand": [
+      "efn:biped/nf_shortsword/nf_shortsword_auto6",
+      "efn:biped/nf_shortsword/nf_shortsword_auto5",
+	  "cdmoveset:biped/new/sword/sword_onehand_auto_3",
+	  "cdmoveset:biped/new/sword/sword_onehand_auto_4",
+      "efn:biped/nf_sword/nf_sword_dash",
+      "efn:biped/nf_sword/nf_sword_airslash",
+      "cdmoveset:biped/new/sword_slash",
+      "efn:biped/nf_tachi/nf_tachi_airslash"
+    ]
+  },
+  "hit_sound": "epicfight:entity.hit.blunt",
+  "styles": {
+    "cases": [
+      {
+        "style": "one_hand",
+        "conditions": [
+          {
+            "category": "not_weapon",
+            "predicate": "epicfight:offhand_item_category"
+          }
+        ]
+      }
+    ],
+    "default": "one_hand"
+  },
+  "livingmotion_modifier": {
+    "one_hand": {
+      "block": "epicfight:biped/skill/guard_sword",
+      "walk": "epicfight:biped/living/walk_longsword",
+      "idle": "epicfight:biped/living/hold_longsword",
+      "run": "epicfight:biped/living/run_longsword"
+    }
+  }
+}

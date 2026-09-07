@@ -1,0 +1,22 @@
+[
+  {
+    "featureId": "dungeons_and_combat:silver_deepslate_ore",
+    "size": 0,
+    "discardChance": 0.0,
+    "count": 0,
+    "minY": 0,
+    "maxY": 0,
+    "placementType": "uniform",
+    "biomes": []
+  },
+  {
+    "featureId": "dungeons_and_combat:silver_ore",
+    "size": 0,
+    "discardChance": 0.0,
+    "count": 0,
+    "minY": 0,
+    "maxY": 0,
+    "placementType": "uniform",
+    "biomes": []
+  }
+]

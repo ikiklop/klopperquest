@@ -1,0 +1,31 @@
+{
+  "id": "klopperquest:admin_utilities",
+  "type": "emixx:group",
+  "contents": [
+"easy_npc:easy_npc_preset_empty",
+"easy_npc:easy_npc_preset",
+"easy_npc:boss_spawner",
+"easy_npc:default_spawner",
+"easy_npc:group_spawner",
+"easy_npc:single_spawner",
+"easy_npc:world_spawner",
+"easy_npc:move_easy_npc",
+"easy_npc:custom_data_test",
+"easy_npc:npc_coin",
+"easy_npc:npc_key",
+"easy_npc:npc_red_token",
+"easy_npc_config_ui:easy_npc_wand",
+"easy_npc_config_ui:preset_browser",
+"mobbattle:mob_stick",
+"mobbattle:mob_kill",
+"mobbattle:mob_heal",
+"mobbattle:mob_effect",
+"mobbattle:mob_group",
+"mobbattle:mob_armor",
+"mobbattle:mob_mount",
+"mobbattle:mob_army",
+"mobbattle:mob_equip",
+"mobbattle:mob_effect_give",
+"mobbattle:egg_ex"
+  ]
+}

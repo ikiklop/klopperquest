@@ -1,0 +1,98 @@
+{
+  "legendary_monsters:skeletosaurus": [
+    { "attribute": "minecraft:generic.max_health", "value": 2000, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 20, "operation": "BASE" }
+  ],
+  "legendary_monsters:warped_fungussus": [
+    { "attribute": "minecraft:generic.max_health", "value": 2000, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 20, "operation": "BASE" }
+  ],
+  "legendary_monsters:endersent": [
+    { "attribute": "minecraft:generic.max_health", "value": 2500, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 25, "operation": "BASE" }
+  ],
+  "legendary_monsters:chorusling": [
+    { "attribute": "minecraft:generic.max_health", "value": 350, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 10, "operation": "BASE" }
+  ],
+  "legendary_monsters:lava_eater": [
+    { "attribute": "minecraft:generic.max_health", "value": 1800, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 22, "operation": "BASE" }
+  ],
+  "legendary_monsters:shulker_mimic": [
+    { "attribute": "minecraft:generic.max_health", "value": 1600, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 30, "operation": "BASE" }
+  ],
+  "legendary_monsters:frostbitten_golem": [
+    { "attribute": "minecraft:generic.max_health", "value": 1800, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 30, "operation": "BASE" }
+  ],
+  "legendary_monsters:overgrown_colossus": [
+    { "attribute": "minecraft:generic.max_health", "value": 2200, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 18, "operation": "BASE" }
+  ],
+  "legendary_monsters:withered_abomination": [
+    { "attribute": "minecraft:generic.max_health", "value": 2000, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 20, "operation": "BASE" }
+  ],
+  "legendary_monsters:cloud_golem": [
+    { "attribute": "minecraft:generic.max_health", "value": 1600, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 15, "operation": "BASE" }
+  ],
+  "legendary_monsters:ancient_guardian": [
+    { "attribute": "minecraft:generic.max_health", "value": 3000, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 35, "operation": "BASE" }
+  ],
+  "legendary_monsters:ambusher": [
+    { "attribute": "minecraft:generic.max_health", "value": 250, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 8, "operation": "BASE" }
+  ],
+  "legendary_monsters:spiky_bug": [
+    { "attribute": "minecraft:generic.max_health", "value": 200, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 6, "operation": "BASE" }
+  ],
+  "legendary_monsters:haunted_knight": [
+    { "attribute": "minecraft:generic.max_health", "value": 400, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 15, "operation": "BASE" }
+  ],
+  "legendary_monsters:haunted_guard": [
+    { "attribute": "minecraft:generic.max_health", "value": 300, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 12, "operation": "BASE" }
+  ],
+  "legendary_monsters:possessed_paladin": [
+    { "attribute": "minecraft:generic.max_health", "value": 1500, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 25, "operation": "BASE" }
+  ],
+  "legendary_monsters:skeloraptor": [
+    { "attribute": "minecraft:generic.max_health", "value": 40, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 4, "operation": "BASE" }
+  ],
+  "legendary_monsters:guard": [
+    { "attribute": "minecraft:generic.max_health", "value": 60, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 8, "operation": "BASE" }
+  ],
+  "legendary_monsters:knight": [
+    { "attribute": "minecraft:generic.max_health", "value": 80, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 10, "operation": "BASE" }
+  ],
+  "legendary_monsters:annihilation_pursuer": [
+    { "attribute": "minecraft:generic.max_health", "value": 500, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 12, "operation": "BASE" }
+  ],
+  "legendary_monsters:beheaded_knight": [
+    { "attribute": "minecraft:generic.max_health", "value": 350, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 14, "operation": "BASE" }
+  ],
+  "legendary_monsters:resurrected_knight": [
+    { "attribute": "minecraft:generic.max_health", "value": 450, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 16, "operation": "BASE" }
+  ],
+  "legendary_monsters:the_obliterator": [
+    { "attribute": "minecraft:generic.max_health", "value": 3500, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 30, "operation": "BASE" }
+  ],
+  "legendary_monsters:the_warped_one": [
+    { "attribute": "minecraft:generic.max_health", "value": 2800, "operation": "BASE" },
+    { "attribute": "minecraft:generic.armor", "value": 22, "operation": "BASE" }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "combos": {
+    "two_hand": [
+      "wom:biped/combat/ruine_auto_1",
+      "wom:biped/combat/ruine_auto_2",
+      "cdmoveset:biped/new/dual_tachi/great_tachi_auto3",
+      "cdmoveset:biped/new/dual_tachi/great_tachi_auto4",
+      "wom:biped/combat/ruine_comet",
+      "wom:biped/combat/solar_obscuridad_auto_4"
+    ]
+  },
+  "category": "longsword",
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -0.75
+    ],
+    "number": 5,
+    "size": [
+      0.4,
+      0.4,
+      0.8
+    ]
+  },
+  "styles": {
+    "default": "two_hand",
+    "cases": [
+      {
+        "conditions": [
+          {
+            "category": "not_weapon",
+            "predicate": "epicfight:offhand_item_category"
+          }
+        ],
+        "style": "two_hand"
+      }
+    ]
+  },
+  "hit_sound": "epicfight:entity.hit.blade",
+  "hit_particle": "wom:solar_hit",
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "run": "wom:biped/living/ruine_run",
+      "idle": "wom:biped/living/katana_idle",
+      "walk": "epicfight:biped/living/walk_longsword",
+      "block": "wom:biped/skill/ruine_guard"
+    }
+  },
+  "innate_skills": {
+    "two_hand": "wom:plunder_perdition"
+  }
+}

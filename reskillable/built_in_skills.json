@@ -1,0 +1,174 @@
+{
+  "builtInSkills": [
+    {
+      "skill": "mining",
+      "id": "mining",
+      "displayName": "Stamina",
+      "enabled": true,
+      "icon": "",
+      "perkStep": 5,
+      "perkAttributes": [
+        {
+          "attribute": "epicfight:staminar",
+          "operation": "ADDITION",
+          "amountPerStep": 2.0,
+          "perkStep": 5
+        },
+        {
+          "attribute": "epicfight:stamina_regen",
+          "operation": "MULTIPLY_BASE",
+          "amountPerStep": 0.025,
+          "perkStep": 5
+        }
+      ]
+    },
+    {
+      "skill": "gathering",
+      "id": "gathering",
+      "displayName": "Agility",
+      "enabled": true,
+      "icon": "",
+      "perkStep": 5,
+      "perkAttributes": [
+        {
+          "attribute": "attributeslib:crit_damage",
+          "operation": "MULTIPLY_BASE",
+          "amountPerStep": 0.2,
+          "perkStep": 5
+        },
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "operation": "MULTIPLY_BASE",
+          "amountPerStep": 0.05,
+          "perkStep": 5
+        }
+      ]
+    },
+    {
+      "skill": "attack",
+      "id": "attack",
+      "displayName": "Strength",
+      "enabled": true,
+      "icon": "",
+      "perkStep": 5,
+      "perkAttributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "MULTIPLY_TOTAL",
+          "amountPerStep": 0.1,
+          "perkStep": 5
+        },
+        {
+          "attribute": "",
+          "operation": "MULTIPLY_BASE",
+          "amountPerStep": 0.05,
+          "perkStep": 10
+        }
+      ]
+    },
+    {
+      "skill": "defense",
+      "id": "defense",
+      "displayName": "Durability",
+      "enabled": true,
+      "icon": "",
+      "perkStep": 5,
+      "perkAttributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "MULTIPLY_TOTAL",
+          "amountPerStep": 0.1,
+          "perkStep": 5
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "operation": "MULTIPLY_BASE",
+          "amountPerStep": 0.1,
+          "perkStep": 5
+        }
+      ]
+    },
+    {
+      "skill": "building",
+      "id": "building",
+      "displayName": "Crafting",
+      "enabled": true,
+      "icon": "",
+      "perkStep": 5,
+      "perkAttributes": [
+        {
+          "attribute": "attributeslib:experience_gained",
+          "operation": "MULTIPLY_BASE",
+          "amountPerStep": 0.1,
+          "perkStep": 5
+        }
+      ]
+    },
+    {
+      "skill": "farming",
+      "id": "farming",
+      "displayName": "Gather",
+      "enabled": true,
+      "icon": "",
+      "perkStep": 5,
+      "perkAttributes": [
+        {
+          "attribute": "attributeslib:experience_gained",
+          "operation": "MULTIPLY_BASE",
+          "amountPerStep": 0.15,
+          "perkStep": 5
+        },
+        {
+          "attribute": "irons_lib:mining_speed",
+          "operation": "MULTIPLY_BASE",
+          "amountPerStep": 0.15,
+          "perkStep": 5
+        }
+      ]
+    },
+    {
+      "skill": "agility",
+      "id": "agility",
+      "displayName": "Mobility",
+      "enabled": true,
+      "icon": "",
+      "perkStep": 5,
+      "perkAttributes": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "MULTIPLY_BASE",
+          "amountPerStep": 0.05,
+          "perkStep": 5
+        },
+        {
+          "attribute": "forge:swim_speed",
+          "operation": "MULTIPLY_BASE",
+          "amountPerStep": 0.05,
+          "perkStep": 5
+        }
+      ]
+    },
+    {
+      "skill": "magic",
+      "id": "magic",
+      "displayName": "Magic",
+      "enabled": true,
+      "icon": "",
+      "perkStep": 5,
+      "perkAttributes": [
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "operation": "ADDITION",
+          "amountPerStep": 0.15,
+          "perkStep": 5
+        },
+        {
+          "attribute": "irons_spellbooks:mana_regen",
+          "operation": "MULTIPLY_BASE",
+          "amountPerStep": 0.05,
+          "perkStep": 5
+        }
+      ]
+    }
+  ]
+}

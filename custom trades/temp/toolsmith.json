@@ -1,0 +1,559 @@
+{
+  "profession": "minecraft:toolsmith",
+  "removeOtherTrades": true,
+  "maxTrades": 24,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_pickaxe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "toolsmith_iron_pickaxe"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_axe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "toolsmith_iron_axe"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_shovel",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "toolsmith_iron_shovel"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_hoe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "toolsmith_iron_hoe"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:golden_pickaxe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "toolsmith_golden_pickaxe"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:golden_axe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "toolsmith_golden_axe"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:golden_shovel",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "toolsmith_golden_shovel"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:golden_hoe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "toolsmith_golden_hoe"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_pickaxe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 45,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "toolsmith_diamond_pickaxe"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_axe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 45,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "toolsmith_diamond_axe"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_shovel",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 45,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "toolsmith_diamond_shovel"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_hoe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:silver_coin",
+        "amount": 45,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "toolsmith_diamond_hoe"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:netherite_pickaxe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "toolsmith_netherite_pickaxe"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:netherite_axe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "toolsmith_netherite_axe"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:netherite_shovel",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "toolsmith_netherite_shovel"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:netherite_hoe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "toolsmith_netherite_hoe"
+    },
+    {
+      "offer": {
+        "itemKey": "cataclysm:black_steel_pickaxe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "cataclysm:black_steel_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "toolsmith_black_steel_pickaxe"
+    },
+    {
+      "offer": {
+        "itemKey": "cataclysm:black_steel_axe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "cataclysm:black_steel_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "toolsmith_black_steel_axe"
+    },
+    {
+      "offer": {
+        "itemKey": "cataclysm:black_steel_shovel",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "cataclysm:black_steel_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "toolsmith_black_steel_shovel"
+    },
+    {
+      "offer": {
+        "itemKey": "cataclysm:black_steel_hoe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "cataclysm:black_steel_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "toolsmith_black_steel_hoe"
+    },
+    {
+      "offer": {
+        "itemKey": "legendary_monsters:enderitium_pickaxe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "toolsmith_enderitium_pickaxe"
+    },
+    {
+      "offer": {
+        "itemKey": "legendary_monsters:enderitium_axe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "toolsmith_enderitium_axe"
+    },
+    {
+      "offer": {
+        "itemKey": "legendary_monsters:enderitium_shovel",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "toolsmith_enderitium_shovel"
+    },
+    {
+      "offer": {
+        "itemKey": "legendary_monsters:enderitium_hoe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismaticoverhaul:gold_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "toolsmith_enderitium_hoe"
+    }
+  ]
+}

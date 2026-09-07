@@ -1,0 +1,28 @@
+{
+  "id": "klopperquest:rare_armors",
+  "type": "emixx:group",
+  "contents": [
+"dungeons_and_combat:sandstone_helmet",
+"dungeons_and_combat:sandstone_chestplate",
+"dungeons_and_combat:sandstone_leggings",
+"dungeons_and_combat:sandstone_boots",
+"dungeons_and_combat:blessed_gold_helmet",
+"dungeons_and_combat:blessed_gold_chestplate",
+"dungeons_and_combat:blessed_gold_leggings",
+"dungeons_and_combat:blessed_gold_boots",
+"dungeons_and_combat:centinel_armor_helmet",
+"dungeons_and_combat:centinel_armor_chestplate",
+"dungeons_and_combat:centinel_armor_leggings",
+"dungeons_and_combat:centinel_armor_boots",
+"dungeons_and_combat:ammit_armor_helmet",
+"dungeons_and_combat:ammit_armor_chestplate",
+"dungeons_and_combat:ammit_armor_leggings",
+"dungeons_and_combat:blessed_rogue_helmet",
+"dungeons_and_combat:blessed_rogue_chestplate",
+"dungeons_and_combat:blessed_rogue_leggings",
+"dungeons_and_combat:sunleia_armor_helmet",
+"dungeons_and_combat:sunleia_armor_chestplate",
+"dungeons_and_combat:sunleia_armor_leggings",
+"dungeons_and_combat:sunleia_armor_boots"
+  ]
+}

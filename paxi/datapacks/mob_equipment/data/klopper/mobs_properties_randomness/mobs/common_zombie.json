@@ -1,0 +1,21 @@
+{
+    "target": "minecraft:zombie",
+    "priority": 100,
+    "properties": [
+        {
+            "property": "presets",
+            "presets": [
+                {
+                    "preset": "klopper:l_zombie_sword",
+                    "weight": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.3
+                }
+            ]
+        }
+    ]
+}

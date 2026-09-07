@@ -1,0 +1,10 @@
+{
+  "id": "klopperquest:netherite_tools",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:netherite_shovel",
+"minecraft:netherite_pickaxe",
+"minecraft:netherite_axe",
+"minecraft:netherite_hoe"
+  ]
+}

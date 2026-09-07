@@ -1,0 +1,1663 @@
+{
+  "profession": "minecraft:weaponsmith",
+  "removeOtherTrades": true,
+  "maxTrades": 68,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_sword",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_sword"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_longsword",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_longsword"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_twinblade",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_twinblade"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_rapier",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_rapier"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_katana",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_katana"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_sai",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_sai"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_spear",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_spear"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_glaive",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_glaive"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_warglaive",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_warglaive"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_cutlass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_cutlass"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_claymore",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_claymore"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_greathammer",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_greathammer"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_greataxe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_greataxe"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_chakram",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_chakram"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_scythe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_scythe"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_halberd",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_halberd"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:iron_tachi",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_tachi"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:iron_dagger",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:copper_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_iron_dagger"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:golden_sword",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_golden_sword"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_longsword",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_longsword"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_twinblade",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_twinblade"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_rapier",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_rapier"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_katana",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_katana"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_sai",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_sai"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_spear",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_spear"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_glaive",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_glaive"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_warglaive",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_warglaive"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_cutlass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_cutlass"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_claymore",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_claymore"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_greathammer",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_greathammer"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_greataxe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_greataxe"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_chakram",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_chakram"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_scythe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_scythe"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:gold_halberd",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_gold_halberd"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:golden_tachi",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_golden_tachi"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:golden_dagger",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_golden_dagger"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_sword",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_sword"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_longsword",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_longsword"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_twinblade",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_twinblade"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_rapier",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_rapier"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_katana",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_katana"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_sai",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_sai"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_spear",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_spear"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_glaive",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_glaive"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_warglaive",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_warglaive"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_cutlass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_cutlass"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_claymore",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_claymore"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_greathammer",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_greathammer"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_greataxe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_greataxe"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_chakram",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_chakram"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_scythe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_scythe"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:diamond_halberd",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_halberd"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:diamond_tachi",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_tachi"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:diamond_dagger",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:electrum_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_diamond_dagger"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:netherite_sword",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_sword"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_longsword",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_longsword"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_twinblade",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_twinblade"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_rapier",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_rapier"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_katana",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_katana"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_sai",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_sai"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_spear",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_spear"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_glaive",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_glaive"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_warglaive",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_warglaive"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_cutlass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_cutlass"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_claymore",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_claymore"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_greathammer",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_greathammer"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_greataxe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_greataxe"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_chakram",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_chakram"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_scythe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_scythe"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:netherite_halberd",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_halberd"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:netherite_tachi",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_tachi"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:netherite_dagger",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "fantasycurrency:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 99,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "weaponsmith_netherite_dagger"
+    }
+  ]
+}

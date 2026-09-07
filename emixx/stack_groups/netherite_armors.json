@@ -1,0 +1,18 @@
+{
+  "id": "klopperquest:netherite_armors",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:netherite_helmet",
+"minecraft:netherite_chestplate",
+"minecraft:netherite_leggings",
+"minecraft:netherite_boots",
+"dungeons_and_combat:netherite_helmet",
+"dungeons_and_combat:netherite_chestplate",
+"dungeons_and_combat:netherite_leggings",
+"dungeons_and_combat:netherite_boots",
+"irons_spellbooks:netherite_mage_helmet",
+"irons_spellbooks:netherite_mage_chestplate",
+"irons_spellbooks:netherite_mage_leggings",
+"irons_spellbooks:netherite_mage_boots"
+  ]
+}

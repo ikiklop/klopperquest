@@ -1,0 +1,14 @@
+{
+  "id": "klopperquest:copper_armors",
+  "type": "emixx:group",
+  "contents": [
+"jerotes:copper_helmet",
+"jerotes:copper_chestplate",
+"jerotes:copper_leggings",
+"jerotes:copper_boots",
+"dungeons_and_combat:copper_helmet",
+"dungeons_and_combat:copper_chestplate",
+"dungeons_and_combat:copper_leggings",
+"dungeons_and_combat:copper_boots"
+  ]
+}

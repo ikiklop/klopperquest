@@ -1,0 +1,165 @@
+
+[common]
+	#Cooldown in ticks after using the normal grappling hook. The Phantom Grappling Hook has no cooldown.
+	#Range: 0 ~ 1200
+	grapplingHookCooldown = 30
+	#Main speed multiplier for the Curios grappling hook. This scales hook_pull animation speed, hook timing, and projectile speed.
+	#Range: 0.25 ~ 3.0
+	hookPullAnimationSpeed = 1.0
+	#Projectile inaccuracy for the grappling hook fired by hook_pull. Awaken default is 1.0. Lower values are more accurate.
+	#Range: 0.0 ~ 5.0
+	projectileInaccuracy = 1.0
+	#Prevents Parcool crawl and slide while grappling hook animations, pulls, or ground slides are active.
+	disableParcoolCrawlAndSlideDuringHook = true
+	#How many server ticks the missed-hook projectile stays around after an empty hook locks. No pull is applied.
+	#Range: 1 ~ 80
+	missedHookGroundAnimationDurationTicks = 10
+
+[ground_hook]
+	#Fallback one-shot pull strength for HOOK_GROUND when no safe terrain target is available.
+	#Range: 0.01 ~ 1.0
+	groundHookPullStrength = 0.08
+	#Whether HOOK_GROUND starts a short high-speed slide after the player reaches the hooked ground target.
+	groundHookSlideEnabled = true
+	#Maximum duration in ticks for the slide after HOOK_GROUND reaches its target.
+	#Range: 1 ~ 60
+	groundHookSlideDurationTicks = 12
+	#HOOK_GROUND starts sliding when the player is within this distance from the hooked ground target. This avoids braking against the exact target point.
+	#Range: 0.0 ~ 3.0
+	groundHookSlideStartDistance = 0.6
+	#Minimum horizontal speed used when the HOOK_GROUND slide starts.
+	#Range: 0.05 ~ 3.0
+	groundHookSlideInitialSpeed = 0.9
+	#Per-tick horizontal speed multiplier during the HOOK_GROUND slide. Higher values slide farther.
+	#Range: 0.1 ~ 1.0
+	groundHookSlideFriction = 0.88
+	#The HOOK_GROUND slide ends early when horizontal speed drops below this value.
+	#Range: 0.0 ~ 1.0
+	groundHookSlideMinSpeed = 0.15
+	#Maximum duration in ticks for HOOK_GROUND targeted terrain pulling.
+	#Range: 1 ~ 100
+	groundHookTargetPullDurationTicks = 24
+	#Minimum velocity per tick while HOOK_GROUND pulls the player toward the hooked ground target.
+	#Range: 0.01 ~ 1.0
+	groundHookTargetPullMinSpeed = 0.8
+	#Maximum velocity per tick while HOOK_GROUND pulls the player toward the hooked ground target.
+	#Range: 0.05 ~ 5.0
+	groundHookTargetPullMaxSpeed = 1.2
+	#Additional arrival radius for HOOK_GROUND. The built-in collision-safe contact tolerance still applies when this is lower.
+	#Range: 0.0 ~ 3.0
+	groundHookTargetPullArrivalDistance = 0.0
+	#Whether the player is snapped to the safe ground target if the ground pull reaches its time limit.
+	groundHookTargetPullSnapToTarget = true
+
+[air_hook]
+	#Fallback pull strength applied to the player when HOOK_AIR has no fixed terrain target.
+	#Range: 0.01 ~ 1.5
+	airPullStrength = 0.2
+	#Maximum duration in ticks for targeted high-terrain grappling after HOOK_AIR latches onto terrain.
+	#Range: 1 ~ 100
+	airHookTargetPullDurationTicks = 24
+	#Minimum velocity per tick while HOOK_AIR pulls the player toward a hooked high-terrain target.
+	#Range: 0.01 ~ 1.0
+	airHookTargetPullMinSpeed = 0.08
+	#Maximum velocity per tick while HOOK_AIR pulls the player toward a hooked high-terrain target.
+	#Range: 0.05 ~ 5.0
+	airHookTargetPullMaxSpeed = 1.2
+	#Additional arrival radius for HOOK_AIR terrain pulling. The built-in collision-safe contact tolerance still applies when this is lower.
+	#Range: 0.0 ~ 3.0
+	airHookTargetPullArrivalDistance = 0.0
+	#Whether the player is snapped to the safe high-terrain target if the pull reaches its time limit.
+	airHookTargetPullSnapToTarget = true
+	#Client-side ticks to keep the captured pre-hook FOV after HOOK_AIR pull ends. This smooths transitions into wall-running.
+	#Range: 0 ~ 80
+	airHookFovHoldTailTicks = 24
+
+[wall_hook]
+	#Whether a wall hook retargets to a point above the impact when the player is facing the wall.
+	wallHookFacingRetargetEnabled = true
+	#Whether facing-wall hook retargeting searches for the nearest collision-free point between the minimum and maximum up offsets.
+	wallHookFacingRetargetAdaptiveEnabled = true
+	#Total horizontal angle width in degrees for facing-wall retargeting. For example, 120 means 60 degrees left and 60 degrees right from directly facing the wall.
+	#Range: 0.0 ~ 180.0
+	wallHookFacingRetargetAngleWidthDegrees = 132.0
+	#Minimum vertical offset in blocks used by adaptive facing-wall hook retargeting.
+	#Range: 0.0 ~ 8.0
+	wallHookFacingRetargetMinUpOffset = 0.5
+	#Maximum vertical offset in blocks for adaptive facing-wall hook retargeting. Also used as the fallback fixed offset.
+	#Range: 0.0 ~ 8.0
+	wallHookFacingRetargetUpOffset = 3.0
+	#Vertical step in blocks used while adaptive facing-wall hook retargeting searches for the nearest collision-free point.
+	#Range: 0.05 ~ 2.0
+	wallHookFacingRetargetSearchStep = 0.25
+	#Outward offset from the wall surface in blocks for the facing-wall retarget point.
+	#Range: 0.0 ~ 2.0
+	wallHookFacingRetargetForwardOffset = 0.45
+
+[entity_hook]
+	#Multiplier for pulling hooked entities toward the player. This is independent from hookPullAnimationSpeed.
+	#Range: 0.1 ~ 5.0
+	entityPullStrengthMultiplier = 1.0
+	#Extra upward velocity added to hooked entities when they are pulled.
+	#Range: 0.0 ~ 1.5
+	entityPullUpBoost = 0.25
+	#Whether hooked entities reduce pull strength with their knockback resistance.
+	respectKnockbackResistance = true
+
+[phantom_swing]
+	#How many ticks the grappling hook key must remain held before a Phantom Grappling Hook switches from normal use to swinging.
+	#Range: 2 ~ 20
+	phantomSwingHoldThresholdTicks = 7
+	#Horizontal pull strength used when a short-pressed Phantom Grappling Hook anchors in empty air.
+	#Range: 0.0 ~ 2.0
+	phantomMissedAirHorizontalPullStrength = 0.24
+	#Maximum horizontal speed after a Phantom Grappling Hook short-press air pull.
+	#Range: 0.1 ~ 8.0
+	phantomMissedAirMaxHorizontalSpeed = 2.2
+	#Base upward speed for a Phantom Grappling Hook short-press air pull.
+	#Range: 0.0 ~ 4.0
+	phantomMissedAirBaseUpSpeed = 0.9
+	#Additional upward speed per block that the empty-air anchor is above the player.
+	#Range: 0.0 ~ 1.0
+	phantomMissedAirHeightUpScale = 0.08
+	#Maximum upward speed after a Phantom Grappling Hook short-press air pull.
+	#Range: 0.1 ~ 6.0
+	phantomMissedAirMaxUpSpeed = 1.65
+	#Maximum combined speed after a Phantom Grappling Hook short-press air pull.
+	#Range: 0.1 ~ 10.0
+	phantomMissedAirMaxTotalSpeed = 2.8
+	#Rope length removed per tick while a Phantom Grappling Hook reels in after entering swing mode.
+	#Range: 0.0 ~ 4.0
+	phantomSwingReelInSpeed = 0.7
+	#Initial tangential speed added when a Phantom Grappling Hook begins swinging.
+	#Range: 0.0 ~ 3.0
+	phantomSwingInitialBoost = 1.82
+	#Strength used to pull a swinging player back inside the rope radius.
+	#Range: 0.05 ~ 1.5
+	phantomSwingConstraintStrength = 0.35
+	#Maximum inward correction speed applied by the Phantom Grappling Hook rope constraint.
+	#Range: 0.05 ~ 2.0
+	phantomSwingMaxCorrectionSpeed = 0.7
+	#Maximum total player speed while swinging from a Phantom Grappling Hook.
+	#Range: 0.2 ~ 5.0
+	phantomSwingMaxSpeed = 4.68
+	#Multiplier applied to downward velocity while holding a Phantom Grappling Hook before swing mode starts.
+	#Range: 0.1 ~ 1.0
+	phantomSwingPreholdFallMultiplier = 0.65
+	#Maximum downward speed while holding a Phantom Grappling Hook before swing mode starts.
+	#Range: 0.01 ~ 1.0
+	phantomSwingPreholdMaxFallSpeed = 0.12
+	#Fraction of Phantom Grappling Hook swing energy retained each tick. Lower values add gentle per-tick speed damping.
+	#Range: 0.8 ~ 1.0
+	phantomSwingEnergyRetention = 0.995
+	#Maximum swing energy gained per tick while descending, scaled by how steeply the player is moving downward.
+	#Range: 0.0 ~ 0.25
+	phantomSwingEnergyGainPerTick = 0.052
+	#Maximum fraction of the energy needed to loop over the top of the swing anchor.
+	#Range: 0.1 ~ 1.0
+	phantomSwingEnergyCapRatio = 0.65
+	#Maximum swing angle measured from directly below the anchor. Values below 90 keep the player below the anchor height.
+	#Range: 45.0 ~ 120.0
+	phantomSwingMaxAngleDegrees = 95.0
+	#Energy multiplier applied each time the Phantom Grappling Hook swing reverses direction.
+	#Range: 0.5 ~ 1.0
+	phantomSwingPerSwingEnergyMultiplier = 0.95
+

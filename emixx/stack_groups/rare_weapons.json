@@ -1,0 +1,16 @@
+{
+  "id": "rare_weapons",
+  "type": "emixx:group",
+  "contents": [
+"wom:agony",
+"wom:tormented_mind",
+"wom:ruine",
+"wom:ender_blaster",
+"wom:antitheus",
+"wom:satsujin",
+"wom:herrscher",
+"wom:gesetz",
+"wom:moonless",
+"wom:solar"
+  ]
+}

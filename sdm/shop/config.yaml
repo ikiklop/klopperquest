@@ -1,0 +1,23 @@
+mongodb:
+  daily-stats-collection: daily_stats
+  # Имя базы данных
+  database: sdm_shop
+  limiter-offers-collection: limiter_offers
+  limiter-players-collection: limiter_players
+  # Уникальное имя этого сервера (например: "survival_1", "lobby").
+  # Используется для защиты от эха, чтобы сервер не обновлял сам себя.
+  # Если оставить пустым, будет сгенерирован случайный UUID.
+  server-name: server_1
+  shops-collection: shops
+  # Строка подключения
+  # Локально: mongodb://127.0.0.1:27017/?replicaSet=rs0
+  # Облако: mongodb+srv://user:password@cluster.mongodb.net/
+  uri: mongodb://127.0.0.1:27017/?replicaSet=rs0
+# Магазин, открываемый клиентской клавишей "Open Shop".
+# Оставьте пустым, чтобы отключить эту клавишу на стороне сервера.
+open-shop-keybind-shop-id: sdm:default
+# Значения:
+# JSON - данные будут сохранены в папке "config/sdm/shop/shops/*",
+# MONGODB - данные будут храниться в базе данных, которая автоматически синхронизирует данные между несколькими серверами.,
+# CUSTOM - собственный тип сохранения. Значение по умолчанию: JSON
+storage-type: JSON

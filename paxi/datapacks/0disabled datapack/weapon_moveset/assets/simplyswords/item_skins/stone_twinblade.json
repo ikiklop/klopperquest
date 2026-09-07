@@ -1,0 +1,23 @@
+{
+  "trail": {
+    "particle_type": "epicfight:swing_trail",
+    "color": [
+      55,
+      230,
+      190
+    ],
+    "lifetime": 8,
+    "end_pos": [
+      0.0,
+      0.0,
+      -1.25
+    ],
+    "texture_path": "simplyswords:textures/particle/white_trail.png",
+    "begin_pos": [
+      0.0,
+      0.0,
+      1.2
+    ],
+    "interpolations": 12
+  }
+}

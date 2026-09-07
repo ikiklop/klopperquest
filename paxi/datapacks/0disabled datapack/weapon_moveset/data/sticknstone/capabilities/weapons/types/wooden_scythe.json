@@ -1,0 +1,50 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.8
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.75
+    ]
+  },
+  "hit_particle": "wom:sharpcut_slash",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "wom:biped/living/solar_idle",
+      "block": "reimportrob:biped/reascer_ruine_block",
+      "run": "wom:biped/living/solar_run",
+      "sneak": "wom:biped/living/torment_berserk_idle",
+      "swim": "epicfight:biped/living/hold_tachi",
+      "kneel": "wom:biped/living/torment_berserk_idle",
+      "walk": "wom:biped/living/solar_walk"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "styles": {
+    "default": "two_hand",
+    "cases": []
+  },
+  "combos": {
+    "two_hand": [
+      "efn:biped/nf_tachi/nf_tachi_auto4",
+	  "wom:biped/combat/torment_auto_2",
+      "wom:biped/combat/orbit_attack_1",
+      "wom:biped/combat/orbit_attack_2",
+	  "wom:biped/combat/ruine_auto_3",
+	  "wom:biped/combat/torment_auto_1",
+      "efn:biped/scythe/combat/scythe_dash",
+      "efn:biped/scythe/combat/scythe_airslash"
+    ]
+  },
+  "category": "tachi",
+  "innate_skills": {
+    "two_hand": "s_epicfied:scythe_slash"
+  },
+  "usable_in_offhand": false
+}

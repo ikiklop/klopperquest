@@ -1,0 +1,25 @@
+{
+  "id": "klopperquest:netherite_weapons",
+  "type": "emixx:group",
+  "contents": [
+"simplyswords:netherite_sai",
+"epicfight:netherite_dagger",
+"simplyswords:netherite_cutlass",
+"simplyswords:netherite_rapier",
+"simplyswords:netherite_twinblade",
+"minecraft:netherite_sword",
+"simplyswords:netherite_chakram",
+"simplyswords:netherite_katana",
+"epicfight:netherite_tachi",
+"simplyswords:netherite_warglaive",
+"simplyswords:netherite_longsword",
+"simplyswords:netherite_claymore",
+"simplyswords:netherite_spear",
+"simplyswords:netherite_glaive",
+"epicfight:netherite_greatsword",
+"simplyswords:netherite_scythe",
+"simplyswords:netherite_greataxe",
+"simplyswords:netherite_halberd",
+"simplyswords:netherite_greathammer"
+  ]
+}

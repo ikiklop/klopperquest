@@ -1,0 +1,85 @@
+{
+  "livingmotion_modifier": {
+    "one_hand": {
+      "walk": "epicfight:biped/living/walk",
+      "idle": "epicfight:biped/living/idle",
+      "run": "epicfight:biped/living/run",
+      "block": "epicfight:biped/skill/guard_uchigatana"
+    },
+    "two_hand": {
+      "walk": "epicfight:biped/living/walk",
+      "block": "wom:biped/skill/moonless_guard",
+      "run": "epicfight:biped/living/run_dual",
+      "idle": "epicfight:biped/living/hold_dual"
+    }
+  },
+  "combos": {
+    "one_hand": [
+      "wom:biped/combat/moonless_auto_1",
+      "epicfight:biped/combat/trident_auto3",
+      "wom:biped/combat/enderblaster_onehand_auto_2",
+      "wom:biped/combat/enderblaster_onehand_auto_3",
+      "wom:biped/combat/enderblaster_onehand_auto_4",
+      "wom:biped/combat/enderblaster_onehand_dash",
+      "wom:biped/combat/enderblaster_onehand_jumpkick"
+    ],
+    "two_hand": [
+      "wom:biped/combat/moonless_auto_1",
+      "wom:biped/combat/moonless_auto_2",
+      "wom:biped/combat/moonless_auto_3_verso",
+      "wom:biped/combat/moonless_crescent",
+      "wom:biped/combat/herrscher_verdammnis",
+      "wom:biped/combat/herrscher_ausrottung"
+    ]
+  },
+  "hit_sound": "epicfight:entity.hit.blade",
+  "category": "dagger",
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -0.1
+    ],
+    "size": [
+      0.4,
+      0.4,
+      0.6
+    ],
+    "number": 3
+  },
+  "styles": {
+    "cases": [
+      {
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "not_weapon"
+          }
+        ],
+        "style": "one_hand"
+      },
+      {
+        "conditions": [
+          {
+            "category": "dagger",
+            "predicate": "epicfight:offhand_item_category"
+          }
+        ],
+        "style": "two_hand"
+      }
+    ],
+    "default": "one_hand"
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "category": "dagger",
+      "predicate": "epicfight:offhand_item_category"
+    }
+  ],
+  "hit_particle": "wom:solar_hit",
+  "swing_sound": "epicfight:entity.weapon.whoosh_small",
+  "innate_skills": {
+    "one_hand": "epicfight:tsunami",
+    "two_hand": "epicfight:blade_rush"
+  }
+}

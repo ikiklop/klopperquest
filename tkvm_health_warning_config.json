@@ -1,0 +1,12 @@
+{
+  "enableVignette": true,
+  "enableGrayscale": true,
+  "enableHeartbeat": true,
+  "enablePulse": true,
+  "enableShake": true,
+  "enableDeathVfx": true,
+  "enableBloodParticles": true,
+  "enableAshParticles": true,
+  "enableHeavyImpactSound": true,
+  "enableDeathSound": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "klopperquest:arrows",
+  "type": "emixx:group",
+  "contents": [
+"minecraft:arrow",
+"minecraft:spectral_arrow",
+"archeryexp:gold_arrow",
+"archeryexp:iron_arrow",
+"archeryexp:diamond_arrow",
+"archeryexp:netherite_arrow"
+  ]
+}

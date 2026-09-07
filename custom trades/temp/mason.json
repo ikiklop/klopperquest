@@ -1,0 +1,313 @@
+{
+  "profession": "minecraft:mason",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_sword",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_sword_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_longsword",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_longsword_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_twinblade",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_twinblade_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_katana",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_katana_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_glaive",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_glaive_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_warglaive",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_warglaive_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_claymore",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_claymore_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_greathammer",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_greathammer_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_greataxe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_greataxe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_chakram",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_chakram_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "simplyswords:iron_scythe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_scythe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:iron_greatsword",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_greatsword_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:iron_spear",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_spear_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:iron_tachi",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_tachi_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:iron_longsword",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_longsword_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:iron_dagger",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_dagger_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "refm:iron_rapier",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_iron_rapier_for_emerald"
+    }
+  ]
+}
