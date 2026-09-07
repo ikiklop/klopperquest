@@ -47,7 +47,7 @@
     // Structure sets use a salt value to determine the randomness of their placement. Duplicated use of the same salt value can cause structures to spawn on the same place,
     // this config enables logging duplicated salt values. 
     // Default: true
-    "logDuplicatedSalt": true
+    "logDuplicatedSalt": 
   },
 
   "minimumStructureDistance": {
@@ -68,7 +68,7 @@
     // Default: false
     "enableBiomeCompat": false,
 
-    "enableLogging": true,
+    "enableLogging": false,
 
     "strictness": {
       // Sets a modifier for how strict the autoBiomeCompat is, lower allows adding less similar biomes to be added.
@@ -93,7 +93,7 @@
   "warnMissingRegistryEntry": {
     // Prevents crashes due to missing registry entries (e.g., changes in mod structure IDs) by converting them into log error messages instead.
     // Default: true
-    "warnMissingRegistryEntry": true
+    "warnMissingRegistryEntry": false
   },
 
   "disableLegacyRandomCrashes": {
