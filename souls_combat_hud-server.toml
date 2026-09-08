@@ -1,6 +1,8 @@
 
 #Baseline and projected-max values used to scale HUD bar widths.
-#Clients can choose whether to trust these via their own status_bars config.
+#You will most likely be editing the server config version of stats data
+#Clients can choose whether to force server values or use their client config.
+#You need to use the reload command or reload the world to see the updated values.
 [stats_data]
 
 	[stats_data.health]
@@ -8,14 +10,10 @@
 		baseline = 10
 		#Range: > 1
 		projected_max = 300
+		#Range: 0.1 ~ 3.0
+		bar_width_curve = 1.0
 
 	[stats_data.stamina]
-		#Default baseline used when the active source has no preset below (e.g. AUTO).
-		#Range: > 1
-		baseline = 10
-		#Default projected_max used when the active source has no preset.
-		#Range: > 1
-		projected_max = 200
 
 		[stats_data.stamina.presets]
 
@@ -24,26 +22,34 @@
 				baseline = 1
 				#Range: > 1
 				projected_max = 200
+				#Range: 0.1 ~ 3.0
+				bar_width_curve = 1.0
 
 			[stats_data.stamina.presets.parcool]
 				#Range: > 1
 				baseline = 2000
 				#Range: > 1
 				projected_max = 3000
+				#Range: 0.1 ~ 3.0
+				bar_width_curve = 1.0
 
 			[stats_data.stamina.presets.paraglider]
 				#Range: > 1
 				baseline = 1000
 				#Range: > 1
 				projected_max = 3000
+				#Range: 0.1 ~ 3.0
+				bar_width_curve = 1.0
+
+			[stats_data.stamina.presets.mine_and_slash]
+				#Range: > 1
+				baseline = 50
+				#Range: > 1
+				projected_max = 1040
+				#Range: 0.1 ~ 3.0
+				bar_width_curve = 0.4
 
 	[stats_data.mana]
-		#Default baseline used when the active source has no preset below (e.g. AUTO).
-		#Range: > 1
-		baseline = 10
-		#Default projected_max used when the active source has no preset.
-		#Range: > 1
-		projected_max = 300
 
 		[stats_data.mana.presets]
 
@@ -52,6 +58,16 @@
 				baseline = 10
 				#Range: > 1
 				projected_max = 300
+				#Range: 0.1 ~ 3.0
+				bar_width_curve = 1.0
+
+			[stats_data.mana.presets.mine_and_slash]
+				#Range: > 1
+				baseline = 50
+				#Range: > 1
+				projected_max = 1040
+				#Range: 0.1 ~ 3.0
+				bar_width_curve = 0.4
 
 [server_performance]
 	#Range: 1 ~ 1200
@@ -90,9 +106,9 @@
 	max_tracked_status_effects = 0
 
 	[server_restrictions.server_source_preferences]
-		#Allowed Values: AUTO, EPIC_FIGHT, PARCOOL, PARAGLIDER
+		#Allowed Values: AUTO, EPIC_FIGHT, PARCOOL, PARAGLIDER, MINE_AND_SLASH
 		server_stamina_source = "AUTO"
-		#Allowed Values: AUTO, IRONS_SPELLBOOKS
+		#Allowed Values: AUTO, IRONS_SPELLBOOKS, MINE_AND_SLASH
 		server_mana_source = "AUTO"
 		#AUTO = prefer FTB Teams otherwise fall back to vanilla scoreboard teams.
 		#VANILLA / FTB_TEAMS = always use only that source.
