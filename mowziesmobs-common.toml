@@ -84,7 +84,7 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			damage_reduction_multiplier = 1.0
 			#Multiply armor toughness by this amount. See official Minecraft Wiki for an explanation of how armor toughness works.
-			#Range: 0.0 ~ 1    .7976931348623157E308
+			#Range: 0.0 ~ 1.7976931348623157E308
 			toughness_multiplier = 1.0
 
 	[tools_and_abilities.spear]
