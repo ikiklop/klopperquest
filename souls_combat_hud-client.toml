@@ -125,7 +125,7 @@
 #Custom Bossbar
 [custom_bossbar]
 	#Toggle whether to use Souls-like bossbars.
-	enabled = true
+	enabled = false
 	#Should the bossbar display the damage value it has taken. This only works if mod is installed on the server.
 	reduction_value_text = true
 	#Delay in miliseconds before the bossbar disappears

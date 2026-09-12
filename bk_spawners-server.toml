@@ -1,0 +1,152 @@
+
+#Which spawners this mod takes over.
+[general]
+	#Master switch. Off means every spawner in the world reverts to vanilla
+	#behaviour, including ones already mid-cycle.
+	enabled = true
+	#How the two lists below are read.
+	#  blacklist - every spawner uses this mod's rules EXCEPT those listed
+	#  whitelist - ONLY the listed spawners use this mod's rules
+	filterMode = "blacklist"
+	#Dimensions this applies to, by id. Read as a blacklist or whitelist per
+	#filterMode above. Example: ["minecraft:the_nether", "minecraft:the_end"]
+	dimensionFilter = []
+	#Spawners set to these mobs, by entity id. Read as a blacklist or whitelist
+	#per filterMode above. Useful for a mod's boss or wave spawners that expect
+	#their own behaviour. Example: ["minecraft:silverfish"]
+	entityFilter = []
+
+#The default rules. Every value here can be overridden per dimension or per mob
+#in the [overrides] section at the bottom of this file.
+[defaults]
+
+	#The clock. 20 ticks = 1 second, 6000 ticks = 5 minutes.
+	[defaults.cycle]
+		#How long a spawned mob lives before the spawner replaces it.
+		#When this elapses the tied mob is removed and a fresh one spawns immediately.
+		#Range: 20 ~ 1728000
+		cycleTicks = 6000
+		#Whether that replacement happens on the dot even with a player standing
+		#there fighting the mob. Off defers the swap until no player is within
+		#activationRange, so a mob never vanishes mid-fight.
+		hardRefresh = true
+		#After the tied mob is KILLED, how long before the spawner may spawn again.
+		#This is the countdown shown on the block.
+		#Range: 0 ~ 1728000
+		deathCooldownTicks = 6000
+		#Random spread added to each cooldown, up to this many ticks. Keeps a room
+		#full of spawners from respawning in lockstep. 0 disables it.
+		#Range: 0 ~ 72000
+		cooldownJitterTicks = 0
+		#If the spawner was ready but found nowhere to put the mob (every candidate
+		#position was solid), how long before it tries again.
+		#Range: 1 ~ 1200
+		spawnRetryTicks = 40
+		#How often a spawner re-evaluates its state. Purely a performance dial —
+		#a mob's death is handled the instant it happens regardless of this.
+		#Range: 1 ~ 100
+		checkIntervalTicks = 5
+
+	[defaults.range]
+		#A player within this many blocks arms the spawner: if it holds no mob and is
+		#off cooldown, it spawns one. Vanilla's equivalent is 16.
+		#Range: 1.0 ~ 256.0
+		activationRange = 32.0
+		#With no player within this many blocks, the spawner wipes its mob and rearms,
+		#so walking away and coming back gives you a fresh enemy. Should be comfortably
+		#larger than activationRange.
+		#NOTE: a spawner only runs while its chunk is loaded, so a value beyond your
+		#simulation distance (10 chunks / 160 blocks by default) is only reached in the
+		#band where the chunk still ticks. Leaving entirely unloads the chunk, which
+		#rearms the spawner anyway.
+		#Range: 1.0 ~ 512.0
+		resetRange = 128.0
+		#Whether leaving that radius resets the spawner at all.
+		resetOnLeaveArea = true
+		#Horizontal radius, in blocks, the mob may be placed within.
+		#Range: 0 ~ 32
+		spawnRange = 4
+		#How many positions to try before giving up and waiting spawnRetryTicks.
+		#Higher values dig a mob out of tighter rooms.
+		#Range: 1 ~ 64
+		spawnAttempts = 12
+		#If above 0, a tied mob that wanders further than this from its spawner is
+		#pulled back. 0 lets mobs chase you as far as they like.
+		#Range: 0.0 ~ 256.0
+		tetherRange = 0.0
+		#How many mobs a spawner holds at once. The design assumes 1; raising it makes
+		#the spawner keep that many alive, all sharing one cycle clock.
+		#Range: 1 ~ 16
+		spawnCount = 1
+
+	#What a player's death does to the spawners around them.
+	[defaults.death]
+		resetOnPlayerDeath = true
+		#Spawners within this many blocks of where the player died are reset: their
+		#mob is removed and they rearm immediately.
+		#Range: 0.0 ~ 512.0
+		deathResetRadius = 64.0
+		#A spawner is spared that reset if any OTHER living player is within this many
+		#blocks of it, so one player dying does not yank the enemy out of a teammate's
+		#fight. 0 resets regardless of who else is around.
+		#Range: 0.0 ~ 512.0
+		deathResetGuardRange = 32.0
+
+	[defaults.spawning]
+		#Off by default — this is what makes spawners ignore light level.
+		#Off: a position is acceptable if the mob physically fits and no other mod
+		#     explicitly vetoes it.
+		#On:  the mob's own spawn rules are consulted too, which for most hostiles
+		#     means darkness is required again.
+		respectMobSpawnRules = false
+		#Spawn hostile mobs even on Peaceful. Minecraft removes hostiles on Peaceful
+		#every tick, so this mostly produces mobs that vanish immediately.
+		allowInPeaceful = false
+		#Mark spawned mobs as persistent so the game's own despawn rules never remove
+		#them. Their lifetime is the spawner's business, not the mob cap's.
+		persistentMobs = true
+		#Play the puff of smoke and the spawn sound when a mob appears.
+		spawnEffects = true
+		#If every candidate position was blocked, spawn on top of the spawner itself
+		#rather than waiting. Guarantees the enemy exists in cramped rooms, at the
+		#cost of the mob sometimes appearing right on the block.
+		forceSpawnAtBlock = false
+		#How many consecutive checks a tied mob may go unfound before the spawner
+		#concludes it is gone and starts its cooldown. Guards against a mob that walked
+		#into an unloaded chunk being treated as dead. Only reached for mobs removed
+		#without dying, e.g. by /kill.
+		#Range: 1 ~ 200
+		missTolerance = 6
+
+#Spawners are meant to be permanent fixtures of a dungeon.
+[protection]
+	#Stop players breaking a spawner.
+	indestructible = true
+	#Let creative-mode players break them anyway. Leave this on unless you want a
+	#spawner you place to be genuinely unremovable without commands.
+	creativeBypass = true
+	#Remove spawners from the blocks any explosion would destroy.
+	explosionProof = true
+	#Stop mobs that break blocks (the wither, ravagers) destroying spawners.
+	#NOTE: spawners are additionally added to the minecraft:dragon_immune block tag
+	#by this mod's data, which no config value can switch off — the ender dragon
+	#reads that tag directly rather than firing an event anything can cancel.
+	mobGriefProof = true
+
+#Per-dimension and per-mob rule changes.
+#
+#One override per line, in the form:
+#    "<id> | key=value | key=value"
+#
+#where <id> is a dimension id or an entity id, and the keys are any of the
+#values from the [defaults] section above:
+#    cycleTicks, deathCooldownTicks, cooldownJitterTicks, spawnRetryTicks, checkIntervalTicks, activationRange, resetRange, spawnRange, spawnAttempts, tetherRange, spawnCount, hardRefresh, resetOnLeaveArea, respectMobSpawnRules, allowInPeaceful, persistentMobs, spawnEffects, forceSpawnAtBlock, missTolerance, resetOnPlayerDeath, deathResetRadius, deathResetGuardRange
+#
+#A mob override beats a dimension override for the same key. Examples:
+#    dimensionOverrides = ["minecraft:the_nether | cycleTicks=6000 | activationRange=24"]
+#    entityOverrides    = ["minecraft:blaze | spawnCount=2 | tetherRange=24",
+#                          "minecraft:wither_skeleton | deathCooldownTicks=24000"]
+[overrides]
+	dimensionOverrides = []
+	entityOverrides = []
+

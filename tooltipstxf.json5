@@ -4,7 +4,7 @@
   // default: false
   "timeInSeconds": true,
   // default: true
-  "showDurability": true,
+  "showDurability": false,
   // default: true
   "showFoodValues": true,
   // default: true

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "dungeons_and_combat:item/copper_hoe"
+  }
+}

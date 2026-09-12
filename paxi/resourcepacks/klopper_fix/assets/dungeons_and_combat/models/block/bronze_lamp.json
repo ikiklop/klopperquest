@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dungeons_and_combat:block/bronze_lamp_top",
+    "up": "dungeons_and_combat:block/bronze_lamp_top",
+    "north": "dungeons_and_combat:block/bronze_lamp_side",
+    "east": "dungeons_and_combat:block/bronze_lamp_side",
+    "south": "dungeons_and_combat:block/bronze_lamp_side",
+    "west": "dungeons_and_combat:block/bronze_lamp_side",
+    "particle": "dungeons_and_combat:block/bronze_lamp_top"
+  },
+  "render_type": "solid"
+}

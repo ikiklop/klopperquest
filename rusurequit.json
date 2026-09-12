@@ -3,7 +3,7 @@
   "confirmTypeInSingleplayer": "SCREEN",
   "confirmTypeInMultiplayer": "SCREEN",
   "enableScreenShortcutKey": true,
-  "buttonWaitTime": 1000,
+  "buttonWaitTime": 0,
   "enableTextFieldConfirm": false,
   "textFieldConfirmText": "BocchiChan",
   "confirmScreenStyle": "CLASSIC",

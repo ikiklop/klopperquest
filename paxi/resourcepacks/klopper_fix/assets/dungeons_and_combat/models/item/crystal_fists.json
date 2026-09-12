@@ -1,0 +1,7 @@
+{
+  "parent": "dungeons_and_combat:custom/crystal_fist",
+  "textures": {
+    "0": "dungeons_and_combat:block/crystal_fist",
+    "particle": "dungeons_and_combat:item/crystal_dagger"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "dungeons_and_combat:custom/acid_puddle",
+  "textures": {
+    "all": "dungeons_and_combat:block/acid_puddle",
+    "particle": "dungeons_and_combat:block/acid_puddle",
+    "0": "dungeons_and_combat:block/acid_puddle"
+  },
+  "render_type": "cutout"
+}

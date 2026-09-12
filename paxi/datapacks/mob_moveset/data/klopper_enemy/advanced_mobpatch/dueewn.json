@@ -1,0 +1,3381 @@
+{
+    "model": "epicfight:entity/biped",
+    "armature": "epicfight:entity/biped",
+    "renderer": "minecraft:zombie",
+    "isHumanoid": true,
+    "faction": "undead",
+    "attributes": {
+        "impact": 2,
+        "armor_negation": 0,
+        "max_strikes": 1,
+        "chasing_speed": 1.5,
+        "max_stamina": 30,
+        "stamina_regan_multiply": 0.5,
+        "stamina_regan_delay": 100,
+        "has_stun_reduction": false,
+        "max_stun_shield": 0,
+        "stun_shield_regan_multiply": 0,
+        "stun_shield_regan_delay": 999999,
+        "guard_radius": 4,
+        "stamina_lose_multiply": 2,
+        "attack_radius": 3
+    },
+    "default_livingmotions": {
+        "idle": "epicfight:biped/living/idle",
+        "walk": "epicfight:biped/living/walk",
+        "chase": "epicfight:biped/living/walk",
+        "mount": "epicfight:biped/living/mount",
+        "fall": "epicfight:biped/living/fall",
+        "death": "epicfight:biped/living/death"
+    },
+    "humanoid_weapon_motions": [
+        {
+            "weapon_categories": ["fist"],
+            "style": "common",
+            "livingmotions": {
+                "chase": "epicfight:biped/living/run",
+                "walk": "epicfight:biped/living/walk"
+            }
+        },
+        {
+            "weapon_categories": ["longsword"],
+            "style": "common",
+            "livingmotions": {
+                "walk": "epicfight:biped/living/walk_longsword",
+                "chase": "epicfight:biped/living/run_longsword"
+            }
+        },
+        {
+            "weapon_categories": ["tachi"],
+            "style": "common",
+            "livingmotions": {
+                "walk": "epicfight:biped/living/walk_tachi",
+                "chase": "epicfight:biped/living/run_tachi"
+            }
+        },
+        {
+            "weapon_categories": ["uchigatana"],
+            "style": "common",
+            "livingmotions": {
+                "walk": "epicfight:biped/living/walk_uchigatana",
+                "chase": "epicfight:biped/living/run_uchigatana"
+            }
+        },
+        {
+            "weapon_categories": ["greatsword"],
+            "style": "common",
+            "livingmotions": {
+                "walk": "epicfight:biped/living/walk_greatsword",
+                "chase": "epicfight:biped/living/run_greatsword"
+            }
+        },
+        {
+            "weapon_categories": ["dagger"],
+            "style": "one_hand",
+            "livingmotions": {
+                "walk": "epicfight:biped/living/walk_dagger",
+                "chase": "epicfight:biped/living/run_dagger"
+            }
+        },
+        {
+            "weapon_categories": ["dagger"],
+            "style": "two_hand",
+            "livingmotions": {
+                "walk": "epicfight:biped/living/walk_dual_dagger",
+                "chase": "epicfight:biped/living/run_dual_dagger"
+            }
+        },
+        {
+            "weapon_categories": ["sword"],
+            "style": "one_hand",
+            "livingmotions": {
+                "walk": "epicfight:biped/living/walk_sword",
+                "chase": "epicfight:biped/living/run_sword"
+            }
+        },
+        {
+            "weapon_categories": ["sword"],
+            "style": "two_hand",
+            "livingmotions": {
+                "walk": "epicfight:biped/living/walk_dual_sword",
+                "chase": "epicfight:biped/living/run_dual_sword"
+            }
+        }
+    ],
+    "stun_command_list": [
+        {"command": "", "stun_type": "neutralize", "execute_at_target": false}
+    ],
+    "custom_guard_motion": [
+        { 
+			"weapon_categories": ["sword","dagger","axe", "hoe", "shovel","pickaxe"], 
+			"style":"one_hand", 	
+			"guard": "indestructible:guard/guard_sword",
+	        "stamina_cost_multiply": 10, 	
+			"parry_cost_multiply": 5,    
+	        "can_block_projectile" : true     
+	    },
+		{ 
+			"weapon_categories": ["dagger"], 
+			"style":"two_hand", 	
+		    "guard": "indestructible:guard/guard_dualsword",
+		    "stamina_cost_multiply": 40, 	
+			"parry_cost_multiply": 5,    
+		    "can_block_projectile" : true     
+		},
+		{ 
+			"weapon_categories": ["sword"], 
+			"style":"two_hand", 	
+		    "guard": "indestructible:guard/guard_dualsword",
+		    "stamina_cost_multiply": 20, 	
+			"parry_cost_multiply": 5,    
+		    "can_block_projectile" : true     
+		},
+		{ 
+			"weapon_categories": ["fist"], 
+			"style":"common", 	
+	    	"guard": "indestructible:guard/guard_dualsword",
+		    "stamina_cost_multiply": 50, 	
+			"parry_cost_multiply": 5,  
+		    "can_block_projectile" : false     
+		},
+		{ 
+		    "weapon_cegories": ["greatsword"], 
+		    "style":"common", 	
+		    "guard": "indestructible:guard/guard_greatsword",
+	        "stamina_cost_multiply": 30, 	
+			"parry_cost_multiply": 5,    
+	        "can_block_projectile" : false     
+	    },
+		{ 
+		   "weapon_categories": ["uchigatana"], 
+		   "style":"common", 	
+		   "guard": "indestructible:guard/guard_katana",
+	       "stamina_cost_multiply": 10, 	  
+		   "parry_cost_multiply": 5,  
+	       "can_block_projectile" : true    
+	    },
+		{ 
+		  "weapon_categories": ["longsword","tachi"], 
+		  "style":"common", 	
+		  "guard": "indestructible:guard/guard_longsword",
+		  "parry_cost_multiply": 10,  
+	      "stamina_cost_multiply": 1.5, 	  
+	      "can_block_projectile" : true  
+	    },
+		{ 
+		  "weapon_categories": ["spear","trident"], 
+		  "style":"common", 	
+		  "guard": "indestructible:guard/guard_spear",
+		  "stamina_cost_multiply": 10, 	  
+		  "parry_cost_multiply": 5,  
+		  "can_block_projectile" : false     
+		}
+    ],
+    "stun_animations": {
+        "knockdown": "epicfight:biped/combat/knockdown",
+        "fall": "epicfight:biped/living/landing",
+        "neutralize": "epicfightx:biped/skill/guard_break1"
+    },
+    "combat_behavior": [
+        {
+            "weapon_categories": ["uchigatana"],
+            "style": "common",
+            "behavior_series": [
+                {
+                    "weight": 100.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/uchigatana_sheath_dash",
+                            "convert_time": 0.4,
+                            "play_speed": 0.8
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/uchigatana_sheath_airslash",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/uchigatana_auto1",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/uchigatana_auto2",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "epicfightx:biped/skill/battojutsu",  	
+							"convert_time": 0.6,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						},
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "epicfightx:biped/skill/battojutsu_dash",  	
+							"convert_time": 0.6,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						}
+                    ]
+                },
+                {
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown":50,
+					"behaviors": [	
+						{
+							"conditions": [
+								{"predicate": "epicfight:health", "health":0.8, "comparator": "greater_ratio"},{"predicate":"indestructible:phase", "min": 10, "max": 10},{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "efn:biped/perfect_dodge", 
+							"set_phase": 1,
+				         	"play_speed": 1.1
+						}
+                    ]                 
+				},
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 10, "max": 10},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfight:biped/skill/knockdown_wakeup_left",
+                            "set_phase": 1,
+                            "play_speed": 1.1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 10, "max": 10},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfight:biped/skill/knockdown_wakeup_right",
+                            "set_phase": 1,
+                            "play_speed": 1.1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 2},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "epicfightx:biped/skill/revelation_normal",
+                            "counter_cost": 10,
+                            "counter_chance": 0.3,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 0.3
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 20,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/uchigatana_sheath_dash",
+                            "convert_time": 0.6,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 0.9
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/uchigatana_sheath_airslash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/uchigatana_auto2",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 0.9
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": false},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": true},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 2, "max": 2},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 3, "max": 3},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 11, "max": 11},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "set_phase": 1,
+                            "counter_speed": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "weapon_categories": ["longsword"],
+            "style": "common",
+            "behavior_series": [
+                {
+                    "weight": 100.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/longsword_dash",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/longsword_auto4",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/longsword_auto1",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/longsword_auto2",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "epicfightx:biped/combat/longsword_twohand_airslash",  	
+							"convert_time": 0.1,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						},
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "epicfightx:biped/combat/longsword_auto3",  	
+							"convert_time": 0.1,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						}
+                    ]
+                },
+                {
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown":50,
+					"behaviors": [	
+						{
+							"conditions": [
+								{"predicate": "epicfight:health", "health":0.8, "comparator": "greater_ratio"},{"predicate":"indestructible:phase", "min": 10, "max": 10},{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "efn:biped/perfect_dodge", 
+							"set_phase": 1,
+				         	"play_speed": 1.1
+						}
+                    ]                 
+				},
+                {
+                    "weight": 10.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 10, "max": 10},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfight:biped/skill/knockdown_wakeup_left",
+                            "set_phase": 1,
+                            "play_speed": 1.1
+                        }
+                    ]
+                },
+                {
+                    "weight": 10.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 10, "max": 10},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfight:biped/skill/knockdown_wakeup_right",
+                            "set_phase": 1,
+                            "play_speed": 1.1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 2},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "epicfightx:biped/skill/revelation_normal",
+                            "counter_cost": 10,
+                            "counter_chance": 0.3,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 0.3
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 20,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/longsword_dash",
+                            "convert_time": 0.1,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/longsword_auto5",
+                            "convert_time": 0.1,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/longsword_auto3",
+                            "convert_time": 0.1,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": false},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": true},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 2, "max": 2},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 3, "max": 3},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 11, "max": 11},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "set_phase": 1,
+                            "counter_speed": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "weapon_categories": ["tachi"],
+            "style": "common",
+            "behavior_series": [
+                {
+                    "weight": 100.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/tachi_dash",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/tachi_auto1",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/tachi_auto2",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/tachi_auto3",
+                            "play_speed": 1.0
+                        },
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "epicfightx:biped/combat/tachi_auto1",  	
+							"convert_time": 0.1,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						},
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "epicfightx:biped/combat/tachi_auto2",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						},
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "epicfightx:biped/combat/tachi_airslash",  	
+							"convert_time": 0.1,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						}
+                    ]
+                },
+                {
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown":50,
+					"behaviors": [	
+						{
+							"conditions": [
+								{"predicate": "epicfight:health", "health":0.8, "comparator": "greater_ratio"},{"predicate":"indestructible:phase", "min": 10, "max": 10},{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "efn:biped/perfect_dodge", 
+							"set_phase": 1,
+				         	"play_speed": 1.1
+						}
+                    ]                 
+				},
+                {
+                    "weight": 10.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 10, "max": 10},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfight:biped/skill/knockdown_wakeup_left",
+                            "set_phase": 1,
+                            "play_speed": 1.1
+                        }
+                    ]
+                },
+                {
+                    "weight": 10.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 10, "max": 10},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfight:biped/skill/knockdown_wakeup_right",
+                            "set_phase": 1,
+                            "play_speed": 1.1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 2},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "epicfightx:biped/skill/revelation_normal",
+                            "counter_cost": 10,
+                            "counter_chance": 0.3,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 0.3
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 20,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/tachi_dash",
+                            "convert_time": 0.1,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/tachi_airslash",
+                            "convert_time": 0.1,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/tachi_auto4",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                         {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/tachi_auto5",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": false},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": true},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 2, "max": 2},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 3, "max": 3},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 11, "max": 11},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "set_phase": 1,
+                            "counter_speed": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "weapon_categories": ["greatsword"],
+            "style": "common",
+            "behavior_series": [
+                {
+                    "weight": 100.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "efn:biped/ng_greatsword/ng_great_auto1",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "efn:biped/ng_greatsword/ng_great_auto2",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "efn:biped/ng_greatsword/ng_great_auto3",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "efn:biped/ng_greatsword/ng_great_charge1max",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "efn:biped/ng_greatsword/ng_great_airslash",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						},
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "efn:biped/ng_greatsword/ng_great_skill_clash_hit",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						},
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "efn:biped/ng_greatsword/ng_great_airslash",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						}
+                    ]
+                },
+                {
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown":50,
+					"behaviors": [	
+						{
+							"conditions": [
+								{"predicate": "epicfight:health", "health":0.8, "comparator": "greater_ratio"},{"predicate":"indestructible:phase", "min": 10, "max": 10},{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "efn:biped/perfect_dodge", 
+							"set_phase": 1,
+				         	"play_speed": 1.1
+						}
+                    ]                 
+				},
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 2},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "epicfightx:biped/skill/revelation_normal",
+                            "counter_cost": 10,
+                            "counter_chance": 0.3,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 0.3
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 20,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "efn:biped/ng_greatsword/ng_great_skill_clash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "efn:biped/ng_greatsword/ng_great_skill_clash_hit",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "efn:biped/ng_greatsword/ng_great_auto2",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                         {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "efn:biped/ng_greatsword/ng_great_auto3",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": false},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": true},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 2, "max": 2},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 3, "max": 3},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 11, "max": 11},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "set_phase": 1,
+                            "counter_speed": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "weapon_categories": ["sword"],
+            "style": "one_hand",
+            "behavior_series": [
+                {
+                    "weight": 100.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_auto1",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_auto2",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_auto3",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_auto5",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "epicfightx:biped/combat/sword_airslash",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						},
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "epicfightx:biped/combat/sword_dash",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						},
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "epicfightx:biped/combat/sword_auto4",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						}
+                    ]
+                },
+                {
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown":50,
+					"behaviors": [	
+						{
+							"conditions": [
+								{"predicate": "epicfight:health", "health":0.8, "comparator": "greater_ratio"},{"predicate":"indestructible:phase", "min": 10, "max": 10},{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "efn:biped/perfect_dodge", 
+							"set_phase": 1,
+				         	"play_speed": 1.1
+						}
+                    ]                 
+				},
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 2},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "epicfightx:biped/skill/revelation_normal",
+                            "counter_cost": 10,
+                            "counter_chance": 0.3,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 0.3
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 20,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_dash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_auto5",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_airslash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                         {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_dash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": false},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": true},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 2, "max": 2},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 3, "max": 3},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 11, "max": 11},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "set_phase": 1,
+                            "counter_speed": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "weapon_categories": ["sword"],
+            "style": "two_hand",
+            "behavior_series": [
+                {
+                    "weight": 100.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_dual_auto1",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_dual_auto2",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_dual_auto3",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_dual_airslash",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "epicfightx:biped/combat/sword_dual_dash",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						},
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "epicfightx:biped/combat/sword_dual_auto4",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						},
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "epicfightx:biped/combat/sword_dual_auto5",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						}
+                    ]
+                },
+                {
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown":50,
+					"behaviors": [	
+						{
+							"conditions": [
+								{"predicate": "epicfight:health", "health":0.8, "comparator": "greater_ratio"},{"predicate":"indestructible:phase", "min": 10, "max": 10},{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "efn:biped/perfect_dodge", 
+							"set_phase": 1,
+				         	"play_speed": 1.1
+						}
+                    ]                 
+				},
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 2},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "epicfightx:biped/skill/revelation_normal",
+                            "counter_cost": 10,
+                            "counter_chance": 0.3,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 0.3
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 20,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_dual_dash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_dual_auto1",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_dual_auto2",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                         {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_dual_auto3",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/sword_dual_airslash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": false},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": true},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 2, "max": 2},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 3, "max": 3},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 11, "max": 11},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "set_phase": 1,
+                            "counter_speed": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "weapon_categories": ["dagger"],
+            "style": "one_hand",
+            "behavior_series": [
+                {
+                    "weight": 100.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [{"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}],
+                            "animation": "epicfightx:biped/combat/dagger_auto1",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [{"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}],
+                            "animation": "epicfightx:biped/combat/dagger_auto2",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [{"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}],
+                            "animation": "epicfightx:biped/combat/dagger_auto3",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [{"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}],
+                            "animation": "epicfightx:biped/combat/dagger_airslash",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+							"conditions": [{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}],
+							"animation": "epicfightx:biped/combat/dagger_dash",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						},
+                        {
+							"conditions": [{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}],
+							"animation": "epicfightx:biped/combat/dagger_auto5",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						},
+                        {
+							"conditions": [
+								{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "epicfightx:biped/combat/dagger_dodge_auto1",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						}
+                    ]
+                },
+                {
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown":50,
+					"behaviors": [	
+						{
+							"conditions": [
+								{"predicate": "epicfight:health", "health":0.8, "comparator": "greater_ratio"},{"predicate":"indestructible:phase", "min": 10, "max": 10},{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}
+							],
+							"animation": "efn:biped/perfect_dodge", 
+							"set_phase": 1,
+				         	"play_speed": 1.1
+						}
+                    ]                 
+				},
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 2},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "epicfightx:biped/skill/revelation_normal",
+                            "counter_cost": 10,
+                            "counter_chance": 0.3,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 0.3
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 20,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/dagger_dash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/dagger_auto3",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/dagger_auto4",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                         {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/dagger_auto5",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/dagger_airslash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": false},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": true},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 2, "max": 2},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 3, "max": 3},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 11, "max": 11},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "set_phase": 1,
+                            "counter_speed": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "weapon_categories": ["dagger"],
+            "style": "two_hand",
+            "behavior_series": [
+                {
+                    "weight": 100.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [{"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}],
+                            "animation": "epicfightx:biped/combat/dagger_dual_auto1",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [{"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}],
+                            "animation": "epicfightx:biped/combat/dagger_dual_auto2",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [{"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}],
+                            "animation": "epicfightx:biped/combat/dagger_dual_auto3",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [{"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}],
+                            "animation": "epicfightx:biped/combat/dagger_dual_airslash",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+							"conditions": [{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}],
+							"animation": "epicfightx:biped/combat/dagger_dual_dash",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						},
+                        {
+							"conditions": [{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}],
+							"animation": "epicfightx:biped/combat/dagger_dual_auto5",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						},
+                        {
+							"conditions": [{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}],
+							"animation": "epicfightx:biped/combat/dagger_dual_airslash",  	
+							"convert_time": 0.4,				
+							"command_list": [									
+							{"time":0.1, "command":"/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11", "execute_at_target":true}
+						    ],		
+				         	"play_speed": 0.9		
+						}
+                    ]
+                },
+                {
+					"weight": 1.5,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown":50,
+					"behaviors": [	
+						{
+							"conditions": [{"predicate": "epicfight:health", "health":0.8, "comparator": "greater_ratio"},{"predicate":"indestructible:phase", "min": 10, "max": 10},{"predicate":"epicfight:within_distance", "min": 0.0, "max": 32.0}],
+							"animation": "efn:biped/perfect_dodge", 
+							"set_phase": 1,
+				         	"play_speed": 1.1
+						}
+                    ]                 
+				},
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 2},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "epicfightx:biped/skill/revelation_normal",
+                            "counter_cost": 10,
+                            "counter_chance": 0.3,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 0.3
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 20,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/dagger_dual_dash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/dagger_dual_auto3",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/dagger_dual_auto4",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                         {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/dagger_dual_auto5",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/dagger_dual_airslash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": false},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": true},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 2, "max": 2},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 3, "max": 3},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 11, "max": 11},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "set_phase": 1,
+                            "counter_speed": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "weapon_categories": ["fist"],
+            "style": "common",
+            "behavior_series": [
+                {
+                    "weight": 100.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/fist_auto1",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/fist_auto2",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/fist_auto3",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/fist_auto4",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/fist_auto5",
+                            "convert_time": 0.4,
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/fist_dash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 0.9
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/fist_airslash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 0.9
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:health", "health": 0.8, "comparator": "greater_ratio"},
+                                {"predicate": "indestructible:phase", "min": 10, "max": 10},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "efn:biped/perfect_dodge",
+                            "set_phase": 1,
+                            "play_speed": 1.1
+                        }
+                    ]
+                },
+                {
+                    "weight": 10.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 10, "max": 10},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfight:biped/skill/knockdown_wakeup_left",
+                            "set_phase": 1,
+                            "play_speed": 1.1
+                        }
+                    ]
+                },
+                {
+                    "weight": 10.0,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 10, "max": 10},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfight:biped/skill/knockdown_wakeup_right",
+                            "set_phase": 1,
+                            "play_speed": 1.1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": true,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 2},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "guard": 5,
+                            "counter": "epicfightx:biped/skill/revelation_normal",
+                            "counter_cost": 10,
+                            "counter_chance": 0.3,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 0.3
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 20,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_eye_height"},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/fist_dash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/fist_auto3",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..100] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/fist_auto4",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/fist_auto5",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        },
+                        {
+                            "conditions": [
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 32.0}
+                            ],
+                            "animation": "epicfightx:biped/combat/fist_airslash",
+                            "convert_time": 0.4,
+                            "command_list": [
+                                {
+                                    "time": 0.1,
+                                    "command": "/execute as @e[type=!minecraft:player,distance=..64] at @s run execute if entity @e[type=minecraft:player,distance=..100] run execute unless entity @e[type=minecraft:player,distance=..3] run indestructible @s set_phase 11",
+                                    "execute_at_target": true
+                                }
+                            ],
+                            "play_speed": 1.0
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:attack_level", "min": 1, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": false},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "indestructible:using_item", "edible": true},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 2, "max": 2},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 50,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:attack_level", "min": 3, "max": 3},
+                                {"predicate": "indestructible:phase", "min": 0, "max": 1},
+                                {"predicate": "epicfight:within_distance", "min": 10.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "counter_speed": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate": "indestructible:phase", "min": 11, "max": 11},
+                                {"predicate": "epicfight:within_distance", "min": 0.0, "max": 15}
+                            ],
+                            "guard": 5,
+                            "counter": "efn:biped/yamato/biped_hitback_1",
+                            "counter_cost": 10,
+                            "counter_chance": 0.4,
+                            "cancel_after_counter": true,
+                            "stun_immunity_time": 3,
+                            "set_phase": 1,
+                            "counter_speed": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

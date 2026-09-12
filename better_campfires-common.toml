@@ -1,0 +1,3 @@
+#Whether sticks can be cooked on a campfire to make torches.
+enableStickToTorchRecipe = false
+

@@ -1,4 +1,4 @@
 #The default max health of a player.
 #Range: 1.0 ~ 1.7976931348623157E308
-defaultMaxHealth = 100.0
+defaultMaxHealth = 99.0
 

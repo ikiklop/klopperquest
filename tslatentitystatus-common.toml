@@ -70,7 +70,7 @@
 
 ["In-World Bars Settings"]
 	#Whether TES should do in-world entity status bars
-	inWorldBarsEnabled = true
+	inWorldBarsEnabled = false
 	#Whether the TES in-world HUD should be enabled for the player or not
 	inWorldHudForSelf = false
 	#When the TES in-world status bars should render

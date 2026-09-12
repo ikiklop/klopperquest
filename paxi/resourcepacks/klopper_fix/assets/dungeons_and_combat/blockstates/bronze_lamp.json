@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dungeons_and_combat:block/bronze_lamp",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dungeons_and_combat:block/bronze_lamp"
+    },
+    "axis=z": {
+      "model": "dungeons_and_combat:block/bronze_lamp",
+      "x": 90
+    }
+  }
+}

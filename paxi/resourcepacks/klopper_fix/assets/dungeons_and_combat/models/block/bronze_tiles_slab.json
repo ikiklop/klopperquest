@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "dungeons_and_combat:block/bronze_tiles",
+    "bottom": "dungeons_and_combat:block/bronze_tiles",
+    "top": "dungeons_and_combat:block/bronze_tiles",
+    "side": "dungeons_and_combat:block/bronze_tiles"
+  },
+  "render_type": "solid"
+}

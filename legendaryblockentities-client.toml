@@ -19,6 +19,8 @@
 	better_nether_chests = true
 	#Optimize Iron Chests (requires Iron Chests). Crystal chests are excluded
 	iron_chests = true
+	#Optimize chests from Blueprint-based mods (Woodworks, Atmospheric, Environmental, Autumnity, Upgrade Aquatic, Endergetic, etc). Requires Blueprint
+	blueprint_chests = true
 
 [compatibility]
 	#AUTO: if Vanillin is loaded and Flywheel backend is on, Vanillin handles vanilla chests, bells and shulkers while LBE keeps optimizing modded chests

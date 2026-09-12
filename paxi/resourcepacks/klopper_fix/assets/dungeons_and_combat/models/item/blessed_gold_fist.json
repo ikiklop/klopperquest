@@ -1,0 +1,7 @@
+{
+  "parent": "dungeons_and_combat:custom/blessed_gold_fist_real",
+  "textures": {
+    "0": "dungeons_and_combat:block/blessed_gold_fist",
+    "particle": "dungeons_and_combat:item/blessed_gold_claws"
+  }
+}

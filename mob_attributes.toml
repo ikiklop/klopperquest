@@ -1,0 +1,5 @@
+
+[mob_attributes]
+	#List of mob attributes to modify
+	MobAttributes = ["minecraft:zombie;generic.max_health;100.0", "minecraft:skeleton;generic.attack_damage;1.0", ""]
+

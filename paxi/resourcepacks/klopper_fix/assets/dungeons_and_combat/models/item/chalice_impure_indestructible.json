@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dungeons_and_combat:item/chalice_with_impure_blood"
+  },
+  "render_type": "translucent"
+}

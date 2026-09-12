@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dungeons_and_combat:item/elden_oak_door"
+  },
+  "render_type": "translucent"
+}

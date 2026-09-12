@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dungeons_and_combat:block/sandstone_light_alternative",
+    "particle": "dungeons_and_combat:block/sandstone_light_alternative"
+  },
+  "render_type": "solid"
+}

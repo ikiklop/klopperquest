@@ -1,0 +1,16 @@
+#是否让所有 Mob 获得施法能力；启用后仍会跳过玩家。
+enableAllMobs = false
+#允许施法的实体 ID，支持原版和其他模组实体，例如 minecraft:zombie。
+enabledEntityTypes = ["minecraft:zombie", "minecraft:skeleton", "minecraft:stray", "minecraft:husk", "minecraft:drowned", "minecraft:spider", "minecraft:cave_spider", "minecraft:pillager", "minecraft:vindicator", "minecraft:evoker"]
+#全局默认法术及等级，格式为 spell_id@level，例如 irons_spellbooks:magic_missile@1。
+globalSpellPool = []
+#旧版实体专用法术池，仅用于兼容读取。新的 entitySpellConfigs 优先。
+entitySpellOverrides = []
+#每个生物的独立配置，格式为 entity_id|spell_id@level,spell_id@level|interval|require_target。
+entitySpellConfigs = ["minecraft:zombie||100|true"]
+#两次施法之间的最短间隔，单位为 tick。
+#Range: 1 ~ 1200
+castIntervalTicks = 100
+#开始吟唱前是否必须拥有有效目标。
+requireTarget = true
+

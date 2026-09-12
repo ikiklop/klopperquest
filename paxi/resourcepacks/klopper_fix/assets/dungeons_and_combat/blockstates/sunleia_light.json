@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dungeons_and_combat:block/sunleia_light"
+    },
+    "facing=east": {
+      "model": "dungeons_and_combat:block/sunleia_light",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dungeons_and_combat:block/sunleia_light",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dungeons_and_combat:block/sunleia_light",
+      "y": 270
+    }
+  }
+}

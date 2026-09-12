@@ -1,0 +1,5 @@
+
+["Respawn Anchor Settings"]
+	#Uses item ids: "minecraft:glowstone"
+	"Respawn Anchor Fuel List" = ["minecraft:glowstone"]
+

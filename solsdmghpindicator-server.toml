@@ -1,0 +1,43 @@
+
+#Boss Damage Tracking
+[bossdamage]
+	#Track and broadcast per-player damage to boss entities for the damage progress display
+	enabled = true
+	#Maximum number of top damage contributors shown in the boss bar progress list. If the viewing player is not in the top N, they are appended as an extra entry.
+	#Range: 1 ~ 30
+	maxEntries = 5
+	#Use Sol's Relic System custom crit detection when that mod is installed. When disabled, only vanilla Minecraft critical hit detection is used. Has no effect if Sol's Relic System is not installed.
+	relicCritIntegration = true
+	#Minutes of inactivity (no damage dealt) before a player is removed from the boss damage progress list. Removed inactive players are excluded from the final death summary unless they attack again before the boss dies. Set to 0 to disable inactivity pruning for live progress display.
+	#Range: 0 ~ 60
+	inactivityTimeout = 5
+
+#Boss and Elite Loot Allocation
+[bossloot]
+	#Give a boss or elite mob's complete standard item-drop bundle to one eligible damage contributor. This is server-authoritative and enabled by default.
+	enabled = true
+	#How the winner is selected: HIGHEST_DAMAGE always selects rank 1; WEIGHTED_DAMAGE uses each player's damage as their chance weight; WEIGHTED_RANK gives higher ranks better odds; RANDOM_ELIGIBLE gives equal odds.
+	#Allowed Values: HIGHEST_DAMAGE, WEIGHTED_DAMAGE, WEIGHTED_RANK, RANDOM_ELIGIBLE
+	selectionMode = "HIGHEST_DAMAGE"
+	#How many top-ranked contributors can enter random/weighted selection. HIGHEST_DAMAGE always uses rank 1.
+	#Range: 1 ~ 100
+	eligibleTopRanks = 5
+	#Minimum real damage required to be eligible. This prevents zero-damage and tag-hit claims.
+	#Range: 0.0 ~ 1.0E9
+	minimumDamage = 1.0
+	#Minimum percentage of all player damage required to be eligible (0 disables).
+	#Range: 0.0 ~ 100.0
+	minimumDamageSharePercent = 1.0
+	#Winner must be online, in the boss's dimension, and within this many blocks when it dies. Set to 0 for unlimited same-dimension distance. If nobody qualifies, drops remain normal.
+	#Range: 0.0 ~ 4096.0
+	maxWinnerDistance = 128.0
+	#Insert the complete drop bundle into the selected winner's inventory. If it cannot all fit, the next eligible damage rank is tried. If nobody can fit it, drops remain at the boss and are exclusive to the selected winner for 10 seconds. If false, inventory delivery is skipped.
+	deliverToInventory = true
+	#Optional fallback for modded mobs without boss bars or matching entity rules. Set above 0 only when your pack needs it. Vanilla mobs are never classified by health alone.
+	#Range: 0.0 ~ 1.0E9
+	eliteMinimumMaxHealth = 0.0
+	#Additional entities that should use boss/elite loot allocation. Use the full 'modid:entity_name' registry ID, such as 'minecraft:zombie' or 'modid:entity_name'. Exact IDs and '*'/'?' wildcard patterns are supported. Boss-bar mobs are detected automatically. These defaults cover the Warden and common mod naming conventions.
+	eliteEntityRules = ["minecraft:warden", "*:elite_*", "*:*_elite", "*:boss_*", "*:*_boss", "*:miniboss_*", "*:*_miniboss"]
+	#Entities that must never use boss/elite loot allocation. Use the full 'modid:entity_name' registry ID, such as 'minecraft:zombie' or 'modid:entity_name'. Exact IDs and '*'/'?' wildcard patterns are supported. Exclusions override included entity rules and every automatic signal, including boss bars and the health threshold.
+	excludedEntityRules = []
+

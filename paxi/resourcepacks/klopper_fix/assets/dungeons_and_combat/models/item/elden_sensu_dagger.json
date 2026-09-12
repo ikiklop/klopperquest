@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "dungeons_and_combat:item/elden_sensu"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-73, -90, 55],
+			"translation": [0, -1, -3],
+			"scale": [1.1, 1.1, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-73, 90, -55],
+			"translation": [0, -1, -3],
+			"scale": [1.1, 1.1, 0.85]
+		}
+	}
+}

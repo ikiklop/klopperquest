@@ -1,0 +1,121 @@
+
+#Hostile Harmony - mob interaction configuration.
+[hostileharmony]
+
+	#AI behavior toggles.
+	#Changes take effect when entities next spawn; existing entities keep their current AI.
+	[hostileharmony.ai_behaviors]
+		#Illagers (pillagers, vindicators, etc.) actively hunt nearby hostile mobs.
+		#Affected illager types are configurable via the mob_relationships datapack.
+		illager_hostile_targeting = true
+		#Illager attacks (including crossbow bolts) cannot damage other illagers.
+		#Affected illager types are configurable via the mob_relationships datapack.
+		illager_friendly_fire_protection = true
+		#Hostile mobs (zombies, skeletons, creepers, etc.) target illagers.
+		#Affected mob types are configurable via the mob_relationships datapack.
+		hostile_mob_illager_targeting = true
+		#Zombies, husks, skeletons, and strays actively target slimes.
+		zombie_skeleton_target_slimes = true
+		#Non-undead mobs flee from the Warden at a distance of 24 blocks.
+		#Undead mob types are configurable via the mob_relationships datapack.
+		warden_avoidance = true
+		#Villagers flee from Endermen at a distance of 12 blocks.
+		enderman_avoidance = true
+		#Creepers actively target and pursue villagers.
+		creeper_targets_villagers = true
+		#Iron Golems proactively target creepers.
+		iron_golem_targets_creepers = true
+
+	#Spider predator behavior toggles.
+	[hostileharmony.spider_behaviors]
+		#Spiders and cave spiders hunt small animals.
+		#Prey entity list is configurable via the mob_relationships datapack.
+		#Example addon use: add DragN's Livestock Overhaul animals as spider prey.
+		spider_hunting = true
+		#Additional entity IDs that spiders will hunt, on top of the datapack-configured prey list.
+		#Accepts full registry IDs, e.g. "dragsns_livestock_overhaul:sheep".
+		#Useful for adding modded animals (e.g. DragN's Livestock Overhaul) without creating a datapack.
+		spider_extra_prey = []
+		#Small animals flee from spiders.
+		#Fleeing entity list is configurable via the mob_relationships datapack.
+		animal_spider_fear = true
+		#Regular spiders apply Poison I (5 seconds) to prey animals on hit.
+		#Cave spiders are excluded since they already have a poison attack.
+		#Poisonable entity list is configurable via the mob_relationships datapack.
+		spider_poison_attack = true
+		#Villagers flee from spiders at a distance of 12 blocks.
+		villager_spider_fear = true
+		#Pillagers attack spiders and cave spiders.
+		pillager_attacks_spiders = true
+		#Wolves proactively target and attack spiders.
+		wolf_attacks_spiders = true
+
+	#Slime and magma cube behavior toggles.
+	[hostileharmony.slime_behaviors]
+		#Slimes and magma cubes aggressively target all nearby living entities.
+		#Excluded (friendly) entity types are configurable via the mob_relationships datapack.
+		slime_aggressive_targeting = true
+		#Slimes are immune to arrows and mob projectiles.
+		slime_arrow_immunity = true
+		#Slimes are immune to poison effects.
+		slime_poison_immunity = true
+		#Slimes always deal damage including tiny (size 1) slimes,
+		#jump more frequently, and deal damage scaling with size.
+		slime_fearless = true
+		#Slimes consume dropped food items they contact on the ground.
+		#Only items with food properties (meat, bread, etc.) are consumed.
+		slime_item_consumption = true
+		#When a slime consumes a food item, it grows larger (size +1, max 4).
+		slime_grows_on_item_consumption = false
+
+	#Witch support behavior toggles.
+	[hostileharmony.witch_behaviors]
+		#Witches throw Instant Health II splash potions at injured illager allies.
+		#Targets allies below 60% health within 8 blocks, checked every 20 ticks.
+		#Heal target types are configurable via the mob_relationships datapack.
+		witch_heals_allies = true
+
+	#Mob attribute / stat modifications.
+	#Changes take effect when entities next spawn; existing entities keep their current stats.
+	[hostileharmony.mob_stats]
+		#Apply reduced health to skeleton variants:
+		#  Skeleton:       6 hp  (3 hearts, down from 20)
+		#  Stray:          6 hp  (3 hearts, down from 20)
+		#  Wither Skeleton: 8 hp (4 hearts, down from 20)
+		#Disable this to leave skeleton health at vanilla values.
+		skeleton_stat_changes = true
+
+	#Mooshroom behaviour toggles.
+	[hostileharmony.mooshroom_behaviors]
+		#If true, mooshrooms must eat mycelium to regrow mushrooms (like sheep eating grass).
+		#If false, mushrooms regrow automatically after a timer.
+		requireMyceliumForRegrowth = true
+		#If requireMyceliumForRegrowth is false, this is how many ticks until mushrooms regrow.
+		#Default: 2400 (2 minutes)
+		#Range: 100 ~ 72000
+		timerRegrowthTicks = 2400
+		#If true, red mooshrooms become aggressive when hit.
+		redMooshroomsAggressive = true
+		#Damage dealt by aggressive red mooshrooms.
+		#Range: 0.5 ~ 20.0
+		aggressiveDamage = 3.0
+		#How long (in ticks) a red mooshroom stays aggressive after being hit.
+		#Default: 200 (10 seconds)
+		#Range: 20 ~ 2400
+		aggressiveDuration = 200
+		#If true, aggressive red mooshroom attacks apply poison.
+		aggressiveAppliesPoison = true
+		#Duration of poison effect in ticks.
+		#Default: 100 (5 seconds)
+		#Range: 20 ~ 600
+		poisonDuration = 100
+		#Amplifier for poison effect (0 = Poison I, 1 = Poison II, etc.).
+		#Range: 0 ~ 4
+		poisonAmplifier = 0
+		#If true, aggressive red mooshroom attacks apply nausea.
+		aggressiveAppliesNausea = true
+		#Duration of nausea effect in ticks.
+		#Default: 140 (7 seconds)
+		#Range: 20 ~ 600
+		nauseaDuration = 140
+

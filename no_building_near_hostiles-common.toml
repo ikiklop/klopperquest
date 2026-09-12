@@ -1,0 +1,32 @@
+
+["common v2"]
+	#Range (in blocks) to check for hostile mobs near placed block
+	#Range: 1.0 ~ 64.0
+	range = 9.0
+	#Number of ticks to wait before breaking the block. (10 ticks = 0.5 sec.)
+	#If 0, the block placement will be cancelled immediately (so no breaking occur), if u set it to 0 then sync it between players cuz im not doing that rn.
+	#Range: 0 ~ 60
+	breakTicks = 1
+	#Same but for water. Default is 10 to let water spread a little.
+	#Range: 0 ~ 60
+	waterBreakTicks = 10
+	#Whether to send a scare message to the player when they attempt to place a block while scared
+	sendMessage = true
+	#Message sent to the player when scared
+	scareMessage = "Your hands are shaking."
+	#If true, only entities listed below can trigger block break.
+	#If false, all Monster entities except those listed will trigger block break.
+	isWhitelist = true
+	#If true, all hostiles will be auto added to whitelist.
+	addAllHostilesToWhitelist = true
+	#Trigger block break only if entity can see you.
+	#Affects only triggerEntities list, being in targetedByEntities list disables this and counts only being targeted.
+	isRequireLineOfSight = true
+	#List of entity IDs that can trigger just built blocks to break by their presence
+	triggerEntities = ["minecraft:ghast", "minecraft:magma_cube", "minecraft:slime", "minecraft:guardian", "minecraft:enderman", "minecraft:spider", "minecraft:piglin", "minecraft:zombified_piglin", "minecraft:piglin_brute", "minecraft:hoglin", "minecraft:creeper", "minecraft:zombie", "minecraft:skeleton", "minecraft:wither_skeleton", "minecraft:witch", "minecraft:blaze"]
+	#List of entity IDs that must be targeting a player to trigger block break.
+	#Does not have to be specified in triggerEntities too, but no harm if it is.
+	#Each entity should be a child of the minecraft's Mob class or this won't work.
+	#
+	targetedByEntities = ["minecraft:magma_cube", "minecraft:slime", "minecraft:guardian", "minecraft:enderman", "minecraft:spider", "minecraft:piglin", "minecraft:zombified_piglin", "minecraft:piglin_brute", "minecraft:hoglin", "minecraft:creeper", "minecraft:zombie", "minecraft:skeleton", "minecraft:wither_skeleton", "minecraft:witch", "minecraft:blaze"]
+

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dungeons_and_combat:item/bone_plank_door"
+  },
+  "render_type": "translucent"
+}

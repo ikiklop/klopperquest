@@ -1,5 +1,5 @@
 {
-    "target": "klopper_humanoid_enemies:neutral_human_common",
+    "target": "klopper_enemy:night_terror",
     "priority": 100,
     "properties": [
         {
@@ -47,7 +47,7 @@
             "slot": "mainhand",
             "items": [
                 {
-                    "item": "minecraft:wooden_sword",
+                    "item": "sticknstone:wooden_greathammer",
                     "weight": 1
                 }
             ]

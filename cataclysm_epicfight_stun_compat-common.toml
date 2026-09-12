@@ -1,0 +1,54 @@
+
+[ignis]
+	melee_attack = true
+	fire_ball = true
+
+[scylla]
+	melee_attack = true
+	ceraunus = true
+	wave = true
+	projectile = true
+
+[maledictus]
+	melee_attack = true
+	projectile_attack = true
+	phantom_halberd = false
+
+[leviathan]
+	nerf = true
+	melee_attack = true
+	abyssal_blast = true
+	abyss_orb = true
+
+[harbinger]
+	nerf = true
+	melee_attack = true
+	projectile = true
+	death_laser = true
+
+[netherite_monstorosity]
+	melee_attack = true
+	projectile = true
+
+[ancient_remnant]
+	melee_attack = true
+	sandstorm = true
+	projectile = true
+
+[ender_guardian]
+	melee_attack = true
+	void_rune = true
+	ets = true
+
+[stun_effect]
+	#Unable to act while the Stun effect is active.
+	unable_to_act_while_stunned = true
+
+[ets]
+	#Prevents The Leviathan and The Harbinger from destroying blocks.
+	block_protection = true
+	#Disable guard while being grabbed.
+	disable_guard_while_grabbed = true
+	#Allow step-type dodge skills to be executed while underwater.
+	allow_underwater_step = true
+

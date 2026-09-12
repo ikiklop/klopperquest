@@ -1,0 +1,9 @@
+{
+  "parent": "dungeons_and_combat:custom/champion_brazier_off",
+  "textures": {
+    "all": "dungeons_and_combat:block/champion_brazier_particles",
+    "particle": "dungeons_and_combat:block/champion_brazier_particles",
+    "0": "dungeons_and_combat:block/champion_brazier_off"
+  },
+  "render_type": "cutout_mipped"
+}

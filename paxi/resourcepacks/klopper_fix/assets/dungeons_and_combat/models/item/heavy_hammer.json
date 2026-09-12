@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "dungeons_and_combat:item/heavyhammer"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 5.75, 0.5],
+			"scale": [1.1, 1.1, 1.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 5.75, 0.5],
+			"scale": [1.1, 1.1, 1.2]
+		}
+	}
+}

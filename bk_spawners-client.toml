@@ -1,0 +1,53 @@
+
+[indicator]
+	#Draw the countdown above spawners at all.
+	showIndicator = true
+	#How close you must be, in blocks, for the countdown to appear.
+	#Range: 0.0 ~ 128.0
+	indicatorRange = 24.0
+	#Also show the countdown while the spawner's mob is alive — that timer is how
+	#long until the mob is replaced. Off means the spawner only shows a number
+	#while it is on cooldown.
+	showWhenActive = true
+	#Print a word under the timer saying what the spawner is doing
+	#(cooling / ready / active).
+	showStateLabel = true
+	#Draw a bar under the timer filling as the countdown runs out.
+	showProgressBar = true
+	#Keep the indicator visible through blocks. Off hides it behind walls, which
+	#is subtler but means you cannot read a spawner's timer from a doorway.
+	showThroughWalls = true
+	#How the countdown is written.
+	#  clock   - 9:59
+	#  seconds - 599s
+	#  ticks   - 11980t
+	timeFormat = "clock"
+	#Size multiplier for the whole indicator.
+	#Range: 0.25 ~ 4.0
+	indicatorScale = 1.0
+	#Light the indicator fully instead of by the light at the block. On, because
+	#these things live in unlit dungeons, which is exactly where a countdown lit
+	#by its surroundings would be unreadable.
+	indicatorFullBright = true
+	#Height above the spawner block that the text floats at.
+	#Range: 0.0 ~ 4.0
+	indicatorHeight = 1.15
+
+[appearance]
+	#Replace the spawner's flame-and-smoke particles with ones that read its state:
+	#sparse smoke while cooling, embers once it is armed.
+	showParticles = true
+	#Tint the little spinning mob inside the cage to match the spawner's state —
+	#dimmed to near-black while on cooldown, lit once armed.
+	tintDisplayMob = true
+	#How far that tint goes. 0 leaves the mob its normal colours, 1 pushes it all
+	#the way to the state colour.
+	#Range: 0.0 ~ 1.0
+	tintStrength = 1.0
+	#Colour while counting down to a respawn. RRGGBB hex.
+	colorCooldown = "FF9E3D"
+	#Colour while armed and waiting for a player to come into range.
+	colorArmed = "6EE7A0"
+	#Colour while its mob is out in the world.
+	colorActive = "8AB4FF"
+

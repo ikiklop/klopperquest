@@ -1,0 +1,9 @@
+{
+  "parent": "dungeons_and_combat:custom/monarch_table",
+  "textures": {
+    "all": "dungeons_and_combat:block/monarch_lectern_particles",
+    "particle": "dungeons_and_combat:block/monarch_lectern_particles",
+    "0": "dungeons_and_combat:block/monarch_table"
+  },
+  "render_type": "cutout_mipped"
+}

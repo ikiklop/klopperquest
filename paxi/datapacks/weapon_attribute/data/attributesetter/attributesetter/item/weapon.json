@@ -1,51 +1,27 @@
 {
-  "sticknstone:wooden_sai": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 0.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:wooden_dagger": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 0, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:wooden_cutlass": [
-    { "attribute": "minecraft:generic.attack_damage", "value": -1.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:wooden_rapier": [
-    { "attribute": "minecraft:generic.attack_damage", "value": -0.25, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:wooden_twinblade": [
-    { "attribute": "minecraft:generic.attack_damage", "value": -1, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
   "minecraft:wooden_sword": [
     { "attribute": "minecraft:generic.attack_damage", "value": -0.5, "operation": "ADDITION", "slot": "mainhand" },
     { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:wooden_chakram": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:wooden_katana": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 0, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.5, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:wooden_tachi": [
-    { "attribute": "minecraft:generic.attack_damage", "value": -0.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:wooden_warglaive": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
   ],
   "sticknstone:wooden_longsword": [
     { "attribute": "minecraft:generic.attack_damage", "value": 0.75, "operation": "ADDITION", "slot": "mainhand" },
     { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
   ],
-  "sticknstone:wooden_claymore": [
+  "sticknstone:wooden_twinblade": [
     { "attribute": "minecraft:generic.attack_damage", "value": -1, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "sticknstone:wooden_rapier": [
+    { "attribute": "minecraft:generic.attack_damage", "value": -0.25, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "sticknstone:wooden_katana": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 0, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.5, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "sticknstone:wooden_sai": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 0.75, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
   ],
   "sticknstone:wooden_spear": [
     { "attribute": "minecraft:generic.attack_damage", "value": 2, "operation": "ADDITION", "slot": "mainhand" },
@@ -55,404 +31,48 @@
     { "attribute": "minecraft:generic.attack_damage", "value": 2.25, "operation": "ADDITION", "slot": "mainhand" },
     { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
   ],
-  "epicfight:wooden_greatsword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": -3.5, "operation": "ADDITION", "slot": "mainhand" },
+  "sticknstone:wooden_warglaive": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "sticknstone:wooden_cutlass": [
+    { "attribute": "minecraft:generic.attack_damage", "value": -1.5, "operation": "ADDITION", "slot": "mainhand" },
     { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
   ],
-  "sticknstone:wooden_scythe": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 2, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:wooden_greataxe": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:wooden_halberd": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 0.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
+  "sticknstone:wooden_claymore": [
+    { "attribute": "minecraft:generic.attack_damage", "value": -1, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
   ],
   "sticknstone:wooden_greathammer": [
     { "attribute": "minecraft:generic.attack_damage", "value": 0, "operation": "ADDITION", "slot": "mainhand" },
     { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
   ],
-  "sticknstone:stone_sai": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 1.75, "operation": "ADDITION", "slot": "mainhand" },
+  "sticknstone:wooden_greataxe": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "sticknstone:wooden_chakram": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "sticknstone:wooden_scythe": [
+    { "attribute": "minecraft:generic.attack_damage", "value": 2, "operation": "ADDITION", "slot": "mainhand" },
     { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
   ],
-  "epicfight:stone_dagger": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 1, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:stone_cutlass": [
-    { "attribute": "minecraft:generic.attack_damage", "value": -0.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:stone_rapier": [
+  "sticknstone:wooden_halberd": [
     { "attribute": "minecraft:generic.attack_damage", "value": 0.75, "operation": "ADDITION", "slot": "mainhand" },
     { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
   ],
-  "sticknstone:stone_twinblade": [
+  "epicfight:wooden_greatsword": [
+    { "attribute": "minecraft:generic.attack_damage", "value": -3, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "epicfight:wooden_tachi": [
+    { "attribute": "minecraft:generic.attack_damage", "value": -0.75, "operation": "ADDITION", "slot": "mainhand" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0.3, "operation": "ADDITION", "slot": "mainhand" }
+  ],
+  "epicfight:wooden_dagger": [
     { "attribute": "minecraft:generic.attack_damage", "value": 0, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "minecraft:stone_sword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:stone_chakram": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 1.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:stone_katana": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 1, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.5, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:stone_tachi": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 0.25, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:stone_warglaive": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 1.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:stone_longsword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 1.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:stone_claymore": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 0, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:stone_spear": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 3, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:stone_glaive": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 3.25, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:stone_greatsword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": -2.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:stone_scythe": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 3, "operation": "ADDITION", "slot": "mainhand" },
     { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:stone_greataxe": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 1.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:stone_halberd": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 1.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "sticknstone:stone_greathammer": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 1, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_sai": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 2.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:iron_dagger": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 2, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_cutlass": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_rapier": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 1.25, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_twinblade": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 1, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "minecraft:iron_sword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 1.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_chakram": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 2.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_katana": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 2, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.5, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:iron_tachi": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 2.25, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_warglaive": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 2.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_longsword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 2.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_claymore": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 1, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_spear": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 4, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_glaive": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 4.25, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:iron_greatsword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": -1.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_scythe": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 4, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_greataxe": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 2.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_halberd": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 2.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:iron_greathammer": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 2, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_sai": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:golden_dagger": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_cutlass": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 4.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_rapier": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_twinblade": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "minecraft:golden_sword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_chakram": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_katana": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.5, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:golden_tachi": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6.25, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_warglaive": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_longsword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_claymore": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_spear": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 8, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_glaive": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 8.25, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:golden_greatsword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 2.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_scythe": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 8, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_greataxe": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_halberd": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:gold_greathammer": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_sai": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:diamond_dagger": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_cutlass": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 3.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_rapier": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 4.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_twinblade": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 4, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "minecraft:diamond_sword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 4.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_chakram": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_katana": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.5, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:diamond_tachi": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 4.25, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_warglaive": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_longsword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_claymore": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 4, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_spear": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 7, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_glaive": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 7.25, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:diamond_greatsword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 1.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_scythe": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 7, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_greataxe": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_halberd": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:diamond_greathammer": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_sai": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:netherite_dagger": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_cutlass": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 4.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_rapier": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_twinblade": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "minecraft:netherite_sword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_chakram": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0.5, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_katana": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.5, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:netherite_tachi": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5.25, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_warglaive": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_longsword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_claymore": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_spear": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 8, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_glaive": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 8.25, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.2, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "epicfight:netherite_greatsword": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 2.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_scythe": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 8, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.3, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_greataxe": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6.5, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.1, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_halberd": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6.75, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": -0.4, "operation": "ADDITION", "slot": "mainhand" }
-  ],
-  "simplyswords:netherite_greathammer": [
-    { "attribute": "minecraft:generic.attack_damage", "value": 6, "operation": "ADDITION", "slot": "mainhand" },
-    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "ADDITION", "slot": "mainhand" }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dungeons_and_combat:block/forging_of_essences"
+    },
+    "facing=east": {
+      "model": "dungeons_and_combat:block/forging_of_essences",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dungeons_and_combat:block/forging_of_essences",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dungeons_and_combat:block/forging_of_essences",
+      "y": 270
+    }
+  }
+}

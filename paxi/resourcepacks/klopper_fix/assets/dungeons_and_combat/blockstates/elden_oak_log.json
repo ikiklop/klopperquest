@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dungeons_and_combat:block/elden_oak_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dungeons_and_combat:block/elden_oak_log"
+    },
+    "axis=z": {
+      "model": "dungeons_and_combat:block/elden_oak_log",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,550 @@
+{
+  "bite_sound": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:bite_sound",
+        "stream": false
+      }
+    ]
+  },
+  "kamath_step": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:kameth_step",
+        "stream": false
+      }
+    ]
+  },
+  "molotov_throw": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:molotov_throw",
+        "stream": false
+      }
+    ]
+  },
+  "molotov_fire": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:molotov_explote",
+        "stream": false
+      }
+    ]
+  },
+  "palehand_hurt": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:palehand_hurt_-_hecho_con_clipchamp",
+        "stream": false
+      }
+    ]
+  },
+  "palehand_death": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:palehand_death_-_hecho_con_clipchamp",
+        "stream": false
+      }
+    ]
+  },
+  "skull_hurt": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:skull_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "skull_death": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:skull_death",
+        "stream": false
+      }
+    ]
+  },
+  "saw_cleaver_changue": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:saw_cleaver_sound_",
+        "stream": false
+      }
+    ]
+  },
+  "summon_ewffect": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:summon_-_hecho_con_clipchamp",
+        "stream": false
+      }
+    ]
+  },
+  "crimson_flask": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:estus",
+        "stream": false
+      }
+    ]
+  },
+  "flower_fairy_hurt": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:flowerfairy_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "flower_fairy_death": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:flowerfairy_death",
+        "stream": false
+      }
+    ]
+  },
+  "flower_fairy_ambient": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:flowerfairy_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "tale_swing": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:tale_swing",
+        "stream": false
+      }
+    ]
+  },
+  "estus_effect": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:estus_effect",
+        "stream": false
+      }
+    ]
+  },
+  "fairy_spell": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:fairy_spell_-_hecho_con_clipchamp",
+        "stream": false
+      }
+    ]
+  },
+  "fairy_power_up": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:fairy_trade_-_hecho_con_clipchamp_1",
+        "stream": false
+      }
+    ]
+  },
+  "magic_boost": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:magic_spell",
+        "stream": false
+      }
+    ]
+  },
+  "sandstone_golem_step": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:sandstone_golem_step",
+        "stream": false
+      }
+    ]
+  },
+  "sandstone_golem_death": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:sandstone_golem_death",
+        "stream": false
+      }
+    ]
+  },
+  "sandstone_golem_hurt": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:sandstone_golem_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "ammit_hurt": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:ammit_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "ammit_death": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:ammit_death",
+        "stream": false
+      }
+    ]
+  },
+  "mimic_ambient": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:mimic_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "mimic_death": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:mimic_death",
+        "stream": false
+      }
+    ]
+  },
+  "mimic_hurt": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:mimic_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "skull_armored_hurt": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:skull_armored_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "skull_armored_death": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:skull_armored_death",
+        "stream": false
+      }
+    ]
+  },
+  "sunleia_hurt": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:sunleia_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "sunleia_death": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:sunleia_death",
+        "stream": false
+      }
+    ]
+  },
+  "fire_hammer_slam": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:fire_hammer_slam",
+        "stream": false
+      }
+    ]
+  },
+  "fire_slash_01": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:fire_slash_01",
+        "stream": false
+      }
+    ]
+  },
+  "fire_fist": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:fire_fist",
+        "stream": false
+      }
+    ]
+  },
+  "pride_before_the_fall": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:pride_before_the_fall_-_ethan_meixsell",
+        "stream": false
+      }
+    ]
+  },
+  "acid_in_the_ground": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:acid_ground",
+        "stream": false
+      }
+    ]
+  },
+  "kamath_combo_attack": {
+    "subtitle": "subtitles.kamath_combo_attack",
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:kamath_combo",
+        "stream": false
+      }
+    ]
+  },
+  "kamath_stab": {
+    "subtitle": "subtitles.kamath_stab",
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:kamath_stab",
+        "stream": false
+      }
+    ]
+  },
+  "kamath_death": {
+    "subtitle": "subtitles.kamath_death",
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:kamath_death",
+        "stream": false
+      }
+    ]
+  },
+  "kamath_ground_attack": {
+    "subtitle": "subtitles.kamath_ground_attack",
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:kamath_combo",
+        "stream": false
+      }
+    ]
+  },
+  "kamath_great_slam": {
+    "subtitle": "subtitles.kamath_great_slam",
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:kamath_great_slam",
+        "stream": false
+      }
+    ]
+  },
+  "kamath_hurt": {
+    "subtitle": "subtitles.kamath_hurt",
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:kamath_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "blood_oath_ability": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:blood_oath",
+        "stream": false
+      }
+    ]
+  },
+  "death_mark": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:death_mark",
+        "stream": false
+      }
+    ]
+  },
+  "katana_slash": {
+    "subtitle": "subtitles.katana_slash",
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:katana_slash_02",
+        "stream": false
+      },
+      {
+        "name": "dungeons_and_combat:katana_slash_01",
+        "stream": false
+      }
+    ]
+  },
+  "katana_stab": {
+    "subtitle": "subtitles.katana_stab",
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:katana_stab_01",
+        "stream": false
+      }
+    ]
+  },
+  "apollo": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:apollo",
+        "stream": false
+      }
+    ]
+  },
+  "sunleia_spawn": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:sunleia_spawn",
+        "stream": false
+      }
+    ]
+  },
+  "high_priest_ambient": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:high_priest_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "high_priest_death": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:high_priest_death",
+        "stream": false
+      }
+    ]
+  },
+  "high_priest_hurt": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:high_priest_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "dagger_ice_swing": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:dager_ice__swing",
+        "stream": false
+      }
+    ]
+  },
+  "dagger_lightning_swing": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:dagger__lightning__swing",
+        "stream": false
+      }
+    ]
+  },
+  "dagger_fire_swing": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:dagger_fire_swing",
+        "stream": false
+      }
+    ]
+  },
+  "greatsword_ice_slam": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:greatsword__ice__slam",
+        "stream": false
+      }
+    ]
+  },
+  "greatsword_ice_stab": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:greatsword__ice__stab",
+        "stream": false
+      }
+    ]
+  },
+  "greatsword_ice_swing": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:greatsword__ice__swing",
+        "stream": false
+      }
+    ]
+  },
+  "greatsword_lightning_slam": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:greatsword__lightning__slam",
+        "stream": false
+      }
+    ]
+  },
+  "greatsword_lightning_stab": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:greatsword__lightning__stab",
+        "stream": false
+      }
+    ]
+  },
+  "greatsword_lightning_swing": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:greatsword__lightning__swing",
+        "stream": false
+      }
+    ]
+  },
+  "greatsword_fire_slam": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:greatsword_fire_slam",
+        "stream": false
+      }
+    ]
+  },
+  "greatsword_fire_stab": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:greatsword_fire_stab",
+        "stream": false
+      }
+    ]
+  },
+  "greatsword_fire_swing": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:greatsword_fire_swing",
+        "stream": false
+      }
+    ]
+  },
+  "spear_fire_stab": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:spear_fire_stab",
+        "stream": false
+      }
+    ]
+  },
+  "spear_ice_stab": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:spear_ice__stab",
+        "stream": false
+      }
+    ]
+  },
+  "spear_lightning_stab": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:spear__lightning__stab",
+        "stream": false
+      }
+    ]
+  },
+  "speed_magic_sound": {
+    "sounds": [
+      {
+        "name": "dungeons_and_combat:speed_magic_sound",
+        "stream": false
+      }
+    ]
+  }
+}

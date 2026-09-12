@@ -1,0 +1,137 @@
+{
+  "player_name": {
+    "enabled": false,
+    "offset": {
+      "x": 0,
+      "y": -10
+    }
+  },
+  "crest": {
+    "enabled": true,
+    "size": 32,
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "attributes": [
+      {
+        "type": "hunger",
+        "enabled": false,
+        "offset": {
+          "x": 0,
+          "y": 32
+        },
+        "text": {
+          "anchor": "OUTSIDE_LEFT",
+          "offset": {
+            "x": 0,
+            "y": 4
+          }
+        }
+      },
+      {
+        "type": "armor",
+        "enabled": true,
+        "offset": {
+          "x": 0,
+          "y": 32
+        },
+        "text": {
+          "anchor": "OUTSIDE_LEFT",
+          "offset": {
+            "x": 0,
+            "y": 4
+          }
+        }
+      },
+      {
+        "type": "thirst",
+        "enabled": true,
+        "offset": {
+          "x": 32,
+          "y": 32
+        },
+        "text": {
+          "anchor": "OUTSIDE_LEFT",
+          "offset": {
+            "x": 0,
+            "y": 4
+          }
+        }
+      },
+      {
+        "type": "private",
+        "enabled": true,
+        "offset": {
+          "x": 40,
+          "y": 0
+        }
+      }
+    ]
+  },
+  "gauges": {
+    "override": true,
+    "enabled": true,
+    "offset": {
+      "x": 40,
+      "y": 6
+    },
+    "row_gap": 3,
+    "elements": [
+      {
+        "type": "health",
+        "enabled": true,
+        "override_position": false,
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "bar": {
+          "color": "#742626",
+          "background_color": "#67000000",
+          "reduction_color": "#E8C34A"
+        },
+        "ornament_texture": "status_bar_ornament"
+      },
+      {
+        "type": "mana",
+        "enabled": true,
+        "override_position": false,
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "bar": {
+          "color": "#26486F",
+          "background_color": "#67000000",
+          "reduction_color": "#E8C34A"
+        },
+        "ornament_texture": "status_bar_ornament"
+      },
+      {
+        "type": "stamina",
+        "enabled": true,
+        "override_position": false,
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "bar": {
+          "color": "#266F32",
+          "background_color": "#67000000",
+          "reduction_color": "#E8C34A"
+        },
+        "ornament_texture": "status_bar_ornament"
+      },
+      {
+        "type": "status_effects",
+        "override_position": false,
+        "enabled": true,
+        "offset": {
+          "x": 0,
+          "y": 4
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dungeons_and_combat:block/acid_puddle"
+    },
+    "facing=east": {
+      "model": "dungeons_and_combat:block/acid_puddle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dungeons_and_combat:block/acid_puddle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dungeons_and_combat:block/acid_puddle",
+      "y": 270
+    }
+  }
+}

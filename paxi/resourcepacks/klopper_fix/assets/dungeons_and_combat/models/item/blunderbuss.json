@@ -1,0 +1,7 @@
+{
+  "parent": "dungeons_and_combat:custom/blunderbuss",
+  "textures": {
+    "1": "dungeons_and_combat:block/blunderbuss",
+    "particle": "dungeons_and_combat:item/solid_gold_nugget"
+  }
+}

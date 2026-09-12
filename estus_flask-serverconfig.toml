@@ -1,21 +1,21 @@
 
 [Charges]
 	#It must be >= 1 (If Initial Charges >= Maxmium Charges, then you won't be able to upgrade your Estus Flask's charges) - Default: 3 
-	"Initial Charges" = 3.0
+	"Initial Charges" = 5.0
 	#It must be >= Initial Charges (If Initial Charges >= Maxmium Charges, then you won't be able to upgrade your Estus Flask's charges) - Default: 16
-	"Maximum Charges" = 16.0
+	"Maximum Charges" = 20.0
 
 [Healing]
 	#It must be >= 0 (Set it to 0 to disable healing upgrades) - Default: 7
-	"Fire Keeper Souls Upgrades" = 7.0
+	"Fire Keeper Souls Upgrades" = 10.0
 	#It must be > 0 (Range: 0~1) - Default: 0.2
-	"Starter Healing Multiplier" = 0.2
+	"Starter Healing Multiplier" = 0.1
 	#It must be > Starter Multiplier (Range: 0~1) - Default: 0.55
-	"Maximum Healing Multiplier" = 0.55
+	"Maximum Healing Multiplier" = 0.6
 
 ["Refil Cooldown"]
 	#Time in seconds that takes for a player to be able to heal after joining a world or after being hit by an entity: It must be >= 0 (Set it to 0 to disable) - Default: 10
-	Timer = 10.0
+	Timer = 0.0
 	#If true, players hitting players will also trigger the refil cooldown - Default: False
 	"Players can reset timer" = false
 

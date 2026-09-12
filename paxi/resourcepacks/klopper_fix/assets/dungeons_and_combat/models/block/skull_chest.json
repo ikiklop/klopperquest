@@ -1,0 +1,9 @@
+{
+  "parent": "dungeons_and_combat:custom/skull_chest",
+  "textures": {
+    "all": "dungeons_and_combat:block/bone_plank",
+    "particle": "dungeons_and_combat:block/bone_plank",
+    "2": "dungeons_and_combat:block/skull_chest"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "dungeons_and_combat:custom/tomahawk",
+  "textures": {
+    "1": "dungeons_and_combat:block/tomahawk",
+    "particle": "dungeons_and_combat:item/steel_axe"
+  }
+}

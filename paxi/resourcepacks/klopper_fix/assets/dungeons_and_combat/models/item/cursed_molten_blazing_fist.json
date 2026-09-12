@@ -1,0 +1,7 @@
+{
+  "parent": "dungeons_and_combat:custom/cursed_molten_blazing_fists",
+  "textures": {
+    "1": "dungeons_and_combat:block/cursed_molten_blazing_fists",
+    "particle": "dungeons_and_combat:item/flaming_glove"
+  }
+}

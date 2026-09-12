@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dungeons_and_combat:block/fleshy_cloth_block"
+    },
+    "facing=east": {
+      "model": "dungeons_and_combat:block/fleshy_cloth_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dungeons_and_combat:block/fleshy_cloth_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dungeons_and_combat:block/fleshy_cloth_block",
+      "y": 270
+    }
+  }
+}

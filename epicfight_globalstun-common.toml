@@ -1,0 +1,134 @@
+
+[general]
+	#Global mode: DEFAULT_APPLY (Default short stun to all, override with rules) or WHITELIST (Vanilla by default, apply only to targets)
+	#Allowed Values: DEFAULT_APPLY, WHITELIST
+	mode = "DEFAULT_APPLY"
+
+[long_stun]
+	#List of entity IDs (e.g. minecraft:warden)
+	entityIds = []
+	#List of fully qualified class names
+	classes = []
+	#List of entity tags or Forge boss tags
+	tags = []
+	#List of damage message IDs
+	msgIds = []
+	#List of damage types (e.g. minecraft:lightning_bolt)
+	damageTypes = []
+	#Apply stun to projectiles
+	applyToProjectiles = false
+	#Impact value
+	#Range: 0.0 ~ 100.0
+	impact = 3.0
+	#Stun time value
+	#Range: 0.0 ~ 100.0
+	stunTime = 0.4
+
+	[long_stun.excludes]
+		#Excluded entity IDs
+		entityIds = []
+		#Excluded fully qualified class names
+		classes = []
+		#Excluded entity tags
+		tags = []
+		#Excluded damage message IDs
+		msgIds = []
+		#Excluded damage types
+		damageTypes = []
+
+[knockdown_stun]
+	#List of entity IDs (e.g. minecraft:warden)
+	entityIds = []
+	#List of fully qualified class names
+	classes = []
+	#List of entity tags or Forge boss tags
+	tags = []
+	#List of damage message IDs
+	msgIds = []
+	#List of damage types (e.g. minecraft:lightning_bolt)
+	damageTypes = []
+	#Apply stun to projectiles
+	applyToProjectiles = false
+	#Impact value
+	#Range: 0.0 ~ 100.0
+	impact = 5.0
+	#Stun time value
+	#Range: 0.0 ~ 100.0
+	stunTime = 1.0
+
+	[knockdown_stun.excludes]
+		#Excluded entity IDs
+		entityIds = []
+		#Excluded fully qualified class names
+		classes = []
+		#Excluded entity tags
+		tags = []
+		#Excluded damage message IDs
+		msgIds = []
+		#Excluded damage types
+		damageTypes = []
+
+[neutralize_stun]
+	#List of entity IDs (e.g. minecraft:warden)
+	entityIds = []
+	#List of fully qualified class names
+	classes = []
+	#List of entity tags or Forge boss tags
+	tags = []
+	#List of damage message IDs
+	msgIds = []
+	#List of damage types (e.g. minecraft:lightning_bolt)
+	damageTypes = []
+	#Apply stun to projectiles
+	applyToProjectiles = false
+	#Impact value
+	#Range: 0.0 ~ 100.0
+	impact = 4.0
+	#Stun time value
+	#Range: 0.0 ~ 100.0
+	stunTime = 3.0
+
+	[neutralize_stun.excludes]
+		#Excluded entity IDs
+		entityIds = []
+		#Excluded fully qualified class names
+		classes = []
+		#Excluded entity tags
+		tags = []
+		#Excluded damage message IDs
+		msgIds = []
+		#Excluded damage types
+		damageTypes = []
+
+[short_stun]
+	#List of entity IDs (e.g. minecraft:warden)
+	entityIds = []
+	#List of fully qualified class names
+	classes = []
+	#List of entity tags or Forge boss tags
+	tags = []
+	#List of damage message IDs
+	msgIds = []
+	#List of damage types (e.g. minecraft:lightning_bolt)
+	damageTypes = []
+	#Apply stun to projectiles
+	applyToProjectiles = false
+	#Impact value
+	#Range: 0.0 ~ 100.0
+	impact = 1.5
+	#Stun time value
+	#Range: 0.0 ~ 100.0
+	stunTime = 0.2
+
+	[short_stun.excludes]
+		#Excluded entity IDs
+		entityIds = []
+		#Excluded fully qualified class names
+		classes = []
+		#Excluded entity tags
+		tags = []
+		#Excluded damage message IDs
+		msgIds = []
+		#Excluded damage types
+		damageTypes = []
+

@@ -1,0 +1,5 @@
+
+[item_attributes]
+	#Format: modid:itemid;modid:attribute;value;operation;slot
+	ItemAttributes = ["minecraft:diamond_sword;generic.attack_damage;7.0;A;M"]
+
